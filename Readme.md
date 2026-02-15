@@ -34,6 +34,12 @@ https://github.com/angelo54425/PathForge_Career_Intelligence_System
 
 ---
 
+## 🎥 Video demo link
+
+https://github.com/angelo54425/PathForge_Career_Intelligence_System
+
+---
+
 # 🚀 Deployment Plan
 
 **Estimated Deployment Time:** 14 Days  
