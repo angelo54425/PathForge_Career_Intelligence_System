@@ -1,0 +1,1121 @@
+career_id,career_sector,career_name,skill_name,skill_weight
+DA01,IT,Data Analyst,Python,0.9
+DA01,IT,Data Analyst,SQL,0.9
+DA01,IT,Data Analyst,Statistics,0.85
+DA01,IT,Data Analyst,Data Cleaning,0.9
+DA01,IT,Data Analyst,Exploratory Data Analysis,0.85
+DA01,IT,Data Analyst,Data Visualization,0.85
+DA01,IT,Data Analyst,Excel,0.8
+DA01,IT,Data Analyst,Power BI,0.7
+DA01,IT,Data Analyst,Tableau,0.7
+DA01,IT,Data Analyst,Data Wrangling,0.8
+DA01,IT,Data Analyst,Database Design,0.75
+DA01,IT,Data Analyst,Data Interpretation,0.85
+DA01,IT,Data Analyst,Communication,0.75
+DA01,IT,Data Analyst,Reporting,0.8
+DA01,IT,Data Analyst,Descriptive Statistics,0.8
+DA01,IT,Data Analyst,Business Understanding,0.7
+DA01,IT,Data Analyst,Data Ethics,0.65
+DA01,IT,Data Analyst,Data Querying,0.85
+DA01,IT,Data Analyst,Problem Solving,0.8
+DA01,IT,Data Analyst,Dashboard Design,0.75
+DS01,IT,Data Scientist,Python,0.95
+DS01,IT,Data Scientist,Statistics,0.95
+DS01,IT,Data Scientist,Machine Learning,0.95
+DS01,IT,Data Scientist,Data Cleaning,0.9
+DS01,IT,Data Scientist,Data Visualization,0.85
+DS01,IT,Data Scientist,SQL,0.85
+DS01,IT,Data Scientist,Deep Learning,0.9
+DS01,IT,Data Scientist,Feature Engineering,0.9
+DS01,IT,Data Scientist,Model Evaluation,0.9
+DS01,IT,Data Scientist,Data Wrangling,0.85
+DS01,IT,Data Scientist,Probability Theory,0.85
+DS01,IT,Data Scientist,Big Data Tools,0.8
+DS01,IT,Data Scientist,Experiment Design,0.85
+DS01,IT,Data Scientist,Communication,0.75
+DS01,IT,Data Scientist,Data Ethics,0.7
+DS01,IT,Data Scientist,Model Deployment,0.8
+DS01,IT,Data Scientist,Cloud Computing,0.75
+DS01,IT,Data Scientist,Linear Algebra,0.9
+DS01,IT,Data Scientist,Optimization,0.8
+DS01,IT,Data Scientist,Data Storytelling,0.75
+FS01,IT,Full Stack Developer,HTML,0.9
+FS01,IT,Full Stack Developer,CSS,0.9
+FS01,IT,Full Stack Developer,JavaScript,0.95
+FS01,IT,Full Stack Developer,React,0.85
+FS01,IT,Full Stack Developer,Node.js,0.85
+FS01,IT,Full Stack Developer,Express.js,0.8
+FS01,IT,Full Stack Developer,REST APIs,0.85
+FS01,IT,Full Stack Developer,Database Design,0.85
+FS01,IT,Full Stack Developer,SQL,0.8
+FS01,IT,Full Stack Developer,Authentication,0.8
+FS01,IT,Full Stack Developer,Version Control,0.85
+FS01,IT,Full Stack Developer,Git,0.85
+FS01,IT,Full Stack Developer,Testing,0.8
+FS01,IT,Full Stack Developer,Deployment,0.8
+FS01,IT,Full Stack Developer,Cloud Services,0.75
+FS01,IT,Full Stack Developer,Security Best Practices,0.75
+FS01,IT,Full Stack Developer,UI Design Principles,0.75
+FS01,IT,Full Stack Developer,Debugging,0.85
+FS01,IT,Full Stack Developer,Responsive Design,0.85
+FS01,IT,Full Stack Developer,Problem Solving,0.85
+CY01,IT,Cybersecurity Engineer,Network Security,0.95
+CY01,IT,Cybersecurity Engineer,Penetration Testing,0.9
+CY01,IT,Cybersecurity Engineer,Cryptography,0.9
+CY01,IT,Cybersecurity Engineer,Ethical Hacking,0.9
+CY01,IT,Cybersecurity Engineer,Firewalls,0.85
+CY01,IT,Cybersecurity Engineer,Intrusion Detection,0.85
+CY01,IT,Cybersecurity Engineer,Risk Assessment,0.85
+CY01,IT,Cybersecurity Engineer,Security Auditing,0.8
+CY01,IT,Cybersecurity Engineer,Incident Response,0.9
+CY01,IT,Cybersecurity Engineer,Operating Systems,0.8
+CY01,IT,Cybersecurity Engineer,Networking,0.9
+CY01,IT,Cybersecurity Engineer,Scripting,0.75
+CY01,IT,Cybersecurity Engineer,Security Policies,0.75
+CY01,IT,Cybersecurity Engineer,Cloud Security,0.8
+CY01,IT,Cybersecurity Engineer,Vulnerability Assessment,0.9
+CY01,IT,Cybersecurity Engineer,Malware Analysis,0.85
+CY01,IT,Cybersecurity Engineer,Compliance Standards,0.75
+CY01,IT,Cybersecurity Engineer,Encryption Techniques,0.9
+CY01,IT,Cybersecurity Engineer,Threat Modeling,0.85
+CY01,IT,Cybersecurity Engineer,SIEM Tools,0.8
+BC01,IT,Blockchain Developer,Solidity,0.95
+BC01,IT,Blockchain Developer,Smart Contracts,0.95
+BC01,IT,Blockchain Developer,Ethereum,0.9
+BC01,IT,Blockchain Developer,Web3.js,0.85
+BC01,IT,Blockchain Developer,Cryptography,0.9
+BC01,IT,Blockchain Developer,Distributed Systems,0.9
+BC01,IT,Blockchain Developer,Consensus Algorithms,0.9
+BC01,IT,Blockchain Developer,Token Standards,0.85
+BC01,IT,Blockchain Developer,DeFi Concepts,0.8
+BC01,IT,Blockchain Developer,Security Auditing,0.85
+BC01,IT,Blockchain Developer,Gas Optimization,0.8
+BC01,IT,Blockchain Developer,Smart Contract Testing,0.85
+BC01,IT,Blockchain Developer,IPFS,0.75
+BC01,IT,Blockchain Developer,Blockchain Architecture,0.9
+BC01,IT,Blockchain Developer,Version Control,0.75
+BC01,IT,Blockchain Developer,Backend Integration,0.8
+BC01,IT,Blockchain Developer,APIs,0.75
+BC01,IT,Blockchain Developer,Problem Solving,0.85
+BC01,IT,Blockchain Developer,Tokenomics,0.8
+BC01,IT,Blockchain Developer,Security Best Practices,0.9
+DO01,IT,DevOps Engineer,CI/CD Pipelines,0.95
+DO01,IT,DevOps Engineer,Docker,0.9
+DO01,IT,DevOps Engineer,Kubernetes,0.9
+DO01,IT,DevOps Engineer,Cloud Computing,0.9
+DO01,IT,DevOps Engineer,AWS,0.85
+DO01,IT,DevOps Engineer,Azure,0.8
+DO01,IT,DevOps Engineer,Infrastructure as Code,0.9
+DO01,IT,DevOps Engineer,Troubleshooting,0.85
+DO01,IT,DevOps Engineer,Monitoring Tools,0.85
+DO01,IT,DevOps Engineer,Linux Administration,0.85
+DO01,IT,DevOps Engineer,Networking,0.8
+DO01,IT,DevOps Engineer,Scripting,0.8
+DO01,IT,DevOps Engineer,Version Control,0.8
+DO01,IT,DevOps Engineer,Automation,0.9
+DO01,IT,DevOps Engineer,Security Practices,0.75
+DO01,IT,DevOps Engineer,Logging Systems,0.8
+DO01,IT,DevOps Engineer,Container Orchestration,0.9
+DO01,IT,DevOps Engineer,DevSecOps,0.8
+DO01,IT,DevOps Engineer,Performance Optimization,0.8
+DO01,IT,DevOps Engineer,Problem Solving,0.85
+AI01,IT,AI Engineer,Python,0.95
+AI01,IT,AI Engineer,Machine Learning,0.95
+AI01,IT,AI Engineer,Deep Learning,0.95
+AI01,IT,AI Engineer,Neural Networks,0.9
+AI01,IT,AI Engineer,Natural Language Processing,0.9
+AI01,IT,AI Engineer,Computer Vision,0.9
+AI01,IT,AI Engineer,Model Deployment,0.85
+AI01,IT,AI Engineer,Cloud ML Services,0.8
+AI01,IT,AI Engineer,TensorFlow,0.9
+AI01,IT,AI Engineer,PyTorch,0.9
+AI01,IT,AI Engineer,Data Engineering,0.8
+AI01,IT,AI Engineer,Model Evaluation,0.9
+AI01,IT,AI Engineer,Feature Engineering,0.9
+AI01,IT,AI Engineer,Optimization Techniques,0.85
+AI01,IT,AI Engineer,Linear Algebra,0.9
+AI01,IT,AI Engineer,Probability Theory,0.85
+AI01,IT,AI Engineer,Big Data Tools,0.8
+AI01,IT,AI Engineer,APIs,0.8
+AI01,IT,AI Engineer,Research Skills,0.85
+AI01,IT,AI Engineer,Problem Solving,0.9
+ML01,IT,Machine Learning Engineer,Python,0.95
+ML01,IT,Machine Learning Engineer,Machine Learning Algorithms,0.95
+ML01,IT,Machine Learning Engineer,Feature Engineering,0.9
+ML01,IT,Machine Learning Engineer,Model Deployment,0.9
+ML01,IT,Machine Learning Engineer,Model Evaluation,0.9
+ML01,IT,Machine Learning Engineer,Scikit-learn,0.85
+ML01,IT,Machine Learning Engineer,Deep Learning,0.85
+ML01,IT,Machine Learning Engineer,Data Pipelines,0.85
+ML01,IT,Machine Learning Engineer,Cloud Platforms,0.85
+ML01,IT,Machine Learning Engineer,APIs,0.8
+ML01,IT,Machine Learning Engineer,SQL,0.85
+ML01,IT,Machine Learning Engineer,Statistics,0.9
+ML01,IT,Machine Learning Engineer,Linear Algebra,0.9
+ML01,IT,Machine Learning Engineer,Optimization,0.85
+ML01,IT,Machine Learning Engineer,Model Monitoring,0.8
+ML01,IT,Machine Learning Engineer,Version Control,0.8
+ML01,IT,Machine Learning Engineer,Testing,0.8
+ML01,IT,Machine Learning Engineer,Automation,0.8
+ML01,IT,Machine Learning Engineer,Data Engineering,0.85
+ML01,IT,Machine Learning Engineer,Problem Solving,0.9
+GD01,IT,Game Developer,C++,0.9
+GD01,IT,Game Developer,Unity,0.9
+GD01,IT,Game Developer,Unreal Engine,0.85
+GD01,IT,Game Developer,Game Physics,0.85
+GD01,IT,Game Developer,3D Mathematics,0.85
+GD01,IT,Game Developer,Animation Systems,0.8
+GD01,IT,Game Developer,Game AI,0.8
+GD01,IT,Game Developer,Graphics Programming,0.85
+GD01,IT,Game Developer,Shader Programming,0.8
+GD01,IT,Game Developer,Game Design Principles,0.85
+GD01,IT,Game Developer,Debugging,0.9
+GD01,IT,Game Developer,Optimization Techniques,0.85
+GD01,IT,Game Developer,Version Control,0.8
+GD01,IT,Game Developer,Multiplayer Networking,0.8
+GD01,IT,Game Developer,Scripting,0.8
+GD01,IT,Game Developer,Level Design,0.8
+GD01,IT,Game Developer,User Experience Design,0.75
+GD01,IT,Game Developer,Software Architecture,0.8
+GD01,IT,Game Developer,Performance Profiling,0.85
+GD01,IT,Game Developer,Problem Solving,0.9
+BE01,IT,Backend Developer,Python,0.9
+BE01,IT,Backend Developer,Java,0.85
+BE01,IT,Backend Developer,Node.js,0.85
+BE01,IT,Backend Developer,REST APIs,0.9
+BE01,IT,Backend Developer,Database Design,0.9
+BE01,IT,Backend Developer,SQL,0.9
+BE01,IT,Backend Developer,Authentication Systems,0.85
+BE01,IT,Backend Developer,Cloud Services,0.85
+BE01,IT,Backend Developer,Microservices Architecture,0.85
+BE01,IT,Backend Developer,Version Control,0.85
+BE01,IT,Backend Developer,Testing,0.85
+BE01,IT,Backend Developer,Security Best Practices,0.85
+BE01,IT,Backend Developer,Deployment Pipelines,0.85
+BE01,IT,Backend Developer,Data Modeling,0.9
+BE01,IT,Backend Developer,Debugging,0.9
+BE01,IT,Backend Developer,Performance Optimization,0.85
+BE01,IT,Backend Developer,API Documentation,0.8
+BE01,IT,Backend Developer,Linux Administration,0.8
+BE01,IT,Backend Developer,Scripting,0.8
+BE01,IT,Backend Developer,Problem Solving,0.9
+FE01,IT,Frontend Developer,HTML,0.95
+FE01,IT,Frontend Developer,CSS,0.95
+FE01,IT,Frontend Developer,JavaScript,0.95
+FE01,IT,Frontend Developer,React,0.9
+FE01,IT,Frontend Developer,Responsive Design,0.9
+FE01,IT,Frontend Developer,UI Design Principles,0.85
+FE01,IT,Frontend Developer,Version Control,0.85
+FE01,IT,Frontend Developer,Git,0.85
+FE01,IT,Frontend Developer,Debugging,0.9
+FE01,IT,Frontend Developer,REST APIs,0.85
+FE01,IT,Frontend Developer,Testing,0.85
+FE01,IT,Frontend Developer,Performance Optimization,0.9
+FE01,IT,Frontend Developer,Accessibility Standards,0.85
+FE01,IT,Frontend Developer,Cross-Browser Compatibility,0.85
+FE01,IT,Frontend Developer,State Management,0.85
+FE01,IT,Frontend Developer,Build Tools,0.8
+FE01,IT,Frontend Developer,API Integration,0.85
+FE01,IT,Frontend Developer,UX Principles,0.85
+FE01,IT,Frontend Developer,Deployment,0.8
+FE01,IT,Frontend Developer,Problem Solving,0.9
+FA01,Business & Finance,Financial Analyst,Financial Modeling,0.95
+FA01,Business & Finance,Financial Analyst,Financial Reporting,0.9
+FA01,Business & Finance,Financial Analyst,Excel,0.9
+FA01,Business & Finance,Financial Analyst,Valuation Techniques,0.9
+FA01,Business & Finance,Financial Analyst,Budgeting,0.85
+FA01,Business & Finance,Financial Analyst,Forecasting,0.9
+FA01,Business & Finance,Financial Analyst,Accounting Principles,0.85
+FA01,Business & Finance,Financial Analyst,Data Analysis,0.8
+FA01,Business & Finance,Financial Analyst,Corporate Finance,0.9
+FA01,Business & Finance,Financial Analyst,Risk Analysis,0.8
+FA01,Business & Finance,Financial Analyst,Investment Analysis,0.9
+FA01,Business & Finance,Financial Analyst,Financial Statements,0.9
+FA01,Business & Finance,Financial Analyst,Communication,0.75
+FA01,Business & Finance,Financial Analyst,Problem Solving,0.8
+FA01,Business & Finance,Financial Analyst,Financial Regulations,0.75
+FA01,Business & Finance,Financial Analyst,Cost Analysis,0.8
+FA01,Business & Finance,Financial Analyst,Strategic Planning,0.75
+FA01,Business & Finance,Financial Analyst,Presentation Skills,0.7
+FA01,Business & Finance,Financial Analyst,Attention to Detail,0.85
+FA01,Business & Finance,Financial Analyst,Financial Forecasting Tools,0.8
+IB01,Business & Finance,Investment Banker,Financial Modeling,0.95
+IB01,Business & Finance,Investment Banker,Valuation Techniques,0.95
+IB01,Business & Finance,Investment Banker,Mergers and Acquisitions,0.95
+IB01,Business & Finance,Investment Banker,Capital Raising,0.9
+IB01,Business & Finance,Investment Banker,Corporate Finance,0.9
+IB01,Business & Finance,Investment Banker,Financial Statements Analysis,0.9
+IB01,Business & Finance,Investment Banker,Negotiation Skills,0.85
+IB01,Business & Finance,Investment Banker,Excel,0.9
+IB01,Business & Finance,Investment Banker,PowerPoint,0.8
+IB01,Business & Finance,Investment Banker,Market Analysis,0.85
+IB01,Business & Finance,Investment Banker,Risk Assessment,0.8
+IB01,Business & Finance,Investment Banker,Strategic Thinking,0.85
+IB01,Business & Finance,Investment Banker,Financial Regulations,0.8
+IB01,Business & Finance,Investment Banker,Client Management,0.8
+IB01,Business & Finance,Investment Banker,Due Diligence,0.9
+IB01,Business & Finance,Investment Banker,Presentation Skills,0.8
+IB01,Business & Finance,Investment Banker,Communication,0.8
+IB01,Business & Finance,Investment Banker,Problem Solving,0.85
+IB01,Business & Finance,Investment Banker,Attention to Detail,0.9
+IB01,Business & Finance,Investment Banker,Time Management,0.8
+AC01,Business & Finance,Accountant,Accounting Principles,0.95
+AC01,Business & Finance,Accountant,Financial Reporting,0.9
+AC01,Business & Finance,Accountant,Taxation,0.9
+AC01,Business & Finance,Accountant,Auditing,0.85
+AC01,Business & Finance,Accountant,Bookkeeping,0.85
+AC01,Business & Finance,Accountant,Financial Statements,0.9
+AC01,Business & Finance,Accountant,Excel,0.85
+AC01,Business & Finance,Accountant,Cost Accounting,0.85
+AC01,Business & Finance,Accountant,Regulatory Compliance,0.85
+AC01,Business & Finance,Accountant,Data Accuracy,0.9
+AC01,Business & Finance,Accountant,Budgeting,0.8
+AC01,Business & Finance,Accountant,Internal Controls,0.85
+AC01,Business & Finance,Accountant,ERP Systems,0.8
+AC01,Business & Finance,Accountant,Ethics,0.8
+AC01,Business & Finance,Accountant,Financial Analysis,0.8
+AC01,Business & Finance,Accountant,Reporting Standards,0.85
+AC01,Business & Finance,Accountant,Time Management,0.8
+AC01,Business & Finance,Accountant,Attention to Detail,0.9
+AC01,Business & Finance,Accountant,Problem Solving,0.8
+AC01,Business & Finance,Accountant,Communication,0.75
+AU01,Business & Finance,Auditor,Auditing Standards,0.95
+AU01,Business & Finance,Auditor,Risk Assessment,0.9
+AU01,Business & Finance,Auditor,Internal Controls,0.9
+AU01,Business & Finance,Auditor,Financial Reporting,0.85
+AU01,Business & Finance,Auditor,Compliance Monitoring,0.9
+AU01,Business & Finance,Auditor,Accounting Principles,0.85
+AU01,Business & Finance,Auditor,Data Analysis,0.8
+AU01,Business & Finance,Auditor,Documentation Skills,0.8
+AU01,Business & Finance,Auditor,Attention to Detail,0.95
+AU01,Business & Finance,Auditor,Ethics,0.85
+AU01,Business & Finance,Auditor,Communication,0.8
+AU01,Business & Finance,Auditor,Problem Solving,0.85
+AU01,Business & Finance,Auditor,Report Writing,0.85
+AU01,Business & Finance,Auditor,Regulatory Knowledge,0.85
+AU01,Business & Finance,Auditor,Time Management,0.8
+AU01,Business & Finance,Auditor,Analytical Thinking,0.9
+AU01,Business & Finance,Auditor,Process Evaluation,0.85
+AU01,Business & Finance,Auditor,Financial Statements Analysis,0.9
+AU01,Business & Finance,Auditor,ERP Systems,0.75
+AU01,Business & Finance,Auditor,Stakeholder Communication,0.8
+BA01,Business & Finance,Business Analyst,Requirements Gathering,0.95
+BA01,Business & Finance,Business Analyst,Process Modeling,0.9
+BA01,Business & Finance,Business Analyst,Data Analysis,0.9
+BA01,Business & Finance,Business Analyst,Stakeholder Management,0.9
+BA01,Business & Finance,Business Analyst,SQL,0.8
+BA01,Business & Finance,Business Analyst,Excel,0.85
+BA01,Business & Finance,Business Analyst,Communication,0.9
+BA01,Business & Finance,Business Analyst,Problem Solving,0.9
+BA01,Business & Finance,Business Analyst,Strategic Thinking,0.85
+BA01,Business & Finance,Business Analyst,Documentation Skills,0.85
+BA01,Business & Finance,Business Analyst,Business Process Improvement,0.9
+BA01,Business & Finance,Business Analyst,Presentation Skills,0.8
+BA01,Business & Finance,Business Analyst,Project Management,0.85
+BA01,Business & Finance,Business Analyst,Market Analysis,0.8
+BA01,Business & Finance,Business Analyst,Cost Benefit Analysis,0.85
+BA01,Business & Finance,Business Analyst,Data Visualization,0.8
+BA01,Business & Finance,Business Analyst,Decision Making,0.85
+BA01,Business & Finance,Business Analyst,Risk Analysis,0.8
+BA01,Business & Finance,Business Analyst,Time Management,0.8
+BA01,Business & Finance,Business Analyst,Documentation Standards,0.75
+RA01,Business & Finance,Risk Analyst,Risk Modeling,0.95
+RA01,Business & Finance,Risk Analyst,Probability Theory,0.9
+RA01,Business & Finance,Risk Analyst,Statistical Analysis,0.9
+RA01,Business & Finance,Risk Analyst,Financial Regulations,0.85
+RA01,Business & Finance,Risk Analyst,Market Risk Analysis,0.9
+RA01,Business & Finance,Risk Analyst,Credit Risk Assessment,0.9
+RA01,Business & Finance,Risk Analyst,Excel,0.85
+RA01,Business & Finance,Risk Analyst,Financial Modeling,0.9
+RA01,Business & Finance,Risk Analyst,Data Analysis,0.85
+RA01,Business & Finance,Risk Analyst,Reporting,0.8
+RA01,Business & Finance,Risk Analyst,Decision Making,0.85
+RA01,Business & Finance,Risk Analyst,Stress Testing,0.85
+RA01,Business & Finance,Risk Analyst,Communication,0.8
+RA01,Business & Finance,Risk Analyst,Problem Solving,0.9
+RA01,Business & Finance,Risk Analyst,Compliance Standards,0.8
+RA01,Business & Finance,Risk Analyst,Financial Statements Analysis,0.85
+RA01,Business & Finance,Risk Analyst,Attention to Detail,0.9
+RA01,Business & Finance,Risk Analyst,Strategic Thinking,0.8
+RA01,Business & Finance,Risk Analyst,Data Visualization,0.75
+RA01,Business & Finance,Risk Analyst,Forecasting,0.85
+ACT01,Business & Finance,Actuary,Probability Theory,0.95
+ACT01,Business & Finance,Actuary,Statistics,0.95
+ACT01,Business & Finance,Actuary,Risk Modeling,0.95
+ACT01,Business & Finance,Actuary,Financial Mathematics,0.9
+ACT01,Business & Finance,Actuary,Insurance Principles,0.9
+ACT01,Business & Finance,Actuary,Data Analysis,0.85
+ACT01,Business & Finance,Actuary,Excel,0.85
+ACT01,Business & Finance,Actuary,Forecasting,0.9
+ACT01,Business & Finance,Actuary,Regulatory Compliance,0.85
+ACT01,Business & Finance,Actuary,Financial Reporting,0.8
+ACT01,Business & Finance,Actuary,Attention to Detail,0.95
+ACT01,Business & Finance,Actuary,Problem Solving,0.9
+ACT01,Business & Finance,Actuary,Analytical Thinking,0.9
+ACT01,Business & Finance,Actuary,Financial Modeling,0.9
+ACT01,Business & Finance,Actuary,Communication,0.75
+ACT01,Business & Finance,Actuary,Time Management,0.8
+ACT01,Business & Finance,Actuary,Data Interpretation,0.85
+ACT01,Business & Finance,Actuary,Strategic Thinking,0.8
+ACT01,Business & Finance,Actuary,Ethics,0.8
+ACT01,Business & Finance,Actuary,Reporting,0.8
+EC01,Business & Finance,Economist,Microeconomics,0.95
+EC01,Business & Finance,Economist,Macroeconomics,0.95
+EC01,Business & Finance,Economist,Econometrics,0.95
+EC01,Business & Finance,Economist,Statistical Analysis,0.9
+EC01,Business & Finance,Economist,Data Analysis,0.9
+EC01,Business & Finance,Economist,Research Methods,0.9
+EC01,Business & Finance,Economist,Policy Analysis,0.9
+EC01,Business & Finance,Economist,Forecasting,0.9
+EC01,Business & Finance,Economist,Market Analysis,0.85
+EC01,Business & Finance,Economist,Report Writing,0.85
+EC01,Business & Finance,Economist,Data Visualization,0.8
+EC01,Business & Finance,Economist,Communication,0.8
+EC01,Business & Finance,Economist,Problem Solving,0.9
+EC01,Business & Finance,Economist,Critical Thinking,0.9
+EC01,Business & Finance,Economist,Statistical Software,0.8
+EC01,Business & Finance,Economist,Quantitative Methods,0.9
+EC01,Business & Finance,Economist,Public Finance,0.85
+EC01,Business & Finance,Economist,International Economics,0.85
+EC01,Business & Finance,Economist,Time Series Analysis,0.9
+EC01,Business & Finance,Economist,Presentation Skills,0.75
+CF01,Business & Finance,Corporate Finance Manager,Corporate Finance,0.95
+CF01,Business & Finance,Corporate Finance Manager,Financial Planning,0.9
+CF01,Business & Finance,Corporate Finance Manager,Budgeting,0.9
+CF01,Business & Finance,Corporate Finance Manager,Forecasting,0.9
+CF01,Business & Finance,Corporate Finance Manager,Financial Reporting,0.85
+CF01,Business & Finance,Corporate Finance Manager,Capital Budgeting,0.9
+CF01,Business & Finance,Corporate Finance Manager,Cost Analysis,0.85
+CF01,Business & Finance,Corporate Finance Manager,Risk Management,0.85
+CF01,Business & Finance,Corporate Finance Manager,Investment Analysis,0.85
+CF01,Business & Finance,Corporate Finance Manager,Leadership,0.9
+CF01,Business & Finance,Corporate Finance Manager,Strategic Planning,0.9
+CF01,Business & Finance,Corporate Finance Manager,Decision Making,0.9
+CF01,Business & Finance,Corporate Finance Manager,Financial Modeling,0.85
+CF01,Business & Finance,Corporate Finance Manager,Communication,0.8
+CF01,Business & Finance,Corporate Finance Manager,Problem Solving,0.85
+CF01,Business & Finance,Corporate Finance Manager,Compliance Standards,0.8
+CF01,Business & Finance,Corporate Finance Manager,Financial Regulations,0.8
+CF01,Business & Finance,Corporate Finance Manager,Presentation Skills,0.8
+CF01,Business & Finance,Corporate Finance Manager,Time Management,0.8
+CF01,Business & Finance,Corporate Finance Manager,Data Analysis,0.8
+IA01,Business & Finance,Investment Analyst,Investment Analysis,0.95
+IA01,Business & Finance,Investment Analyst,Portfolio Management,0.9
+IA01,Business & Finance,Investment Analyst,Financial Modeling,0.9
+IA01,Business & Finance,Investment Analyst,Valuation Techniques,0.9
+IA01,Business & Finance,Investment Analyst,Market Research,0.85
+IA01,Business & Finance,Investment Analyst,Equity Research,0.9
+IA01,Business & Finance,Investment Analyst,Risk Assessment,0.85
+IA01,Business & Finance,Investment Analyst,Financial Statements Analysis,0.9
+IA01,Business & Finance,Investment Analyst,Data Analysis,0.85
+IA01,Business & Finance,Investment Analyst,Excel,0.85
+IA01,Business & Finance,Investment Analyst,Communication,0.8
+IA01,Business & Finance,Investment Analyst,Presentation Skills,0.8
+IA01,Business & Finance,Investment Analyst,Problem Solving,0.9
+IA01,Business & Finance,Investment Analyst,Strategic Thinking,0.85
+IA01,Business & Finance,Investment Analyst,Forecasting,0.85
+IA01,Business & Finance,Investment Analyst,Attention to Detail,0.9
+IA01,Business & Finance,Investment Analyst,Financial Regulations,0.8
+IA01,Business & Finance,Investment Analyst,Time Management,0.8
+IA01,Business & Finance,Investment Analyst,Corporate Finance,0.85
+IA01,Business & Finance,Investment Analyst,Decision Making,0.85
+SC01,Business & Finance,Supply Chain Manager,Supply Chain Management,0.95
+SC01,Business & Finance,Supply Chain Manager,Logistics Management,0.9
+SC01,Business & Finance,Supply Chain Manager,Inventory Management,0.9
+SC01,Business & Finance,Supply Chain Manager,Operations Management,0.9
+SC01,Business & Finance,Supply Chain Manager,Cost Control,0.85
+SC01,Business & Finance,Supply Chain Manager,Procurement,0.85
+SC01,Business & Finance,Supply Chain Manager,Vendor Management,0.85
+SC01,Business & Finance,Supply Chain Manager,Data Analysis,0.8
+SC01,Business & Finance,Supply Chain Manager,Process Optimization,0.9
+SC01,Business & Finance,Supply Chain Manager,Forecasting,0.85
+SC01,Business & Finance,Supply Chain Manager,Strategic Planning,0.85
+SC01,Business & Finance,Supply Chain Manager,Problem Solving,0.9
+SC01,Business & Finance,Supply Chain Manager,Communication,0.8
+SC01,Business & Finance,Supply Chain Manager,Project Management,0.85
+SC01,Business & Finance,Supply Chain Manager,Risk Management,0.8
+SC01,Business & Finance,Supply Chain Manager,Quality Management,0.8
+SC01,Business & Finance,Supply Chain Manager,Decision Making,0.85
+SC01,Business & Finance,Supply Chain Manager,Time Management,0.8
+SC01,Business & Finance,Supply Chain Manager,Negotiation Skills,0.85
+SC01,Business & Finance,Supply Chain Manager,Leadership,0.85
+MA01,Business & Finance,Marketing Analyst,Market Research,0.95
+MA01,Business & Finance,Marketing Analyst,Data Analysis,0.9
+MA01,Business & Finance,Marketing Analyst,Consumer Behavior Analysis,0.9
+MA01,Business & Finance,Marketing Analyst,Digital Marketing,0.85
+MA01,Business & Finance,Marketing Analyst,SEO,0.8
+MA01,Business & Finance,Marketing Analyst,Marketing Strategy,0.9
+MA01,Business & Finance,Marketing Analyst,Data Visualization,0.8
+MA01,Business & Finance,Marketing Analyst,Excel,0.8
+MA01,Business & Finance,Marketing Analyst,Statistical Analysis,0.85
+MA01,Business & Finance,Marketing Analyst,Campaign Analysis,0.9
+MA01,Business & Finance,Marketing Analyst,Communication,0.85
+MA01,Business & Finance,Marketing Analyst,Problem Solving,0.9
+MA01,Business & Finance,Marketing Analyst,Presentation Skills,0.8
+MA01,Business & Finance,Marketing Analyst,Brand Analysis,0.85
+MA01,Business & Finance,Marketing Analyst,Customer Segmentation,0.85
+MA01,Business & Finance,Marketing Analyst,Forecasting,0.8
+MA01,Business & Finance,Marketing Analyst,Reporting,0.85
+MA01,Business & Finance,Marketing Analyst,Time Management,0.8
+MA01,Business & Finance,Marketing Analyst,Strategic Thinking,0.85
+MA01,Business & Finance,Marketing Analyst,Performance Metrics,0.85
+HR01,Business & Finance,Human Resource Manager,Talent Acquisition,0.9
+HR01,Business & Finance,Human Resource Manager,Workforce Planning,0.9
+HR01,Business & Finance,Human Resource Manager,Performance Management,0.9
+HR01,Business & Finance,Human Resource Manager,Conflict Resolution,0.9
+HR01,Business & Finance,Human Resource Manager,Employment Law,0.85
+HR01,Business & Finance,Human Resource Manager,Compensation and Benefits,0.85
+HR01,Business & Finance,Human Resource Manager,Communication,0.9
+HR01,Business & Finance,Human Resource Manager,Leadership,0.9
+HR01,Business & Finance,Human Resource Manager,Strategic Planning,0.85
+HR01,Business & Finance,Human Resource Manager,Organizational Development,0.9
+HR01,Business & Finance,Human Resource Manager,Training and Development,0.85
+HR01,Business & Finance,Human Resource Manager,Recruitment Strategies,0.85
+HR01,Business & Finance,Human Resource Manager,Problem Solving,0.85
+HR01,Business & Finance,Human Resource Manager,Decision Making,0.85
+HR01,Business & Finance,Human Resource Manager,Employee Relations,0.9
+HR01,Business & Finance,Human Resource Manager,Ethics,0.85
+HR01,Business & Finance,Human Resource Manager,Time Management,0.8
+HR01,Business & Finance,Human Resource Manager,Reporting,0.8
+HR01,Business & Finance,Human Resource Manager,HR Analytics,0.8
+HR01,Business & Finance,Human Resource Manager,Stakeholder Management,0.85
+MC01,Business & Finance,Management Consultant,Business Strategy,0.95
+MC01,Business & Finance,Management Consultant,Process Optimization,0.9
+MC01,Business & Finance,Management Consultant,Data Analysis,0.85
+MC01,Business & Finance,Management Consultant,Market Analysis,0.85
+MC01,Business & Finance,Management Consultant,Problem Solving,0.95
+MC01,Business & Finance,Management Consultant,Communication,0.9
+MC01,Business & Finance,Management Consultant,Presentation Skills,0.9
+MC01,Business & Finance,Management Consultant,Project Management,0.9
+MC01,Business & Finance,Management Consultant,Stakeholder Management,0.9
+MC01,Business & Finance,Management Consultant,Leadership,0.9
+MC01,Business & Finance,Management Consultant,Financial Analysis,0.85
+MC01,Business & Finance,Management Consultant,Change Management,0.85
+MC01,Business & Finance,Management Consultant,Decision Making,0.9
+MC01,Business & Finance,Management Consultant,Strategic Thinking,0.95
+MC01,Business & Finance,Management Consultant,Negotiation Skills,0.85
+MC01,Business & Finance,Management Consultant,Time Management,0.8
+MC01,Business & Finance,Management Consultant,Reporting,0.85
+MC01,Business & Finance,Management Consultant,Risk Assessment,0.8
+MC01,Business & Finance,Management Consultant,Client Management,0.85
+MC01,Business & Finance,Management Consultant,Analytical Thinking,0.9
+EN01,Business & Finance,Entrepreneur,Business Model Design,0.95
+EN01,Business & Finance,Entrepreneur,Market Validation,0.9
+EN01,Business & Finance,Entrepreneur,Financial Planning,0.9
+EN01,Business & Finance,Entrepreneur,Strategic Thinking,0.95
+EN01,Business & Finance,Entrepreneur,Leadership,0.9
+EN01,Business & Finance,Entrepreneur,Communication,0.9
+EN01,Business & Finance,Entrepreneur,Problem Solving,0.95
+EN01,Business & Finance,Entrepreneur,Negotiation Skills,0.85
+EN01,Business & Finance,Entrepreneur,Sales Strategy,0.85
+EN01,Business & Finance,Entrepreneur,Marketing Strategy,0.9
+EN01,Business & Finance,Entrepreneur,Risk Management,0.9
+EN01,Business & Finance,Entrepreneur,Decision Making,0.9
+EN01,Business & Finance,Entrepreneur,Networking,0.85
+EN01,Business & Finance,Entrepreneur,Time Management,0.85
+EN01,Business & Finance,Entrepreneur,Innovation,0.95
+EN01,Business & Finance,Entrepreneur,Financial Literacy,0.9
+EN01,Business & Finance,Entrepreneur,Adaptability,0.9
+EN01,Business & Finance,Entrepreneur,Opportunity Recognition,0.9
+EN01,Business & Finance,Entrepreneur,Resource Management,0.85
+EN01,Business & Finance,Entrepreneur,Strategic Planning,0.9
+CE01,Engineering,Civil Engineering,Structural Analysis,0.95
+CE01,Engineering,Civil Engineering,Construction Management,0.9
+CE01,Engineering,Civil Engineering,Concrete Technology,0.9
+CE01,Engineering,Civil Engineering,Soil Mechanics,0.9
+CE01,Engineering,Civil Engineering,Geotechnical Engineering,0.85
+CE01,Engineering,Civil Engineering,Transportation Systems,0.85
+CE01,Engineering,Civil Engineering,Hydraulics,0.9
+CE01,Engineering,Civil Engineering,Water Resources Engineering,0.85
+CE01,Engineering,Civil Engineering,Project Management,0.9
+CE01,Engineering,Civil Engineering,AutoCAD,0.85
+CE01,Engineering,Civil Engineering,Structural Design Software,0.85
+CE01,Engineering,Civil Engineering,Surveying,0.8
+CE01,Engineering,Civil Engineering,Environmental Impact Assessment,0.8
+CE01,Engineering,Civil Engineering,Building Codes and Standards,0.9
+CE01,Engineering,Civil Engineering,Cost Estimation,0.85
+CE01,Engineering,Civil Engineering,Site Supervision,0.85
+CE01,Engineering,Civil Engineering,Materials Testing,0.8
+CE01,Engineering,Civil Engineering,Quality Control,0.85
+CE01,Engineering,Civil Engineering,Risk Management,0.8
+CE01,Engineering,Civil Engineering,Problem Solving,0.9
+CE01,Engineering,Civil Engineering,Technical Drawing,0.85
+CE01,Engineering,Civil Engineering,Engineering Mathematics,0.9
+CE01,Engineering,Civil Engineering,Physics,0.85
+CE01,Engineering,Civil Engineering,Communication,0.8
+CE01,Engineering,Civil Engineering,Time Management,0.8
+ME01,Engineering,Mechanical Engineering,Thermodynamics,0.95
+ME01,Engineering,Mechanical Engineering,Fluid Mechanics,0.95
+ME01,Engineering,Mechanical Engineering,Heat Transfer,0.9
+ME01,Engineering,Mechanical Engineering,Mechanical Design,0.9
+ME01,Engineering,Mechanical Engineering,CAD Software,0.9
+ME01,Engineering,Mechanical Engineering,Manufacturing Processes,0.9
+ME01,Engineering,Mechanical Engineering,Materials Science,0.9
+ME01,Engineering,Mechanical Engineering,Machine Dynamics,0.85
+ME01,Engineering,Mechanical Engineering,Control Systems,0.85
+ME01,Engineering,Mechanical Engineering,Engineering Mathematics,0.9
+ME01,Engineering,Mechanical Engineering,Physics,0.85
+ME01,Engineering,Mechanical Engineering,Finite Element Analysis,0.85
+ME01,Engineering,Mechanical Engineering,Project Management,0.85
+ME01,Engineering,Mechanical Engineering,Problem Solving,0.9
+ME01,Engineering,Mechanical Engineering,Technical Drawing,0.9
+ME01,Engineering,Mechanical Engineering,Quality Control,0.8
+ME01,Engineering,Mechanical Engineering,Automation Systems,0.8
+ME01,Engineering,Mechanical Engineering,Maintenance Engineering,0.8
+ME01,Engineering,Mechanical Engineering,Energy Systems,0.85
+ME01,Engineering,Mechanical Engineering,Robotics Fundamentals,0.8
+ME01,Engineering,Mechanical Engineering,Testing and Validation,0.85
+ME01,Engineering,Mechanical Engineering,Failure Analysis,0.8
+ME01,Engineering,Mechanical Engineering,Communication,0.8
+ME01,Engineering,Mechanical Engineering,Time Management,0.8
+ME01,Engineering,Mechanical Engineering,Safety Standards,0.85
+EE01,Engineering,Electrical Engineering,Circuit Analysis,0.95
+EE01,Engineering,Electrical Engineering,Power Systems,0.95
+EE01,Engineering,Electrical Engineering,Electronics,0.9
+EE01,Engineering,Electrical Engineering,Control Systems,0.9
+EE01,Engineering,Electrical Engineering,Signal Processing,0.9
+EE01,Engineering,Electrical Engineering,Embedded Systems,0.85
+EE01,Engineering,Electrical Engineering,Power Electronics,0.9
+EE01,Engineering,Electrical Engineering,Microcontrollers,0.85
+EE01,Engineering,Electrical Engineering,Renewable Energy Systems,0.85
+EE01,Engineering,Electrical Engineering,Engineering Mathematics,0.9
+EE01,Engineering,Electrical Engineering,Physics,0.85
+EE01,Engineering,Electrical Engineering,PCB Design,0.85
+EE01,Engineering,Electrical Engineering,Automation Systems,0.85
+EE01,Engineering,Electrical Engineering,Instrumentation,0.85
+EE01,Engineering,Electrical Engineering,Simulation Software,0.8
+EE01,Engineering,Electrical Engineering,Testing and Troubleshooting,0.9
+EE01,Engineering,Electrical Engineering,Project Management,0.85
+EE01,Engineering,Electrical Engineering,Safety Standards,0.9
+EE01,Engineering,Electrical Engineering,Communication,0.8
+EE01,Engineering,Electrical Engineering,Problem Solving,0.9
+EE01,Engineering,Electrical Engineering,Technical Documentation,0.8
+EE01,Engineering,Electrical Engineering,Digital Systems,0.9
+EE01,Engineering,Electrical Engineering,Analog Systems,0.85
+EE01,Engineering,Electrical Engineering,Networking Fundamentals,0.75
+EE01,Engineering,Electrical Engineering,Quality Control,0.8
+CPE01,Engineering,Computer Engineering,Digital Logic Design,0.95
+CPE01,Engineering,Computer Engineering,Computer Architecture,0.95
+CPE01,Engineering,Computer Engineering,Microprocessors,0.9
+CPE01,Engineering,Computer Engineering,Embedded Systems,0.9
+CPE01,Engineering,Computer Engineering,Operating Systems,0.9
+CPE01,Engineering,Computer Engineering,Data Structures,0.9
+CPE01,Engineering,Computer Engineering,Algorithms,0.9
+CPE01,Engineering,Computer Engineering,Programming (C/C++),0.95
+CPE01,Engineering,Computer Engineering,Networking Fundamentals,0.85
+CPE01,Engineering,Computer Engineering,FPGA Design,0.85
+CPE01,Engineering,Computer Engineering,Hardware-Software Integration,0.9
+CPE01,Engineering,Computer Engineering,Signal Processing,0.85
+CPE01,Engineering,Computer Engineering,Circuit Design,0.9
+CPE01,Engineering,Computer Engineering,Control Systems,0.8
+CPE01,Engineering,Computer Engineering,Cloud Computing Fundamentals,0.75
+CPE01,Engineering,Computer Engineering,Cybersecurity Basics,0.8
+CPE01,Engineering,Computer Engineering,System Testing,0.85
+CPE01,Engineering,Computer Engineering,Simulation Tools,0.8
+CPE01,Engineering,Computer Engineering,Software Engineering Principles,0.85
+CPE01,Engineering,Computer Engineering,Engineering Mathematics,0.9
+CPE01,Engineering,Computer Engineering,Physics,0.85
+CPE01,Engineering,Computer Engineering,Project Management,0.8
+CPE01,Engineering,Computer Engineering,Technical Documentation,0.8
+CPE01,Engineering,Computer Engineering,Problem Solving,0.9
+CPE01,Engineering,Computer Engineering,Version Control,0.8
+CHE01,Engineering,Chemical Engineering,Thermodynamics,0.95
+CHE01,Engineering,Chemical Engineering,Fluid Mechanics,0.9
+CHE01,Engineering,Chemical Engineering,Heat Transfer,0.9
+CHE01,Engineering,Chemical Engineering,Mass Transfer,0.95
+CHE01,Engineering,Chemical Engineering,Reaction Engineering,0.95
+CHE01,Engineering,Chemical Engineering,Process Design,0.9
+CHE01,Engineering,Chemical Engineering,Process Control,0.9
+CHE01,Engineering,Chemical Engineering,Separation Processes,0.9
+CHE01,Engineering,Chemical Engineering,Chemical Kinetics,0.9
+CHE01,Engineering,Chemical Engineering,Industrial Chemistry,0.9
+CHE01,Engineering,Chemical Engineering,Environmental Compliance,0.85
+CHE01,Engineering,Chemical Engineering,Safety Engineering,0.9
+CHE01,Engineering,Chemical Engineering,Process Simulation Software,0.85
+CHE01,Engineering,Chemical Engineering,Engineering Mathematics,0.9
+CHE01,Engineering,Chemical Engineering,Physics,0.85
+CHE01,Engineering,Chemical Engineering,Quality Control,0.85
+CHE01,Engineering,Chemical Engineering,Materials Science,0.85
+CHE01,Engineering,Chemical Engineering,Energy Systems,0.8
+CHE01,Engineering,Chemical Engineering,Project Management,0.8
+CHE01,Engineering,Chemical Engineering,Technical Reporting,0.8
+CHE01,Engineering,Chemical Engineering,Problem Solving,0.9
+CHE01,Engineering,Chemical Engineering,Plant Operations,0.85
+CHE01,Engineering,Chemical Engineering,Risk Assessment,0.85
+CHE01,Engineering,Chemical Engineering,Process Optimization,0.9
+CHE01,Engineering,Chemical Engineering,Instrumentation,0.8
+IE01,Engineering,Industrial Engineering,Operations Research,0.95
+IE01,Engineering,Industrial Engineering,Process Optimization,0.95
+IE01,Engineering,Industrial Engineering,Supply Chain Management,0.9
+IE01,Engineering,Industrial Engineering,Production Planning,0.9
+IE01,Engineering,Industrial Engineering,Quality Engineering,0.9
+IE01,Engineering,Industrial Engineering,Lean Manufacturing,0.9
+IE01,Engineering,Industrial Engineering,Statistical Analysis,0.9
+IE01,Engineering,Industrial Engineering,Data Analysis,0.85
+IE01,Engineering,Industrial Engineering,Project Management,0.9
+IE01,Engineering,Industrial Engineering,Cost Analysis,0.85
+IE01,Engineering,Industrial Engineering,Simulation Modeling,0.85
+IE01,Engineering,Industrial Engineering,Systems Engineering,0.85
+IE01,Engineering,Industrial Engineering,Engineering Economics,0.9
+IE01,Engineering,Industrial Engineering,Risk Management,0.8
+IE01,Engineering,Industrial Engineering,Ergonomics,0.8
+IE01,Engineering,Industrial Engineering,Decision Analysis,0.9
+IE01,Engineering,Industrial Engineering,Logistics Management,0.85
+IE01,Engineering,Industrial Engineering,Process Mapping,0.85
+IE01,Engineering,Industrial Engineering,Continuous Improvement,0.9
+IE01,Engineering,Industrial Engineering,Communication,0.8
+IE01,Engineering,Industrial Engineering,Problem Solving,0.95
+IE01,Engineering,Industrial Engineering,Time Management,0.8
+IE01,Engineering,Industrial Engineering,Quality Control Systems,0.85
+IE01,Engineering,Industrial Engineering,Automation Systems,0.8
+IE01,Engineering,Industrial Engineering,Strategic Planning,0.85
+ENV01,Engineering,Environmental Engineering,Environmental Impact Assessment,0.95
+ENV01,Engineering,Environmental Engineering,Water Treatment Systems,0.95
+ENV01,Engineering,Environmental Engineering,Waste Management,0.9
+ENV01,Engineering,Environmental Engineering,Air Pollution Control,0.9
+ENV01,Engineering,Environmental Engineering,Sustainability Engineering,0.9
+ENV01,Engineering,Environmental Engineering,Hydrology,0.85
+ENV01,Engineering,Environmental Engineering,Environmental Chemistry,0.9
+ENV01,Engineering,Environmental Engineering,Soil Science,0.85
+ENV01,Engineering,Environmental Engineering,Environmental Regulations,0.9
+ENV01,Engineering,Environmental Engineering,Risk Assessment,0.85
+ENV01,Engineering,Environmental Engineering,Project Management,0.85
+ENV01,Engineering,Environmental Engineering,Data Analysis,0.8
+ENV01,Engineering,Environmental Engineering,Geographic Information Systems,0.85
+ENV01,Engineering,Environmental Engineering,Climate Change Mitigation,0.9
+ENV01,Engineering,Environmental Engineering,Renewable Energy Systems,0.8
+ENV01,Engineering,Environmental Engineering,Engineering Mathematics,0.85
+ENV01,Engineering,Environmental Engineering,Technical Reporting,0.8
+ENV01,Engineering,Environmental Engineering,Quality Control,0.8
+ENV01,Engineering,Environmental Engineering,Problem Solving,0.9
+ENV01,Engineering,Environmental Engineering,Communication,0.8
+ENV01,Engineering,Environmental Engineering,Policy Analysis,0.8
+ENV01,Engineering,Environmental Engineering,Public Health Engineering,0.85
+ENV01,Engineering,Environmental Engineering,Resource Management,0.85
+ENV01,Engineering,Environmental Engineering,Sampling Techniques,0.8
+ENV01,Engineering,Environmental Engineering,Field Work Techniques,0.75
+BME01,Engineering,Biomedical Engineering,Biomechanics,0.95
+BME01,Engineering,Biomedical Engineering,Bioinstrumentation,0.95
+BME01,Engineering,Biomedical Engineering,Medical Imaging Systems,0.9
+BME01,Engineering,Biomedical Engineering,Biomaterials,0.9
+BME01,Engineering,Biomedical Engineering,Signal Processing,0.85
+BME01,Engineering,Biomedical Engineering,Human Physiology,0.9
+BME01,Engineering,Biomedical Engineering,Embedded Systems,0.85
+BME01,Engineering,Biomedical Engineering,Circuit Design,0.85
+BME01,Engineering,Biomedical Engineering,Control Systems,0.85
+BME01,Engineering,Biomedical Engineering,Medical Device Design,0.95
+BME01,Engineering,Biomedical Engineering,Clinical Engineering,0.85
+BME01,Engineering,Biomedical Engineering,Regulatory Compliance,0.9
+BME01,Engineering,Biomedical Engineering,Quality Assurance,0.85
+BME01,Engineering,Biomedical Engineering,Engineering Mathematics,0.85
+BME01,Engineering,Biomedical Engineering,Physics,0.85
+BME01,Engineering,Biomedical Engineering,Data Analysis,0.8
+BME01,Engineering,Biomedical Engineering,Project Management,0.85
+BME01,Engineering,Biomedical Engineering,Research Methods,0.9
+BME01,Engineering,Biomedical Engineering,Problem Solving,0.9
+BME01,Engineering,Biomedical Engineering,Communication,0.8
+BME01,Engineering,Biomedical Engineering,Testing and Validation,0.9
+BME01,Engineering,Biomedical Engineering,Ethics in Healthcare,0.85
+BME01,Engineering,Biomedical Engineering,Computer Programming,0.8
+BME01,Engineering,Biomedical Engineering,Instrumentation Calibration,0.85
+BME01,Engineering,Biomedical Engineering,Technical Documentation,0.8
+AE01,Engineering,Aerospace Engineering,Aerodynamics,0.95
+AE01,Engineering,Aerospace Engineering,Flight Mechanics,0.95
+AE01,Engineering,Aerospace Engineering,Propulsion Systems,0.9
+AE01,Engineering,Aerospace Engineering,Aircraft Structures,0.95
+AE01,Engineering,Aerospace Engineering,Fluid Mechanics,0.9
+AE01,Engineering,Aerospace Engineering,Thermodynamics,0.9
+AE01,Engineering,Aerospace Engineering,Control Systems,0.9
+AE01,Engineering,Aerospace Engineering,Avionics Systems,0.9
+AE01,Engineering,Aerospace Engineering,Materials Science,0.9
+AE01,Engineering,Aerospace Engineering,Finite Element Analysis,0.85
+AE01,Engineering,Aerospace Engineering,Computational Fluid Dynamics,0.9
+AE01,Engineering,Aerospace Engineering,Engineering Mathematics,0.9
+AE01,Engineering,Aerospace Engineering,Physics,0.9
+AE01,Engineering,Aerospace Engineering,System Simulation,0.85
+AE01,Engineering,Aerospace Engineering,Project Management,0.85
+AE01,Engineering,Aerospace Engineering,Problem Solving,0.9
+AE01,Engineering,Aerospace Engineering,Technical Drawing,0.85
+AE01,Engineering,Aerospace Engineering,Testing and Validation,0.9
+AE01,Engineering,Aerospace Engineering,Structural Analysis,0.9
+AE01,Engineering,Aerospace Engineering,Risk Assessment,0.85
+AE01,Engineering,Aerospace Engineering,Safety Standards,0.9
+AE01,Engineering,Aerospace Engineering,Communication,0.8
+AE01,Engineering,Aerospace Engineering,Manufacturing Processes,0.85
+AE01,Engineering,Aerospace Engineering,Quality Control,0.85
+AE01,Engineering,Aerospace Engineering,Research Methods,0.8
+AG01,Engineering,Agricultural Engineering,Irrigation Systems,0.95
+AG01,Engineering,Agricultural Engineering,Farm Machinery Design,0.9
+AG01,Engineering,Agricultural Engineering,Soil Mechanics,0.85
+AG01,Engineering,Agricultural Engineering,Water Resources Engineering,0.9
+AG01,Engineering,Agricultural Engineering,Environmental Engineering,0.85
+AG01,Engineering,Agricultural Engineering,Hydrology,0.85
+AG01,Engineering,Agricultural Engineering,Renewable Energy Systems,0.8
+AG01,Engineering,Agricultural Engineering,Project Management,0.85
+AG01,Engineering,Agricultural Engineering,Mechanics,0.9
+AG01,Engineering,Agricultural Engineering,Crop Processing Technology,0.85
+AG01,Engineering,Agricultural Engineering,Data Analysis,0.8
+AG01,Engineering,Agricultural Engineering,Geographic Information Systems,0.85
+AG01,Engineering,Agricultural Engineering,Sustainability Practices,0.9
+AG01,Engineering,Agricultural Engineering,Engineering Mathematics,0.85
+AG01,Engineering,Agricultural Engineering,Physics,0.85
+AG01,Engineering,Agricultural Engineering,Problem Solving,0.9
+AG01,Engineering,Agricultural Engineering,Technical Reporting,0.8
+AG01,Engineering,Agricultural Engineering,Field Work Techniques,0.85
+AG01,Engineering,Agricultural Engineering,Automation Systems,0.8
+AG01,Engineering,Agricultural Engineering,Quality Control,0.8
+AG01,Engineering,Agricultural Engineering,Climate Adaptation Systems,0.85
+AG01,Engineering,Agricultural Engineering,Risk Management,0.8
+AG01,Engineering,Agricultural Engineering,Construction Techniques,0.8
+AG01,Engineering,Agricultural Engineering,Communication,0.8
+AG01,Engineering,Agricultural Engineering,Time Management,0.8
+MAT01,Engineering,Materials Engineering,Materials Science,0.95
+MAT01,Engineering,Materials Engineering,Metallurgy,0.9
+MAT01,Engineering,Materials Engineering,Polymer Engineering,0.9
+MAT01,Engineering,Materials Engineering,Composite Materials,0.9
+MAT01,Engineering,Materials Engineering,Failure Analysis,0.9
+MAT01,Engineering,Materials Engineering,Heat Treatment Processes,0.85
+MAT01,Engineering,Materials Engineering,Mechanical Testing,0.9
+MAT01,Engineering,Materials Engineering,Corrosion Engineering,0.85
+MAT01,Engineering,Materials Engineering,Nanotechnology,0.85
+MAT01,Engineering,Materials Engineering,Surface Engineering,0.85
+MAT01,Engineering,Materials Engineering,Quality Assurance,0.85
+MAT01,Engineering,Materials Engineering,Engineering Mathematics,0.85
+MAT01,Engineering,Materials Engineering,Physics,0.9
+MAT01,Engineering,Materials Engineering,Process Optimization,0.85
+MAT01,Engineering,Materials Engineering,Simulation Tools,0.8
+MAT01,Engineering,Materials Engineering,Research Methods,0.85
+MAT01,Engineering,Materials Engineering,Project Management,0.8
+MAT01,Engineering,Materials Engineering,Problem Solving,0.9
+MAT01,Engineering,Materials Engineering,Technical Documentation,0.8
+MAT01,Engineering,Materials Engineering,Quality Control,0.85
+MAT01,Engineering,Materials Engineering,Manufacturing Processes,0.85
+MAT01,Engineering,Materials Engineering,Data Analysis,0.8
+MAT01,Engineering,Materials Engineering,Environmental Compliance,0.8
+MAT01,Engineering,Materials Engineering,Safety Standards,0.85
+MAT01,Engineering,Materials Engineering,Communication,0.8
+MEC01,Engineering,Mechatronics Engineering,Control Systems,0.95
+MEC01,Engineering,Mechatronics Engineering,Robotics Fundamentals,0.95
+MEC01,Engineering,Mechatronics Engineering,Embedded Systems,0.9
+MEC01,Engineering,Mechatronics Engineering,Microcontrollers,0.9
+MEC01,Engineering,Mechatronics Engineering,Mechanical Design,0.9
+MEC01,Engineering,Mechatronics Engineering,Electronics,0.9
+MEC01,Engineering,Mechatronics Engineering,Automation Systems,0.95
+MEC01,Engineering,Mechatronics Engineering,Sensor Integration,0.9
+MEC01,Engineering,Mechatronics Engineering,Actuator Systems,0.9
+MEC01,Engineering,Mechatronics Engineering,Programming (C/C++),0.9
+MEC01,Engineering,Mechatronics Engineering,Signal Processing,0.85
+MEC01,Engineering,Mechatronics Engineering,System Simulation,0.85
+MEC01,Engineering,Mechatronics Engineering,Engineering Mathematics,0.9
+MEC01,Engineering,Mechatronics Engineering,Physics,0.85
+MEC01,Engineering,Mechatronics Engineering,Project Management,0.85
+MEC01,Engineering,Mechatronics Engineering,Testing and Validation,0.9
+MEC01,Engineering,Mechatronics Engineering,Industrial Robotics,0.9
+MEC01,Engineering,Mechatronics Engineering,Quality Control,0.85
+MEC01,Engineering,Mechatronics Engineering,Troubleshooting,0.9
+MEC01,Engineering,Mechatronics Engineering,Manufacturing Processes,0.85
+MEC01,Engineering,Mechatronics Engineering,Technical Documentation,0.8
+MEC01,Engineering,Mechatronics Engineering,Problem Solving,0.95
+MEC01,Engineering,Mechatronics Engineering,Safety Standards,0.85
+MEC01,Engineering,Mechatronics Engineering,Communication,0.8
+MEC01,Engineering,Mechatronics Engineering,Time Management,0.8
+PET01,Engineering,Petroleum Engineering,Drilling Engineering,0.95
+PET01,Engineering,Petroleum Engineering,Reservoir Engineering,0.95
+PET01,Engineering,Petroleum Engineering,Production Engineering,0.9
+PET01,Engineering,Petroleum Engineering,Fluid Mechanics,0.9
+PET01,Engineering,Petroleum Engineering,Geology Fundamentals,0.9
+PET01,Engineering,Petroleum Engineering,Well Testing,0.9
+PET01,Engineering,Petroleum Engineering,Petrophysics,0.9
+PET01,Engineering,Petroleum Engineering,Hydrocarbon Processing,0.85
+PET01,Engineering,Petroleum Engineering,Offshore Engineering,0.85
+PET01,Engineering,Petroleum Engineering,Health and Safety Standards,0.95
+PET01,Engineering,Petroleum Engineering,Risk Assessment,0.9
+PET01,Engineering,Petroleum Engineering,Engineering Mathematics,0.9
+PET01,Engineering,Petroleum Engineering,Physics,0.85
+PET01,Engineering,Petroleum Engineering,Project Management,0.85
+PET01,Engineering,Petroleum Engineering,Simulation Software,0.85
+PET01,Engineering,Petroleum Engineering,Data Analysis,0.8
+PET01,Engineering,Petroleum Engineering,Environmental Compliance,0.85
+PET01,Engineering,Petroleum Engineering,Production Optimization,0.9
+PET01,Engineering,Petroleum Engineering,Well Logging,0.9
+PET01,Engineering,Petroleum Engineering,Pipeline Systems,0.85
+PET01,Engineering,Petroleum Engineering,Process Control,0.85
+PET01,Engineering,Petroleum Engineering,Communication,0.8
+PET01,Engineering,Petroleum Engineering,Problem Solving,0.9
+PET01,Engineering,Petroleum Engineering,Technical Reporting,0.8
+PET01,Engineering,Petroleum Engineering,Time Management,0.8
+MIN01,Engineering,Mining Engineering,Mine Planning,0.95
+MIN01,Engineering,Mining Engineering,Rock Mechanics,0.9
+MIN01,Engineering,Mining Engineering,Geotechnical Engineering,0.9
+MIN01,Engineering,Mining Engineering,Blasting Techniques,0.9
+MIN01,Engineering,Mining Engineering,Mineral Processing,0.9
+MIN01,Engineering,Mining Engineering,Underground Mining Systems,0.9
+MIN01,Engineering,Mining Engineering,Surface Mining Operations,0.9
+MIN01,Engineering,Mining Engineering,Safety Engineering,0.95
+MIN01,Engineering,Mining Engineering,Environmental Management,0.85
+MIN01,Engineering,Mining Engineering,Project Management,0.85
+MIN01,Engineering,Mining Engineering,Surveying,0.85
+MIN01,Engineering,Mining Engineering,Equipment Maintenance,0.85
+MIN01,Engineering,Mining Engineering,Engineering Mathematics,0.85
+MIN01,Engineering,Mining Engineering,Physics,0.85
+MIN01,Engineering,Mining Engineering,Risk Assessment,0.85
+MIN01,Engineering,Mining Engineering,Cost Estimation,0.85
+MIN01,Engineering,Mining Engineering,Quality Control,0.8
+MIN01,Engineering,Mining Engineering,Data Analysis,0.8
+MIN01,Engineering,Mining Engineering,Technical Documentation,0.8
+MIN01,Engineering,Mining Engineering,Regulatory Compliance,0.85
+MIN01,Engineering,Mining Engineering,Communication,0.8
+MIN01,Engineering,Mining Engineering,Problem Solving,0.9
+MIN01,Engineering,Mining Engineering,Time Management,0.8
+MIN01,Engineering,Mining Engineering,Logistics Planning,0.8
+MIN01,Engineering,Mining Engineering,Equipment Operation,0.85
+ENE01,Engineering,Energy Engineering,Renewable Energy Systems,0.95
+ENE01,Engineering,Energy Engineering,Power Generation Systems,0.95
+ENE01,Engineering,Energy Engineering,Energy Storage Technologies,0.9
+ENE01,Engineering,Energy Engineering,Electrical Systems,0.9
+ENE01,Engineering,Energy Engineering,Thermodynamics,0.9
+ENE01,Engineering,Energy Engineering,Power Systems Engineering,0.9
+ENE01,Engineering,Energy Engineering,Solar Energy Systems,0.9
+ENE01,Engineering,Energy Engineering,Wind Energy Systems,0.9
+ENE01,Engineering,Energy Engineering,Energy Efficiency Analysis,0.9
+ENE01,Engineering,Energy Engineering,Smart Grid Systems,0.85
+ENE01,Engineering,Energy Engineering,Sustainability Engineering,0.9
+ENE01,Engineering,Energy Engineering,Environmental Compliance,0.85
+ENE01,Engineering,Energy Engineering,Project Management,0.85
+ENE01,Engineering,Energy Engineering,Data Analysis,0.8
+ENE01,Engineering,Energy Engineering,Engineering Mathematics,0.85
+ENE01,Engineering,Energy Engineering,Physics,0.85
+ENE01,Engineering,Energy Engineering,Risk Assessment,0.85
+ENE01,Engineering,Energy Engineering,Energy Policy Fundamentals,0.8
+ENE01,Engineering,Energy Engineering,System Optimization,0.9
+ENE01,Engineering,Energy Engineering,Technical Reporting,0.8
+ENE01,Engineering,Energy Engineering,Quality Control,0.8
+ENE01,Engineering,Energy Engineering,Communication,0.8
+ENE01,Engineering,Energy Engineering,Problem Solving,0.9
+ENE01,Engineering,Energy Engineering,Safety Standards,0.85
+ENE01,Engineering,Energy Engineering,Time Management,0.8
+STR01,Engineering,Structural Engineering,Structural Analysis,0.95
+STR01,Engineering,Structural Engineering,Concrete Design,0.95
+STR01,Engineering,Structural Engineering,Steel Design,0.95
+STR01,Engineering,Structural Engineering,Load Calculations,0.9
+STR01,Engineering,Structural Engineering,Finite Element Analysis,0.9
+STR01,Engineering,Structural Engineering,Building Codes and Standards,0.9
+STR01,Engineering,Structural Engineering,Seismic Design,0.9
+STR01,Engineering,Structural Engineering,Structural Modeling Software,0.9
+STR01,Engineering,Structural Engineering,Material Testing,0.85
+STR01,Engineering,Structural Engineering,Foundation Design,0.9
+STR01,Engineering,Structural Engineering,Risk Assessment,0.85
+STR01,Engineering,Structural Engineering,Technical Drawing,0.85
+STR01,Engineering,Structural Engineering,Project Management,0.8
+STR01,Engineering,Structural Engineering,Quality Control,0.8
+STR01,Engineering,Structural Engineering,Problem Solving,0.9
+TR01,Engineering,Transportation Engineering,Traffic Flow Analysis,0.95
+TR01,Engineering,Transportation Engineering,Highway Design,0.9
+TR01,Engineering,Transportation Engineering,Transportation Planning,0.95
+TR01,Engineering,Transportation Engineering,Geometric Design,0.9
+TR01,Engineering,Transportation Engineering,Traffic Simulation Software,0.85
+TR01,Engineering,Transportation Engineering,Road Safety Engineering,0.9
+TR01,Engineering,Transportation Engineering,Urban Mobility Systems,0.85
+TR01,Engineering,Transportation Engineering,Project Management,0.85
+TR01,Engineering,Transportation Engineering,Data Analysis,0.85
+TR01,Engineering,Transportation Engineering,Environmental Assessment,0.8
+TR01,Engineering,Transportation Engineering,Cost Estimation,0.85
+TR01,Engineering,Transportation Engineering,Surveying,0.8
+TR01,Engineering,Transportation Engineering,Communication,0.8
+TR01,Engineering,Transportation Engineering,Regulatory Compliance,0.8
+TR01,Engineering,Transportation Engineering,Problem Solving,0.9
+GEO01,Engineering,Geotechnical Engineering,Soil Mechanics,0.95
+GEO01,Engineering,Geotechnical Engineering,Foundation Design,0.95
+GEO01,Engineering,Geotechnical Engineering,Rock Mechanics,0.9
+GEO01,Engineering,Geotechnical Engineering,Geotechnical Investigation,0.95
+GEO01,Engineering,Geotechnical Engineering,Slope Stability Analysis,0.9
+GEO01,Engineering,Geotechnical Engineering,Ground Improvement Techniques,0.9
+GEO01,Engineering,Geotechnical Engineering,Geotechnical Software Tools,0.85
+GEO01,Engineering,Geotechnical Engineering,Field Testing Methods,0.9
+GEO01,Engineering,Geotechnical Engineering,Risk Assessment,0.85
+GEO01,Engineering,Geotechnical Engineering,Environmental Compliance,0.8
+GEO01,Engineering,Geotechnical Engineering,Project Management,0.8
+GEO01,Engineering,Geotechnical Engineering,Technical Reporting,0.8
+GEO01,Engineering,Geotechnical Engineering,Quality Control,0.8
+GEO01,Engineering,Geotechnical Engineering,Communication,0.8
+GEO01,Engineering,Geotechnical Engineering,Problem Solving,0.9
+WR01,Engineering,Water Resources Engineering,Hydrology,0.95
+WR01,Engineering,Water Resources Engineering,Hydraulics,0.95
+WR01,Engineering,Water Resources Engineering,Flood Modeling,0.9
+WR01,Engineering,Water Resources Engineering,Irrigation Systems,0.9
+WR01,Engineering,Water Resources Engineering,Stormwater Management,0.9
+WR01,Engineering,Water Resources Engineering,Water Treatment Systems,0.9
+WR01,Engineering,Water Resources Engineering,Geographic Information Systems,0.85
+WR01,Engineering,Water Resources Engineering,Environmental Impact Assessment,0.85
+WR01,Engineering,Water Resources Engineering,Project Management,0.85
+WR01,Engineering,Water Resources Engineering,Data Analysis,0.8
+WR01,Engineering,Water Resources Engineering,Sustainability Practices,0.85
+WR01,Engineering,Water Resources Engineering,Risk Assessment,0.85
+WR01,Engineering,Water Resources Engineering,Regulatory Compliance,0.8
+WR01,Engineering,Water Resources Engineering,Technical Reporting,0.8
+WR01,Engineering,Water Resources Engineering,Problem Solving,0.9
+ROB01,Engineering,Robotics Engineering,Robotics Fundamentals,0.95
+ROB01,Engineering,Robotics Engineering,Control Systems,0.95
+ROB01,Engineering,Robotics Engineering,Embedded Systems,0.9
+ROB01,Engineering,Robotics Engineering,Sensor Integration,0.9
+ROB01,Engineering,Robotics Engineering,Actuator Systems,0.9
+ROB01,Engineering,Robotics Engineering,Machine Learning Basics,0.85
+ROB01,Engineering,Robotics Engineering,Computer Vision,0.85
+ROB01,Engineering,Robotics Engineering,Mechanical Design,0.85
+ROB01,Engineering,Robotics Engineering,Programming (Python/C++),0.9
+ROB01,Engineering,Robotics Engineering,Automation Systems,0.9
+ROB01,Engineering,Robotics Engineering,System Simulation,0.85
+ROB01,Engineering,Robotics Engineering,Testing and Validation,0.9
+ROB01,Engineering,Robotics Engineering,Project Management,0.8
+ROB01,Engineering,Robotics Engineering,Technical Documentation,0.8
+ROB01,Engineering,Robotics Engineering,Problem Solving,0.95
+AUTO01,Engineering,Automotive Engineering,Vehicle Dynamics,0.95
+AUTO01,Engineering,Automotive Engineering,Internal Combustion Engines,0.9
+AUTO01,Engineering,Automotive Engineering,Electric Vehicle Systems,0.9
+AUTO01,Engineering,Automotive Engineering,Automotive Electronics,0.9
+AUTO01,Engineering,Automotive Engineering,Control Systems,0.85
+AUTO01,Engineering,Automotive Engineering,CAD Software,0.9
+AUTO01,Engineering,Automotive Engineering,Powertrain Design,0.9
+AUTO01,Engineering,Automotive Engineering,Emission Control Systems,0.85
+AUTO01,Engineering,Automotive Engineering,Manufacturing Processes,0.85
+AUTO01,Engineering,Automotive Engineering,Testing and Validation,0.9
+AUTO01,Engineering,Automotive Engineering,Quality Control,0.85
+AUTO01,Engineering,Automotive Engineering,Safety Standards,0.9
+AUTO01,Engineering,Automotive Engineering,Project Management,0.8
+AUTO01,Engineering,Automotive Engineering,Technical Documentation,0.8
+AUTO01,Engineering,Automotive Engineering,Problem Solving,0.9
+TEL01,Engineering,Telecommunications Engineering,Signal Processing,0.95
+TEL01,Engineering,Telecommunications Engineering,Wireless Communication Systems,0.95
+TEL01,Engineering,Telecommunications Engineering,Network Architecture,0.9
+TEL01,Engineering,Telecommunications Engineering,Fiber Optics,0.9
+TEL01,Engineering,Telecommunications Engineering,Digital Communication Systems,0.9
+TEL01,Engineering,Telecommunications Engineering,Microwave Engineering,0.85
+TEL01,Engineering,Telecommunications Engineering,Networking Protocols,0.9
+TEL01,Engineering,Telecommunications Engineering,Radio Frequency Engineering,0.9
+TEL01,Engineering,Telecommunications Engineering,Telecom Regulations,0.85
+TEL01,Engineering,Telecommunications Engineering,System Simulation,0.85
+TEL01,Engineering,Telecommunications Engineering,Testing and Troubleshooting,0.9
+TEL01,Engineering,Telecommunications Engineering,Project Management,0.8
+TEL01,Engineering,Telecommunications Engineering,Technical Documentation,0.8
+TEL01,Engineering,Telecommunications Engineering,Problem Solving,0.9
+TEL01,Engineering,Telecommunications Engineering,Quality Control,0.8
+CTRL01,Engineering,Control Systems Engineering,Control Theory,0.95
+CTRL01,Engineering,Control Systems Engineering,Feedback Systems,0.95
+CTRL01,Engineering,Control Systems Engineering,PID Controllers,0.9
+CTRL01,Engineering,Control Systems Engineering,Automation Systems,0.9
+CTRL01,Engineering,Control Systems Engineering,Embedded Systems,0.85
+CTRL01,Engineering,Control Systems Engineering,Signal Processing,0.9
+CTRL01,Engineering,Control Systems Engineering,Industrial Robotics,0.85
+CTRL01,Engineering,Control Systems Engineering,System Modeling,0.9
+CTRL01,Engineering,Control Systems Engineering,Simulation Tools,0.85
+CTRL01,Engineering,Control Systems Engineering,Instrumentation,0.85
+CTRL01,Engineering,Control Systems Engineering,Programming (MATLAB/Python),0.9
+CTRL01,Engineering,Control Systems Engineering,Testing and Validation,0.9
+CTRL01,Engineering,Control Systems Engineering,Project Management,0.8
+CTRL01,Engineering,Control Systems Engineering,Technical Documentation,0.8
+CTRL01,Engineering,Control Systems Engineering,Problem Solving,0.95
+PWR01,Engineering,Power Systems Engineering,Power Generation Systems,0.95
+PWR01,Engineering,Power Systems Engineering,Power Distribution Networks,0.95
+PWR01,Engineering,Power Systems Engineering,Electrical Machines,0.9
+PWR01,Engineering,Power Systems Engineering,Smart Grid Systems,0.9
+PWR01,Engineering,Power Systems Engineering,Renewable Energy Integration,0.9
+PWR01,Engineering,Power Systems Engineering,Protection Systems,0.9
+PWR01,Engineering,Power Systems Engineering,Load Flow Analysis,0.9
+PWR01,Engineering,Power Systems Engineering,High Voltage Engineering,0.9
+PWR01,Engineering,Power Systems Engineering,Energy Storage Systems,0.85
+PWR01,Engineering,Power Systems Engineering,Safety Standards,0.9
+PWR01,Engineering,Power Systems Engineering,Regulatory Compliance,0.85
+PWR01,Engineering,Power Systems Engineering,Project Management,0.8
+PWR01,Engineering,Power Systems Engineering,Technical Reporting,0.8
+PWR01,Engineering,Power Systems Engineering,Quality Control,0.8
+PWR01,Engineering,Power Systems Engineering,Problem Solving,0.9
+REN01,Engineering,Renewable Energy Engineering,Solar Energy Systems,0.95
+REN01,Engineering,Renewable Energy Engineering,Wind Energy Systems,0.95
+REN01,Engineering,Renewable Energy Engineering,Energy Storage Technologies,0.9
+REN01,Engineering,Renewable Energy Engineering,Energy Efficiency Analysis,0.9
+REN01,Engineering,Renewable Energy Engineering,Power Electronics,0.9
+REN01,Engineering,Renewable Energy Engineering,Sustainability Engineering,0.95
+REN01,Engineering,Renewable Energy Engineering,Smart Grid Systems,0.85
+REN01,Engineering,Renewable Energy Engineering,Environmental Compliance,0.85
+REN01,Engineering,Renewable Energy Engineering,Project Management,0.85
+REN01,Engineering,Renewable Energy Engineering,Data Analysis,0.8
+REN01,Engineering,Renewable Energy Engineering,Risk Assessment,0.85
+REN01,Engineering,Renewable Energy Engineering,System Optimization,0.9
+REN01,Engineering,Renewable Energy Engineering,Technical Documentation,0.8
+REN01,Engineering,Renewable Energy Engineering,Safety Standards,0.9
+REN01,Engineering,Renewable Energy Engineering,Problem Solving,0.9
+MAN01,Engineering,Manufacturing Engineering,Manufacturing Processes,0.95
+MAN01,Engineering,Manufacturing Engineering,Lean Manufacturing,0.9
+MAN01,Engineering,Manufacturing Engineering,Process Optimization,0.95
+MAN01,Engineering,Manufacturing Engineering,Quality Control Systems,0.9
+MAN01,Engineering,Manufacturing Engineering,Industrial Automation,0.9
+MAN01,Engineering,Manufacturing Engineering,CAD/CAM Systems,0.9
+MAN01,Engineering,Manufacturing Engineering,Production Planning,0.9
+MAN01,Engineering,Manufacturing Engineering,Supply Chain Management,0.85
+MAN01,Engineering,Manufacturing Engineering,Cost Analysis,0.85
+MAN01,Engineering,Manufacturing Engineering,Project Management,0.85
+MAN01,Engineering,Manufacturing Engineering,Safety Standards,0.9
+MAN01,Engineering,Manufacturing Engineering,Maintenance Engineering,0.85
+MAN01,Engineering,Manufacturing Engineering,Statistical Process Control,0.9
+MAN01,Engineering,Manufacturing Engineering,Technical Documentation,0.8
+MAN01,Engineering,Manufacturing Engineering,Problem Solving,0.95
+CON01,Engineering,Construction Engineering,Construction Management,0.95
+CON01,Engineering,Construction Engineering,Project Scheduling,0.9
+CON01,Engineering,Construction Engineering,Cost Estimation,0.9
+CON01,Engineering,Construction Engineering,Building Codes and Standards,0.9
+CON01,Engineering,Construction Engineering,Structural Design Basics,0.85
+CON01,Engineering,Construction Engineering,Site Supervision,0.9
+CON01,Engineering,Construction Engineering,Quality Assurance,0.85
+CON01,Engineering,Construction Engineering,Risk Management,0.85
+CON01,Engineering,Construction Engineering,Contract Management,0.9
+CON01,Engineering,Construction Engineering,Safety Standards,0.95
+CON01,Engineering,Construction Engineering,AutoCAD,0.85
+CON01,Engineering,Construction Engineering,Communication,0.85
+CON01,Engineering,Construction Engineering,Time Management,0.85
+CON01,Engineering,Construction Engineering,Technical Documentation,0.8
+CON01,Engineering,Construction Engineering,Problem Solving,0.9
+MAR01,Engineering,Marine Engineering,Marine Propulsion Systems,0.95
+MAR01,Engineering,Marine Engineering,Naval Architecture Basics,0.9
+MAR01,Engineering,Marine Engineering,Ship Design,0.9
+MAR01,Engineering,Marine Engineering,Thermodynamics,0.85
+MAR01,Engineering,Marine Engineering,Fluid Mechanics,0.9
+MAR01,Engineering,Marine Engineering,Power Systems,0.9
+MAR01,Engineering,Marine Engineering,Marine Safety Standards,0.95
+MAR01,Engineering,Marine Engineering,Maintenance Engineering,0.9
+MAR01,Engineering,Marine Engineering,Hydrodynamics,0.9
+MAR01,Engineering,Marine Engineering,Project Management,0.85
+MAR01,Engineering,Marine Engineering,Quality Control,0.85
+MAR01,Engineering,Marine Engineering,Risk Assessment,0.85
+MAR01,Engineering,Marine Engineering,Technical Documentation,0.8
+MAR01,Engineering,Marine Engineering,Communication,0.8
+MAR01,Engineering,Marine Engineering,Problem Solving,0.9
+NUC01,Engineering,Nuclear Engineering,Nuclear Reactor Physics,0.95
+NUC01,Engineering,Nuclear Engineering,Radiation Protection,0.95
+NUC01,Engineering,Nuclear Engineering,Nuclear Safety Engineering,0.95
+NUC01,Engineering,Nuclear Engineering,Thermodynamics,0.9
+NUC01,Engineering,Nuclear Engineering,Fluid Mechanics,0.9
+NUC01,Engineering,Nuclear Engineering,Heat Transfer,0.9
+NUC01,Engineering,Nuclear Engineering,Energy Systems,0.9
+NUC01,Engineering,Nuclear Engineering,Risk Assessment,0.9
+NUC01,Engineering,Nuclear Engineering,Regulatory Compliance,0.9
+NUC01,Engineering,Nuclear Engineering,Project Management,0.85
+NUC01,Engineering,Nuclear Engineering,Quality Assurance,0.85
+NUC01,Engineering,Nuclear Engineering,Engineering Mathematics,0.9
+NUC01,Engineering,Nuclear Engineering,Physics,0.95
+NUC01,Engineering,Nuclear Engineering,Technical Documentation,0.8
+NUC01,Engineering,Nuclear Engineering,Problem Solving,0.9
+SYS01,Engineering,Systems Engineering,System Modeling,0.95
+SYS01,Engineering,Systems Engineering,System Architecture Design,0.95
+SYS01,Engineering,Systems Engineering,Requirements Engineering,0.9
+SYS01,Engineering,Systems Engineering,Integration Testing,0.9
+SYS01,Engineering,Systems Engineering,Risk Management,0.9
+SYS01,Engineering,Systems Engineering,Project Management,0.95
+SYS01,Engineering,Systems Engineering,Process Optimization,0.9
+SYS01,Engineering,Systems Engineering,Decision Analysis,0.9
+SYS01,Engineering,Systems Engineering,Data Analysis,0.85
+SYS01,Engineering,Systems Engineering,Quality Control Systems,0.9
+SYS01,Engineering,Systems Engineering,Automation Systems,0.85
+SYS01,Engineering,Systems Engineering,Technical Documentation,0.85
+SYS01,Engineering,Systems Engineering,Communication,0.85
+SYS01,Engineering,Systems Engineering,Strategic Planning,0.9
+SYS01,Engineering,Systems Engineering,Problem Solving,0.95

@@ -1,0 +1,21 @@
+career_id,career_sector,career_name,skill_name,skill_weight
+DA01,IT,Data Analyst,Python,0.9
+DA01,IT,Data Analyst,SQL,0.9
+DA01,IT,Data Analyst,Statistics,0.85
+DA01,IT,Data Analyst,Data Cleaning,0.9
+DA01,IT,Data Analyst,Exploratory Data Analysis,0.85
+DA01,IT,Data Analyst,Data Visualization,0.85
+DA01,IT,Data Analyst,Excel,0.8
+DA01,IT,Data Analyst,Power BI,0.7
+DA01,IT,Data Analyst,Tableau,0.7
+DA01,IT,Data Analyst,Data Wrangling,0.8
+DA01,IT,Data Analyst,Database Design,0.75
+DA01,IT,Data Analyst,Data Interpretation,0.85
+DA01,IT,Data Analyst,Communication,0.75
+DA01,IT,Data Analyst,Reporting,0.8
+DA01,IT,Data Analyst,Descriptive Statistics,0.8
+DA01,IT,Data Analyst,Business Understanding,0.7
+DA01,IT,Data Analyst,Data Ethics,0.65
+DA01,IT,Data Analyst,Data Querying,0.85
+DA01,IT,Data Analyst,Problem Solving,0.8
+DA01,IT,Data Analyst,Dashboard Design,0.75

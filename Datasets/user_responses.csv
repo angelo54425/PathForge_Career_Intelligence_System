@@ -1,0 +1,7 @@
+user_id,question_id,is_correct
+U001,Q1,1
+U001,Q2,1
+U001,Q3,0
+U001,Q4,1
+U001,Q5,0
+U001,Q6,1

@@ -1,0 +1,7 @@
+question_id,career_id,project_section,question_text,option_a,option_b,option_c,correct_option,explanation
+Q1,DA01,Data Loading,Which library is commonly used to read CSV files in Python?,pandas,json,os,A,Pandas provides the read_csv function for loading tabular data.
+Q2,DA01,Data Loading,What format is best for structured tabular data?,CSV,TXT,PNG,A,CSV is widely used for structured datasets.
+Q3,DA01,Data Preprocessing,Which step removes missing values?,dropna(),merge(),groupby(),A,dropna removes rows with missing values.
+Q4,DA01,Data Preprocessing,Why is data cleaning important?,Improve model accuracy,Increase file size,Change labels,A,Clean data leads to better analysis results.
+Q5,DA01,Analysis,What does EDA stand for?,Exploratory Data Analysis,External Data Access,Efficient Data Allocation,A,EDA helps understand patterns in data.
+Q6,DA01,Analysis,Which plot shows distributions?,Histogram,Scatter,Line,A,Histograms show frequency distributions.

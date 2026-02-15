@@ -1,0 +1,1823 @@
+program_id,program_name,university,region,skill_name,coverage_score
+P0001,BSc Computer Science,Kyambogo University,Uganda,HTML,0.53
+P0001,BSc Computer Science,Kyambogo University,Uganda,CSS,0.74
+P0001,BSc Computer Science,Kyambogo University,Uganda,JavaScript,0.71
+P0001,BSc Computer Science,Kyambogo University,Uganda,React,0.48
+P0001,BSc Computer Science,Kyambogo University,Uganda,Node.js,0.58
+P0001,BSc Computer Science,Kyambogo University,Uganda,Express.js,0.71
+P0001,BSc Computer Science,Kyambogo University,Uganda,REST APIs,0.59
+P0001,BSc Computer Science,Kyambogo University,Uganda,Database Design,0.74
+P0001,BSc Computer Science,Kyambogo University,Uganda,SQL,0.78
+P0001,BSc Computer Science,Kyambogo University,Uganda,Authentication,0.64
+P0001,BSc Computer Science,Kyambogo University,Uganda,Version Control,0.76
+P0001,BSc Computer Science,Kyambogo University,Uganda,Git,0.54
+P0001,BSc Computer Science,Kyambogo University,Uganda,Testing,0.54
+P0001,BSc Computer Science,Kyambogo University,Uganda,Deployment,0.68
+P0001,BSc Computer Science,Kyambogo University,Uganda,Cloud Services,0.66
+P0001,BSc Computer Science,Kyambogo University,Uganda,Security Best Practices,0.77
+P0001,BSc Computer Science,Kyambogo University,Uganda,UI Design Principles,0.76
+P0001,BSc Computer Science,Kyambogo University,Uganda,Debugging,0.53
+P0001,BSc Computer Science,Kyambogo University,Uganda,Responsive Design,0.77
+P0001,BSc Computer Science,Kyambogo University,Uganda,Problem Solving,0.52
+P0001,BSc Computer Science,Kyambogo University,Uganda,Python,0.49
+P0001,BSc Computer Science,Kyambogo University,Uganda,Machine Learning,0.82
+P0001,BSc Computer Science,Kyambogo University,Uganda,Deep Learning,0.62
+P0001,BSc Computer Science,Kyambogo University,Uganda,Neural Networks,0.69
+P0001,BSc Computer Science,Kyambogo University,Uganda,Natural Language Processing,0.7
+P0001,BSc Computer Science,Kyambogo University,Uganda,Computer Vision,0.58
+P0001,BSc Computer Science,Kyambogo University,Uganda,Model Deployment,0.59
+P0001,BSc Computer Science,Kyambogo University,Uganda,Cloud ML Services,0.67
+P0001,BSc Computer Science,Kyambogo University,Uganda,TensorFlow,0.73
+P0001,BSc Computer Science,Kyambogo University,Uganda,PyTorch,0.51
+P0001,BSc Computer Science,Kyambogo University,Uganda,Data Engineering,0.5
+P0001,BSc Computer Science,Kyambogo University,Uganda,Model Evaluation,0.78
+P0001,BSc Computer Science,Kyambogo University,Uganda,Feature Engineering,0.52
+P0001,BSc Computer Science,Kyambogo University,Uganda,Optimization Techniques,0.52
+P0001,BSc Computer Science,Kyambogo University,Uganda,Linear Algebra,0.68
+P0001,BSc Computer Science,Kyambogo University,Uganda,Probability Theory,0.5
+P0001,BSc Computer Science,Kyambogo University,Uganda,Big Data Tools,0.72
+P0001,BSc Computer Science,Kyambogo University,Uganda,APIs,0.53
+P0001,BSc Computer Science,Kyambogo University,Uganda,Research Skills,0.51
+P0001,BSc Computer Science,Kyambogo University,Uganda,Solidity,0.74
+P0001,BSc Computer Science,Kyambogo University,Uganda,Smart Contracts,0.67
+P0001,BSc Computer Science,Kyambogo University,Uganda,Ethereum,0.67
+P0001,BSc Computer Science,Kyambogo University,Uganda,Web3.js,0.74
+P0001,BSc Computer Science,Kyambogo University,Uganda,Cryptography,0.67
+P0001,BSc Computer Science,Kyambogo University,Uganda,Distributed Systems,0.75
+P0001,BSc Computer Science,Kyambogo University,Uganda,Consensus Algorithms,0.63
+P0001,BSc Computer Science,Kyambogo University,Uganda,Token Standards,0.49
+P0001,BSc Computer Science,Kyambogo University,Uganda,DeFi Concepts,0.64
+P0001,BSc Computer Science,Kyambogo University,Uganda,Security Auditing,0.76
+P0001,BSc Computer Science,Kyambogo University,Uganda,Gas Optimization,0.51
+P0001,BSc Computer Science,Kyambogo University,Uganda,Smart Contract Testing,0.53
+P0001,BSc Computer Science,Kyambogo University,Uganda,IPFS,0.49
+P0001,BSc Computer Science,Kyambogo University,Uganda,Blockchain Architecture,0.52
+P0001,BSc Computer Science,Kyambogo University,Uganda,Backend Integration,0.73
+P0001,BSc Computer Science,Kyambogo University,Uganda,Tokenomics,0.79
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,HTML,0.65
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,CSS,0.59
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,JavaScript,0.72
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,React,0.74
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Node.js,0.76
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Express.js,0.47
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,REST APIs,0.81
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Database Design,0.67
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,SQL,0.74
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Authentication,0.79
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Version Control,0.51
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Git,0.49
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Testing,0.65
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Deployment,0.72
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Cloud Services,0.63
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Security Best Practices,0.71
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,UI Design Principles,0.47
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Debugging,0.53
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Responsive Design,0.62
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Problem Solving,0.53
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Python,0.82
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Machine Learning,0.54
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Deep Learning,0.68
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Neural Networks,0.5
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Natural Language Processing,0.49
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Computer Vision,0.61
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Model Deployment,0.77
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Cloud ML Services,0.59
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,TensorFlow,0.48
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,PyTorch,0.72
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Engineering,0.52
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Model Evaluation,0.8
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Feature Engineering,0.49
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Optimization Techniques,0.53
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Linear Algebra,0.81
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Probability Theory,0.53
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Big Data Tools,0.77
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,APIs,0.59
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Research Skills,0.77
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Solidity,0.63
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Smart Contracts,0.77
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Ethereum,0.76
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Web3.js,0.69
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Cryptography,0.8
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Distributed Systems,0.66
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Consensus Algorithms,0.79
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Token Standards,0.81
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,DeFi Concepts,0.48
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Security Auditing,0.58
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Gas Optimization,0.66
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Smart Contract Testing,0.72
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,IPFS,0.56
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Blockchain Architecture,0.78
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Backend Integration,0.63
+P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania,Tokenomics,0.55
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,HTML,0.78
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,CSS,0.82
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,JavaScript,0.83
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,React,0.68
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Node.js,0.77
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Express.js,0.78
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,REST APIs,0.84
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Database Design,0.73
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,SQL,0.67
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Authentication,0.68
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Version Control,0.88
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Git,0.75
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Testing,0.75
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Deployment,0.76
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Cloud Services,0.65
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Security Best Practices,0.73
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,UI Design Principles,0.72
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Debugging,0.84
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Responsive Design,0.7
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Problem Solving,0.72
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Python,0.89
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Machine Learning,0.75
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Deep Learning,0.8
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Neural Networks,0.73
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Natural Language Processing,0.77
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Computer Vision,0.81
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Model Deployment,0.69
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Cloud ML Services,0.73
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,TensorFlow,0.89
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,PyTorch,0.75
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Data Engineering,0.81
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Model Evaluation,0.77
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Feature Engineering,0.73
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Optimization Techniques,0.71
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Linear Algebra,0.68
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Probability Theory,0.83
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Big Data Tools,0.85
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,APIs,0.83
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Research Skills,0.85
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Solidity,0.7
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Smart Contracts,0.85
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Ethereum,0.84
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Web3.js,0.75
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Cryptography,0.78
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Distributed Systems,0.87
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Consensus Algorithms,0.88
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Token Standards,0.77
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,DeFi Concepts,0.84
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Security Auditing,0.77
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Gas Optimization,0.83
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Smart Contract Testing,0.84
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,IPFS,0.67
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Blockchain Architecture,0.8
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Backend Integration,0.67
+P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda,Tokenomics,0.76
+P0004,BSc Computer Science,University of Kigali,Rwanda,HTML,0.71
+P0004,BSc Computer Science,University of Kigali,Rwanda,CSS,0.56
+P0004,BSc Computer Science,University of Kigali,Rwanda,JavaScript,0.53
+P0004,BSc Computer Science,University of Kigali,Rwanda,React,0.59
+P0004,BSc Computer Science,University of Kigali,Rwanda,Node.js,0.51
+P0004,BSc Computer Science,University of Kigali,Rwanda,Express.js,0.57
+P0004,BSc Computer Science,University of Kigali,Rwanda,REST APIs,0.48
+P0004,BSc Computer Science,University of Kigali,Rwanda,Database Design,0.49
+P0004,BSc Computer Science,University of Kigali,Rwanda,SQL,0.74
+P0004,BSc Computer Science,University of Kigali,Rwanda,Authentication,0.55
+P0004,BSc Computer Science,University of Kigali,Rwanda,Version Control,0.8
+P0004,BSc Computer Science,University of Kigali,Rwanda,Git,0.75
+P0004,BSc Computer Science,University of Kigali,Rwanda,Testing,0.54
+P0004,BSc Computer Science,University of Kigali,Rwanda,Deployment,0.61
+P0004,BSc Computer Science,University of Kigali,Rwanda,Cloud Services,0.58
+P0004,BSc Computer Science,University of Kigali,Rwanda,Security Best Practices,0.51
+P0004,BSc Computer Science,University of Kigali,Rwanda,UI Design Principles,0.58
+P0004,BSc Computer Science,University of Kigali,Rwanda,Debugging,0.74
+P0004,BSc Computer Science,University of Kigali,Rwanda,Responsive Design,0.56
+P0004,BSc Computer Science,University of Kigali,Rwanda,Problem Solving,0.52
+P0004,BSc Computer Science,University of Kigali,Rwanda,Python,0.7
+P0004,BSc Computer Science,University of Kigali,Rwanda,Machine Learning,0.64
+P0004,BSc Computer Science,University of Kigali,Rwanda,Deep Learning,0.76
+P0004,BSc Computer Science,University of Kigali,Rwanda,Neural Networks,0.78
+P0004,BSc Computer Science,University of Kigali,Rwanda,Natural Language Processing,0.79
+P0004,BSc Computer Science,University of Kigali,Rwanda,Computer Vision,0.51
+P0004,BSc Computer Science,University of Kigali,Rwanda,Model Deployment,0.75
+P0004,BSc Computer Science,University of Kigali,Rwanda,Cloud ML Services,0.57
+P0004,BSc Computer Science,University of Kigali,Rwanda,TensorFlow,0.49
+P0004,BSc Computer Science,University of Kigali,Rwanda,PyTorch,0.49
+P0004,BSc Computer Science,University of Kigali,Rwanda,Data Engineering,0.75
+P0004,BSc Computer Science,University of Kigali,Rwanda,Model Evaluation,0.79
+P0004,BSc Computer Science,University of Kigali,Rwanda,Feature Engineering,0.67
+P0004,BSc Computer Science,University of Kigali,Rwanda,Optimization Techniques,0.56
+P0004,BSc Computer Science,University of Kigali,Rwanda,Linear Algebra,0.68
+P0004,BSc Computer Science,University of Kigali,Rwanda,Probability Theory,0.65
+P0004,BSc Computer Science,University of Kigali,Rwanda,Big Data Tools,0.64
+P0004,BSc Computer Science,University of Kigali,Rwanda,APIs,0.68
+P0004,BSc Computer Science,University of Kigali,Rwanda,Research Skills,0.59
+P0004,BSc Computer Science,University of Kigali,Rwanda,Solidity,0.58
+P0004,BSc Computer Science,University of Kigali,Rwanda,Smart Contracts,0.66
+P0004,BSc Computer Science,University of Kigali,Rwanda,Ethereum,0.7
+P0004,BSc Computer Science,University of Kigali,Rwanda,Web3.js,0.51
+P0004,BSc Computer Science,University of Kigali,Rwanda,Cryptography,0.64
+P0004,BSc Computer Science,University of Kigali,Rwanda,Distributed Systems,0.78
+P0004,BSc Computer Science,University of Kigali,Rwanda,Consensus Algorithms,0.74
+P0004,BSc Computer Science,University of Kigali,Rwanda,Token Standards,0.52
+P0004,BSc Computer Science,University of Kigali,Rwanda,DeFi Concepts,0.71
+P0004,BSc Computer Science,University of Kigali,Rwanda,Security Auditing,0.78
+P0004,BSc Computer Science,University of Kigali,Rwanda,Gas Optimization,0.79
+P0004,BSc Computer Science,University of Kigali,Rwanda,Smart Contract Testing,0.67
+P0004,BSc Computer Science,University of Kigali,Rwanda,IPFS,0.8
+P0004,BSc Computer Science,University of Kigali,Rwanda,Blockchain Architecture,0.72
+P0004,BSc Computer Science,University of Kigali,Rwanda,Backend Integration,0.73
+P0004,BSc Computer Science,University of Kigali,Rwanda,Tokenomics,0.79
+P0005,BSc Information Technology,University of Kigali,Rwanda,CI/CD Pipelines,0.8
+P0005,BSc Information Technology,University of Kigali,Rwanda,Docker,0.8
+P0005,BSc Information Technology,University of Kigali,Rwanda,Kubernetes,0.55
+P0005,BSc Information Technology,University of Kigali,Rwanda,Cloud Computing,0.77
+P0005,BSc Information Technology,University of Kigali,Rwanda,AWS,0.68
+P0005,BSc Information Technology,University of Kigali,Rwanda,Azure,0.64
+P0005,BSc Information Technology,University of Kigali,Rwanda,Infrastructure as Code,0.51
+P0005,BSc Information Technology,University of Kigali,Rwanda,Troubleshooting,0.66
+P0005,BSc Information Technology,University of Kigali,Rwanda,Monitoring Tools,0.54
+P0005,BSc Information Technology,University of Kigali,Rwanda,Linux Administration,0.71
+P0005,BSc Information Technology,University of Kigali,Rwanda,Networking,0.51
+P0005,BSc Information Technology,University of Kigali,Rwanda,Scripting,0.52
+P0005,BSc Information Technology,University of Kigali,Rwanda,Version Control,0.75
+P0005,BSc Information Technology,University of Kigali,Rwanda,Automation,0.64
+P0005,BSc Information Technology,University of Kigali,Rwanda,Security Practices,0.79
+P0005,BSc Information Technology,University of Kigali,Rwanda,Logging Systems,0.67
+P0005,BSc Information Technology,University of Kigali,Rwanda,Container Orchestration,0.73
+P0005,BSc Information Technology,University of Kigali,Rwanda,DevSecOps,0.73
+P0005,BSc Information Technology,University of Kigali,Rwanda,Performance Optimization,0.72
+P0005,BSc Information Technology,University of Kigali,Rwanda,Problem Solving,0.59
+P0005,BSc Information Technology,University of Kigali,Rwanda,Network Security,0.64
+P0005,BSc Information Technology,University of Kigali,Rwanda,Penetration Testing,0.5
+P0005,BSc Information Technology,University of Kigali,Rwanda,Cryptography,0.63
+P0005,BSc Information Technology,University of Kigali,Rwanda,Ethical Hacking,0.5
+P0005,BSc Information Technology,University of Kigali,Rwanda,Firewalls,0.74
+P0005,BSc Information Technology,University of Kigali,Rwanda,Intrusion Detection,0.55
+P0005,BSc Information Technology,University of Kigali,Rwanda,Risk Assessment,0.55
+P0005,BSc Information Technology,University of Kigali,Rwanda,Security Auditing,0.63
+P0005,BSc Information Technology,University of Kigali,Rwanda,Incident Response,0.6
+P0005,BSc Information Technology,University of Kigali,Rwanda,Operating Systems,0.7
+P0005,BSc Information Technology,University of Kigali,Rwanda,Security Policies,0.48
+P0005,BSc Information Technology,University of Kigali,Rwanda,Cloud Security,0.67
+P0005,BSc Information Technology,University of Kigali,Rwanda,Vulnerability Assessment,0.76
+P0005,BSc Information Technology,University of Kigali,Rwanda,Malware Analysis,0.72
+P0005,BSc Information Technology,University of Kigali,Rwanda,Compliance Standards,0.63
+P0005,BSc Information Technology,University of Kigali,Rwanda,Encryption Techniques,0.48
+P0005,BSc Information Technology,University of Kigali,Rwanda,Threat Modeling,0.8
+P0005,BSc Information Technology,University of Kigali,Rwanda,SIEM Tools,0.52
+P0005,BSc Information Technology,University of Kigali,Rwanda,Python,0.53
+P0005,BSc Information Technology,University of Kigali,Rwanda,SQL,0.5
+P0005,BSc Information Technology,University of Kigali,Rwanda,Statistics,0.66
+P0005,BSc Information Technology,University of Kigali,Rwanda,Data Cleaning,0.68
+P0005,BSc Information Technology,University of Kigali,Rwanda,Exploratory Data Analysis,0.56
+P0005,BSc Information Technology,University of Kigali,Rwanda,Data Visualization,0.71
+P0005,BSc Information Technology,University of Kigali,Rwanda,Excel,0.63
+P0005,BSc Information Technology,University of Kigali,Rwanda,Power BI,0.6
+P0005,BSc Information Technology,University of Kigali,Rwanda,Tableau,0.76
+P0005,BSc Information Technology,University of Kigali,Rwanda,Data Wrangling,0.77
+P0005,BSc Information Technology,University of Kigali,Rwanda,Database Design,0.73
+P0005,BSc Information Technology,University of Kigali,Rwanda,Data Interpretation,0.7
+P0005,BSc Information Technology,University of Kigali,Rwanda,Communication,0.63
+P0005,BSc Information Technology,University of Kigali,Rwanda,Reporting,0.49
+P0005,BSc Information Technology,University of Kigali,Rwanda,Descriptive Statistics,0.75
+P0005,BSc Information Technology,University of Kigali,Rwanda,Business Understanding,0.49
+P0005,BSc Information Technology,University of Kigali,Rwanda,Data Ethics,0.74
+P0005,BSc Information Technology,University of Kigali,Rwanda,Data Querying,0.6
+P0005,BSc Information Technology,University of Kigali,Rwanda,Dashboard Design,0.63
+P0006,BSc Information Technology,Ardhi University,Tanzania,CI/CD Pipelines,0.5
+P0006,BSc Information Technology,Ardhi University,Tanzania,Docker,0.63
+P0006,BSc Information Technology,Ardhi University,Tanzania,Kubernetes,0.53
+P0006,BSc Information Technology,Ardhi University,Tanzania,Cloud Computing,0.62
+P0006,BSc Information Technology,Ardhi University,Tanzania,AWS,0.65
+P0006,BSc Information Technology,Ardhi University,Tanzania,Azure,0.66
+P0006,BSc Information Technology,Ardhi University,Tanzania,Infrastructure as Code,0.68
+P0006,BSc Information Technology,Ardhi University,Tanzania,Troubleshooting,0.76
+P0006,BSc Information Technology,Ardhi University,Tanzania,Monitoring Tools,0.68
+P0006,BSc Information Technology,Ardhi University,Tanzania,Linux Administration,0.74
+P0006,BSc Information Technology,Ardhi University,Tanzania,Networking,0.56
+P0006,BSc Information Technology,Ardhi University,Tanzania,Scripting,0.66
+P0006,BSc Information Technology,Ardhi University,Tanzania,Version Control,0.48
+P0006,BSc Information Technology,Ardhi University,Tanzania,Automation,0.78
+P0006,BSc Information Technology,Ardhi University,Tanzania,Security Practices,0.5
+P0006,BSc Information Technology,Ardhi University,Tanzania,Logging Systems,0.6
+P0006,BSc Information Technology,Ardhi University,Tanzania,Container Orchestration,0.79
+P0006,BSc Information Technology,Ardhi University,Tanzania,DevSecOps,0.69
+P0006,BSc Information Technology,Ardhi University,Tanzania,Performance Optimization,0.81
+P0006,BSc Information Technology,Ardhi University,Tanzania,Problem Solving,0.71
+P0006,BSc Information Technology,Ardhi University,Tanzania,Network Security,0.82
+P0006,BSc Information Technology,Ardhi University,Tanzania,Penetration Testing,0.7
+P0006,BSc Information Technology,Ardhi University,Tanzania,Cryptography,0.78
+P0006,BSc Information Technology,Ardhi University,Tanzania,Ethical Hacking,0.58
+P0006,BSc Information Technology,Ardhi University,Tanzania,Firewalls,0.8
+P0006,BSc Information Technology,Ardhi University,Tanzania,Intrusion Detection,0.6
+P0006,BSc Information Technology,Ardhi University,Tanzania,Risk Assessment,0.55
+P0006,BSc Information Technology,Ardhi University,Tanzania,Security Auditing,0.65
+P0006,BSc Information Technology,Ardhi University,Tanzania,Incident Response,0.68
+P0006,BSc Information Technology,Ardhi University,Tanzania,Operating Systems,0.79
+P0006,BSc Information Technology,Ardhi University,Tanzania,Security Policies,0.76
+P0006,BSc Information Technology,Ardhi University,Tanzania,Cloud Security,0.64
+P0006,BSc Information Technology,Ardhi University,Tanzania,Vulnerability Assessment,0.77
+P0006,BSc Information Technology,Ardhi University,Tanzania,Malware Analysis,0.76
+P0006,BSc Information Technology,Ardhi University,Tanzania,Compliance Standards,0.65
+P0006,BSc Information Technology,Ardhi University,Tanzania,Encryption Techniques,0.79
+P0006,BSc Information Technology,Ardhi University,Tanzania,Threat Modeling,0.63
+P0006,BSc Information Technology,Ardhi University,Tanzania,SIEM Tools,0.59
+P0006,BSc Information Technology,Ardhi University,Tanzania,Python,0.57
+P0006,BSc Information Technology,Ardhi University,Tanzania,SQL,0.74
+P0006,BSc Information Technology,Ardhi University,Tanzania,Statistics,0.7
+P0006,BSc Information Technology,Ardhi University,Tanzania,Data Cleaning,0.8
+P0006,BSc Information Technology,Ardhi University,Tanzania,Exploratory Data Analysis,0.79
+P0006,BSc Information Technology,Ardhi University,Tanzania,Data Visualization,0.58
+P0006,BSc Information Technology,Ardhi University,Tanzania,Excel,0.57
+P0006,BSc Information Technology,Ardhi University,Tanzania,Power BI,0.5
+P0006,BSc Information Technology,Ardhi University,Tanzania,Tableau,0.56
+P0006,BSc Information Technology,Ardhi University,Tanzania,Data Wrangling,0.78
+P0006,BSc Information Technology,Ardhi University,Tanzania,Database Design,0.75
+P0006,BSc Information Technology,Ardhi University,Tanzania,Data Interpretation,0.64
+P0006,BSc Information Technology,Ardhi University,Tanzania,Communication,0.53
+P0006,BSc Information Technology,Ardhi University,Tanzania,Reporting,0.54
+P0006,BSc Information Technology,Ardhi University,Tanzania,Descriptive Statistics,0.49
+P0006,BSc Information Technology,Ardhi University,Tanzania,Business Understanding,0.56
+P0006,BSc Information Technology,Ardhi University,Tanzania,Data Ethics,0.72
+P0006,BSc Information Technology,Ardhi University,Tanzania,Data Querying,0.55
+P0006,BSc Information Technology,Ardhi University,Tanzania,Dashboard Design,0.73
+P0007,BSc Information Technology,United States International University Africa,Kenya,CI/CD Pipelines,0.58
+P0007,BSc Information Technology,United States International University Africa,Kenya,Docker,0.57
+P0007,BSc Information Technology,United States International University Africa,Kenya,Kubernetes,0.56
+P0007,BSc Information Technology,United States International University Africa,Kenya,Cloud Computing,0.77
+P0007,BSc Information Technology,United States International University Africa,Kenya,AWS,0.7
+P0007,BSc Information Technology,United States International University Africa,Kenya,Azure,0.67
+P0007,BSc Information Technology,United States International University Africa,Kenya,Infrastructure as Code,0.67
+P0007,BSc Information Technology,United States International University Africa,Kenya,Troubleshooting,0.72
+P0007,BSc Information Technology,United States International University Africa,Kenya,Monitoring Tools,0.79
+P0007,BSc Information Technology,United States International University Africa,Kenya,Linux Administration,0.59
+P0007,BSc Information Technology,United States International University Africa,Kenya,Networking,0.56
+P0007,BSc Information Technology,United States International University Africa,Kenya,Scripting,0.76
+P0007,BSc Information Technology,United States International University Africa,Kenya,Version Control,0.48
+P0007,BSc Information Technology,United States International University Africa,Kenya,Automation,0.67
+P0007,BSc Information Technology,United States International University Africa,Kenya,Security Practices,0.59
+P0007,BSc Information Technology,United States International University Africa,Kenya,Logging Systems,0.54
+P0007,BSc Information Technology,United States International University Africa,Kenya,Container Orchestration,0.56
+P0007,BSc Information Technology,United States International University Africa,Kenya,DevSecOps,0.65
+P0007,BSc Information Technology,United States International University Africa,Kenya,Performance Optimization,0.59
+P0007,BSc Information Technology,United States International University Africa,Kenya,Problem Solving,0.72
+P0007,BSc Information Technology,United States International University Africa,Kenya,Network Security,0.51
+P0007,BSc Information Technology,United States International University Africa,Kenya,Penetration Testing,0.6
+P0007,BSc Information Technology,United States International University Africa,Kenya,Cryptography,0.56
+P0007,BSc Information Technology,United States International University Africa,Kenya,Ethical Hacking,0.61
+P0007,BSc Information Technology,United States International University Africa,Kenya,Firewalls,0.77
+P0007,BSc Information Technology,United States International University Africa,Kenya,Intrusion Detection,0.76
+P0007,BSc Information Technology,United States International University Africa,Kenya,Risk Assessment,0.77
+P0007,BSc Information Technology,United States International University Africa,Kenya,Security Auditing,0.8
+P0007,BSc Information Technology,United States International University Africa,Kenya,Incident Response,0.62
+P0007,BSc Information Technology,United States International University Africa,Kenya,Operating Systems,0.7
+P0007,BSc Information Technology,United States International University Africa,Kenya,Security Policies,0.61
+P0007,BSc Information Technology,United States International University Africa,Kenya,Cloud Security,0.78
+P0007,BSc Information Technology,United States International University Africa,Kenya,Vulnerability Assessment,0.75
+P0007,BSc Information Technology,United States International University Africa,Kenya,Malware Analysis,0.7
+P0007,BSc Information Technology,United States International University Africa,Kenya,Compliance Standards,0.47
+P0007,BSc Information Technology,United States International University Africa,Kenya,Encryption Techniques,0.71
+P0007,BSc Information Technology,United States International University Africa,Kenya,Threat Modeling,0.79
+P0007,BSc Information Technology,United States International University Africa,Kenya,SIEM Tools,0.71
+P0007,BSc Information Technology,United States International University Africa,Kenya,Python,0.67
+P0007,BSc Information Technology,United States International University Africa,Kenya,SQL,0.59
+P0007,BSc Information Technology,United States International University Africa,Kenya,Statistics,0.79
+P0007,BSc Information Technology,United States International University Africa,Kenya,Data Cleaning,0.66
+P0007,BSc Information Technology,United States International University Africa,Kenya,Exploratory Data Analysis,0.78
+P0007,BSc Information Technology,United States International University Africa,Kenya,Data Visualization,0.78
+P0007,BSc Information Technology,United States International University Africa,Kenya,Excel,0.61
+P0007,BSc Information Technology,United States International University Africa,Kenya,Power BI,0.6
+P0007,BSc Information Technology,United States International University Africa,Kenya,Tableau,0.73
+P0007,BSc Information Technology,United States International University Africa,Kenya,Data Wrangling,0.59
+P0007,BSc Information Technology,United States International University Africa,Kenya,Database Design,0.51
+P0007,BSc Information Technology,United States International University Africa,Kenya,Data Interpretation,0.62
+P0007,BSc Information Technology,United States International University Africa,Kenya,Communication,0.5
+P0007,BSc Information Technology,United States International University Africa,Kenya,Reporting,0.53
+P0007,BSc Information Technology,United States International University Africa,Kenya,Descriptive Statistics,0.57
+P0007,BSc Information Technology,United States International University Africa,Kenya,Business Understanding,0.46
+P0007,BSc Information Technology,United States International University Africa,Kenya,Data Ethics,0.68
+P0007,BSc Information Technology,United States International University Africa,Kenya,Data Querying,0.54
+P0007,BSc Information Technology,United States International University Africa,Kenya,Dashboard Design,0.57
+P0008,BSc Information Technology,University of Nairobi,Kenya,CI/CD Pipelines,0.87
+P0008,BSc Information Technology,University of Nairobi,Kenya,Docker,0.8
+P0008,BSc Information Technology,University of Nairobi,Kenya,Kubernetes,0.81
+P0008,BSc Information Technology,University of Nairobi,Kenya,Cloud Computing,0.69
+P0008,BSc Information Technology,University of Nairobi,Kenya,AWS,0.82
+P0008,BSc Information Technology,University of Nairobi,Kenya,Azure,0.67
+P0008,BSc Information Technology,University of Nairobi,Kenya,Infrastructure as Code,0.73
+P0008,BSc Information Technology,University of Nairobi,Kenya,Troubleshooting,0.86
+P0008,BSc Information Technology,University of Nairobi,Kenya,Monitoring Tools,0.71
+P0008,BSc Information Technology,University of Nairobi,Kenya,Linux Administration,0.68
+P0008,BSc Information Technology,University of Nairobi,Kenya,Networking,0.8
+P0008,BSc Information Technology,University of Nairobi,Kenya,Scripting,0.86
+P0008,BSc Information Technology,University of Nairobi,Kenya,Version Control,0.86
+P0008,BSc Information Technology,University of Nairobi,Kenya,Automation,0.74
+P0008,BSc Information Technology,University of Nairobi,Kenya,Security Practices,0.85
+P0008,BSc Information Technology,University of Nairobi,Kenya,Logging Systems,0.8
+P0008,BSc Information Technology,University of Nairobi,Kenya,Container Orchestration,0.72
+P0008,BSc Information Technology,University of Nairobi,Kenya,DevSecOps,0.67
+P0008,BSc Information Technology,University of Nairobi,Kenya,Performance Optimization,0.71
+P0008,BSc Information Technology,University of Nairobi,Kenya,Problem Solving,0.86
+P0008,BSc Information Technology,University of Nairobi,Kenya,Network Security,0.73
+P0008,BSc Information Technology,University of Nairobi,Kenya,Penetration Testing,0.77
+P0008,BSc Information Technology,University of Nairobi,Kenya,Cryptography,0.84
+P0008,BSc Information Technology,University of Nairobi,Kenya,Ethical Hacking,0.74
+P0008,BSc Information Technology,University of Nairobi,Kenya,Firewalls,0.71
+P0008,BSc Information Technology,University of Nairobi,Kenya,Intrusion Detection,0.83
+P0008,BSc Information Technology,University of Nairobi,Kenya,Risk Assessment,0.7
+P0008,BSc Information Technology,University of Nairobi,Kenya,Security Auditing,0.85
+P0008,BSc Information Technology,University of Nairobi,Kenya,Incident Response,0.74
+P0008,BSc Information Technology,University of Nairobi,Kenya,Operating Systems,0.85
+P0008,BSc Information Technology,University of Nairobi,Kenya,Security Policies,0.8
+P0008,BSc Information Technology,University of Nairobi,Kenya,Cloud Security,0.87
+P0008,BSc Information Technology,University of Nairobi,Kenya,Vulnerability Assessment,0.73
+P0008,BSc Information Technology,University of Nairobi,Kenya,Malware Analysis,0.74
+P0008,BSc Information Technology,University of Nairobi,Kenya,Compliance Standards,0.76
+P0008,BSc Information Technology,University of Nairobi,Kenya,Encryption Techniques,0.86
+P0008,BSc Information Technology,University of Nairobi,Kenya,Threat Modeling,0.73
+P0008,BSc Information Technology,University of Nairobi,Kenya,SIEM Tools,0.85
+P0008,BSc Information Technology,University of Nairobi,Kenya,Python,0.75
+P0008,BSc Information Technology,University of Nairobi,Kenya,SQL,0.78
+P0008,BSc Information Technology,University of Nairobi,Kenya,Statistics,0.71
+P0008,BSc Information Technology,University of Nairobi,Kenya,Data Cleaning,0.82
+P0008,BSc Information Technology,University of Nairobi,Kenya,Exploratory Data Analysis,0.82
+P0008,BSc Information Technology,University of Nairobi,Kenya,Data Visualization,0.84
+P0008,BSc Information Technology,University of Nairobi,Kenya,Excel,0.69
+P0008,BSc Information Technology,University of Nairobi,Kenya,Power BI,0.66
+P0008,BSc Information Technology,University of Nairobi,Kenya,Tableau,0.64
+P0008,BSc Information Technology,University of Nairobi,Kenya,Data Wrangling,0.66
+P0008,BSc Information Technology,University of Nairobi,Kenya,Database Design,0.73
+P0008,BSc Information Technology,University of Nairobi,Kenya,Data Interpretation,0.68
+P0008,BSc Information Technology,University of Nairobi,Kenya,Communication,0.7
+P0008,BSc Information Technology,University of Nairobi,Kenya,Reporting,0.86
+P0008,BSc Information Technology,University of Nairobi,Kenya,Descriptive Statistics,0.76
+P0008,BSc Information Technology,University of Nairobi,Kenya,Business Understanding,0.83
+P0008,BSc Information Technology,University of Nairobi,Kenya,Data Ethics,0.79
+P0008,BSc Information Technology,University of Nairobi,Kenya,Data Querying,0.76
+P0008,BSc Information Technology,University of Nairobi,Kenya,Dashboard Design,0.76
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,HTML,0.57
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,CSS,0.5
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,JavaScript,0.57
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,React,0.74
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Node.js,0.65
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Express.js,0.59
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,REST APIs,0.63
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Database Design,0.58
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,SQL,0.54
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Authentication,0.57
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Version Control,0.53
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Git,0.76
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Testing,0.67
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Deployment,0.54
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Cloud Services,0.72
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Security Best Practices,0.78
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,UI Design Principles,0.71
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Debugging,0.59
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Responsive Design,0.68
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Problem Solving,0.74
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,CI/CD Pipelines,0.69
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Docker,0.67
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Kubernetes,0.58
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Cloud Computing,0.5
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,AWS,0.7
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Azure,0.55
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Infrastructure as Code,0.64
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Troubleshooting,0.71
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Monitoring Tools,0.74
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Linux Administration,0.52
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Networking,0.73
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Scripting,0.63
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Automation,0.76
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Security Practices,0.72
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Logging Systems,0.74
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Container Orchestration,0.6
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,DevSecOps,0.58
+P0009,BSc Software Engineering,Uganda Martyrs University,Uganda,Performance Optimization,0.67
+P0010,BSc Software Engineering,University of Kigali,Rwanda,HTML,0.52
+P0010,BSc Software Engineering,University of Kigali,Rwanda,CSS,0.72
+P0010,BSc Software Engineering,University of Kigali,Rwanda,JavaScript,0.49
+P0010,BSc Software Engineering,University of Kigali,Rwanda,React,0.6
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Node.js,0.8
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Express.js,0.47
+P0010,BSc Software Engineering,University of Kigali,Rwanda,REST APIs,0.65
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Database Design,0.51
+P0010,BSc Software Engineering,University of Kigali,Rwanda,SQL,0.72
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Authentication,0.57
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Version Control,0.75
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Git,0.62
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Testing,0.73
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Deployment,0.73
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Cloud Services,0.69
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Security Best Practices,0.55
+P0010,BSc Software Engineering,University of Kigali,Rwanda,UI Design Principles,0.51
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Debugging,0.61
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Responsive Design,0.81
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Problem Solving,0.59
+P0010,BSc Software Engineering,University of Kigali,Rwanda,CI/CD Pipelines,0.56
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Docker,0.62
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Kubernetes,0.57
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Cloud Computing,0.6
+P0010,BSc Software Engineering,University of Kigali,Rwanda,AWS,0.48
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Azure,0.61
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Infrastructure as Code,0.55
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Troubleshooting,0.76
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Monitoring Tools,0.79
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Linux Administration,0.5
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Networking,0.55
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Scripting,0.63
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Automation,0.56
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Security Practices,0.79
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Logging Systems,0.59
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Container Orchestration,0.5
+P0010,BSc Software Engineering,University of Kigali,Rwanda,DevSecOps,0.5
+P0010,BSc Software Engineering,University of Kigali,Rwanda,Performance Optimization,0.61
+P0011,BSc Software Engineering,University of Nairobi,Kenya,HTML,0.74
+P0011,BSc Software Engineering,University of Nairobi,Kenya,CSS,0.71
+P0011,BSc Software Engineering,University of Nairobi,Kenya,JavaScript,0.76
+P0011,BSc Software Engineering,University of Nairobi,Kenya,React,0.79
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Node.js,0.76
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Express.js,0.72
+P0011,BSc Software Engineering,University of Nairobi,Kenya,REST APIs,0.88
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Database Design,0.84
+P0011,BSc Software Engineering,University of Nairobi,Kenya,SQL,0.81
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Authentication,0.72
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Version Control,0.84
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Git,0.86
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Testing,0.66
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Deployment,0.84
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Cloud Services,0.83
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Security Best Practices,0.66
+P0011,BSc Software Engineering,University of Nairobi,Kenya,UI Design Principles,0.79
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Debugging,0.7
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Responsive Design,0.84
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Problem Solving,0.74
+P0011,BSc Software Engineering,University of Nairobi,Kenya,CI/CD Pipelines,0.71
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Docker,0.78
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Kubernetes,0.83
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Cloud Computing,0.76
+P0011,BSc Software Engineering,University of Nairobi,Kenya,AWS,0.88
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Azure,0.84
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Infrastructure as Code,0.88
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Troubleshooting,0.86
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Monitoring Tools,0.74
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Linux Administration,0.68
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Networking,0.7
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Scripting,0.77
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Automation,0.7
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Security Practices,0.7
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Logging Systems,0.88
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Container Orchestration,0.86
+P0011,BSc Software Engineering,University of Nairobi,Kenya,DevSecOps,0.81
+P0011,BSc Software Engineering,University of Nairobi,Kenya,Performance Optimization,0.66
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Python,0.66
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Statistics,0.5
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Machine Learning,0.55
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Cleaning,0.53
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Visualization,0.52
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,SQL,0.73
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Deep Learning,0.51
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Feature Engineering,0.76
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Model Evaluation,0.78
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Wrangling,0.56
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Probability Theory,0.49
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Big Data Tools,0.78
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Experiment Design,0.72
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Communication,0.72
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Ethics,0.59
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Model Deployment,0.73
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Cloud Computing,0.65
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Linear Algebra,0.75
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Optimization,0.57
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Storytelling,0.65
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Exploratory Data Analysis,0.58
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Excel,0.71
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Power BI,0.5
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Tableau,0.79
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Database Design,0.71
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Interpretation,0.76
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Reporting,0.75
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Descriptive Statistics,0.52
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Business Understanding,0.5
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Querying,0.61
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Problem Solving,0.76
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Dashboard Design,0.57
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Neural Networks,0.62
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Natural Language Processing,0.77
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Computer Vision,0.66
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Cloud ML Services,0.51
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,TensorFlow,0.75
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,PyTorch,0.82
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Data Engineering,0.53
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Optimization Techniques,0.76
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,APIs,0.49
+P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania,Research Skills,0.74
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Python,0.51
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Statistics,0.62
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Machine Learning,0.55
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Cleaning,0.63
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Visualization,0.81
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,SQL,0.77
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Deep Learning,0.81
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Feature Engineering,0.68
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Model Evaluation,0.74
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Wrangling,0.64
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Probability Theory,0.78
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Big Data Tools,0.62
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Experiment Design,0.6
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Communication,0.73
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Ethics,0.68
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Model Deployment,0.76
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Cloud Computing,0.63
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Linear Algebra,0.57
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Optimization,0.79
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Storytelling,0.46
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Exploratory Data Analysis,0.49
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Excel,0.71
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Power BI,0.56
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Tableau,0.65
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Database Design,0.69
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Interpretation,0.62
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Reporting,0.51
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Descriptive Statistics,0.6
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Business Understanding,0.7
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Querying,0.78
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Problem Solving,0.59
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Dashboard Design,0.68
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Neural Networks,0.48
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Natural Language Processing,0.74
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Computer Vision,0.66
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Cloud ML Services,0.76
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,TensorFlow,0.61
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,PyTorch,0.68
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Data Engineering,0.63
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Optimization Techniques,0.64
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,APIs,0.63
+P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda,Research Skills,0.65
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Python,0.54
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Statistics,0.79
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Machine Learning,0.59
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Cleaning,0.71
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Visualization,0.53
+P0014,BSc Data Science,Technical University of Kenya,Kenya,SQL,0.78
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Deep Learning,0.79
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Feature Engineering,0.77
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Model Evaluation,0.57
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Wrangling,0.72
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Probability Theory,0.48
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Big Data Tools,0.71
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Experiment Design,0.55
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Communication,0.66
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Ethics,0.73
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Model Deployment,0.57
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Cloud Computing,0.57
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Linear Algebra,0.72
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Optimization,0.6
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Storytelling,0.76
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Exploratory Data Analysis,0.54
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Excel,0.55
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Power BI,0.6
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Tableau,0.64
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Database Design,0.56
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Interpretation,0.75
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Reporting,0.67
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Descriptive Statistics,0.75
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Business Understanding,0.63
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Querying,0.69
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Problem Solving,0.54
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Dashboard Design,0.49
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Neural Networks,0.49
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Natural Language Processing,0.75
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Computer Vision,0.62
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Cloud ML Services,0.47
+P0014,BSc Data Science,Technical University of Kenya,Kenya,TensorFlow,0.62
+P0014,BSc Data Science,Technical University of Kenya,Kenya,PyTorch,0.65
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Data Engineering,0.61
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Optimization Techniques,0.65
+P0014,BSc Data Science,Technical University of Kenya,Kenya,APIs,0.78
+P0014,BSc Data Science,Technical University of Kenya,Kenya,Research Skills,0.56
+P0015,BSc Data Science,Ardhi University,Tanzania,Python,0.71
+P0015,BSc Data Science,Ardhi University,Tanzania,Statistics,0.7
+P0015,BSc Data Science,Ardhi University,Tanzania,Machine Learning,0.65
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Cleaning,0.75
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Visualization,0.72
+P0015,BSc Data Science,Ardhi University,Tanzania,SQL,0.81
+P0015,BSc Data Science,Ardhi University,Tanzania,Deep Learning,0.81
+P0015,BSc Data Science,Ardhi University,Tanzania,Feature Engineering,0.6
+P0015,BSc Data Science,Ardhi University,Tanzania,Model Evaluation,0.5
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Wrangling,0.53
+P0015,BSc Data Science,Ardhi University,Tanzania,Probability Theory,0.57
+P0015,BSc Data Science,Ardhi University,Tanzania,Big Data Tools,0.73
+P0015,BSc Data Science,Ardhi University,Tanzania,Experiment Design,0.48
+P0015,BSc Data Science,Ardhi University,Tanzania,Communication,0.54
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Ethics,0.59
+P0015,BSc Data Science,Ardhi University,Tanzania,Model Deployment,0.71
+P0015,BSc Data Science,Ardhi University,Tanzania,Cloud Computing,0.58
+P0015,BSc Data Science,Ardhi University,Tanzania,Linear Algebra,0.54
+P0015,BSc Data Science,Ardhi University,Tanzania,Optimization,0.68
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Storytelling,0.63
+P0015,BSc Data Science,Ardhi University,Tanzania,Exploratory Data Analysis,0.57
+P0015,BSc Data Science,Ardhi University,Tanzania,Excel,0.74
+P0015,BSc Data Science,Ardhi University,Tanzania,Power BI,0.71
+P0015,BSc Data Science,Ardhi University,Tanzania,Tableau,0.71
+P0015,BSc Data Science,Ardhi University,Tanzania,Database Design,0.47
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Interpretation,0.72
+P0015,BSc Data Science,Ardhi University,Tanzania,Reporting,0.72
+P0015,BSc Data Science,Ardhi University,Tanzania,Descriptive Statistics,0.76
+P0015,BSc Data Science,Ardhi University,Tanzania,Business Understanding,0.49
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Querying,0.53
+P0015,BSc Data Science,Ardhi University,Tanzania,Problem Solving,0.74
+P0015,BSc Data Science,Ardhi University,Tanzania,Dashboard Design,0.53
+P0015,BSc Data Science,Ardhi University,Tanzania,Neural Networks,0.59
+P0015,BSc Data Science,Ardhi University,Tanzania,Natural Language Processing,0.67
+P0015,BSc Data Science,Ardhi University,Tanzania,Computer Vision,0.52
+P0015,BSc Data Science,Ardhi University,Tanzania,Cloud ML Services,0.55
+P0015,BSc Data Science,Ardhi University,Tanzania,TensorFlow,0.55
+P0015,BSc Data Science,Ardhi University,Tanzania,PyTorch,0.72
+P0015,BSc Data Science,Ardhi University,Tanzania,Data Engineering,0.66
+P0015,BSc Data Science,Ardhi University,Tanzania,Optimization Techniques,0.67
+P0015,BSc Data Science,Ardhi University,Tanzania,APIs,0.71
+P0015,BSc Data Science,Ardhi University,Tanzania,Research Skills,0.54
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Python,0.88
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Statistics,0.88
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Machine Learning,0.82
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Cleaning,0.79
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Visualization,0.73
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,SQL,0.7
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Deep Learning,0.75
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Feature Engineering,0.77
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Model Evaluation,0.72
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Wrangling,0.84
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Probability Theory,0.7
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Big Data Tools,0.75
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Experiment Design,0.86
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Communication,0.67
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Ethics,0.68
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Model Deployment,0.84
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Cloud Computing,0.77
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Linear Algebra,0.85
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Optimization,0.76
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Storytelling,0.82
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Exploratory Data Analysis,0.67
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Excel,0.85
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Power BI,0.79
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Tableau,0.69
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Database Design,0.84
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Interpretation,0.8
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Reporting,0.66
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Descriptive Statistics,0.82
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Business Understanding,0.68
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Querying,0.78
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Problem Solving,0.81
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Dashboard Design,0.68
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Neural Networks,0.76
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Natural Language Processing,0.88
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Computer Vision,0.86
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Cloud ML Services,0.86
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,TensorFlow,0.72
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,PyTorch,0.68
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Data Engineering,0.7
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Optimization Techniques,0.81
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,APIs,0.83
+P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda,Research Skills,0.79
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Network Security,0.6
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Penetration Testing,0.54
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Cryptography,0.56
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Ethical Hacking,0.75
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Firewalls,0.57
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Intrusion Detection,0.53
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Risk Assessment,0.72
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Security Auditing,0.49
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Incident Response,0.64
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Operating Systems,0.56
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Networking,0.6
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Scripting,0.76
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Security Policies,0.51
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Cloud Security,0.49
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Vulnerability Assessment,0.53
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Malware Analysis,0.55
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Compliance Standards,0.56
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Encryption Techniques,0.75
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,Threat Modeling,0.55
+P0017,BSc Cybersecurity,Uganda Christian University,Uganda,SIEM Tools,0.61
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Network Security,0.81
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Penetration Testing,0.73
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Cryptography,0.73
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Ethical Hacking,0.87
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Firewalls,0.73
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Intrusion Detection,0.79
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Risk Assessment,0.7
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Security Auditing,0.85
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Incident Response,0.8
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Operating Systems,0.83
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Networking,0.88
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Scripting,0.66
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Security Policies,0.7
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Cloud Security,0.71
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Vulnerability Assessment,0.76
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Malware Analysis,0.88
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Compliance Standards,0.67
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Encryption Techniques,0.89
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,Threat Modeling,0.88
+P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania,SIEM Tools,0.71
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Network Security,0.72
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Penetration Testing,0.7
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Cryptography,0.81
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Ethical Hacking,0.77
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Firewalls,0.57
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Intrusion Detection,0.76
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Risk Assessment,0.74
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Security Auditing,0.64
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Incident Response,0.71
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Operating Systems,0.79
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Networking,0.52
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Scripting,0.75
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Security Policies,0.71
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Cloud Security,0.8
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Vulnerability Assessment,0.81
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Malware Analysis,0.67
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Compliance Standards,0.69
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Encryption Techniques,0.6
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,Threat Modeling,0.77
+P0019,BSc Cybersecurity,University of Kigali,Rwanda,SIEM Tools,0.51
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Python,0.71
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Machine Learning,0.74
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Deep Learning,0.83
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Neural Networks,0.72
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Natural Language Processing,0.83
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Computer Vision,0.74
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Model Deployment,0.72
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Cloud ML Services,0.74
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,TensorFlow,0.73
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,PyTorch,0.8
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Engineering,0.69
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Model Evaluation,0.75
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Feature Engineering,0.76
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Optimization Techniques,0.84
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Linear Algebra,0.74
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Probability Theory,0.8
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Big Data Tools,0.81
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,APIs,0.87
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Research Skills,0.69
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Problem Solving,0.74
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Statistics,0.69
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Cleaning,0.78
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Visualization,0.8
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,SQL,0.72
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Wrangling,0.74
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Experiment Design,0.71
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Communication,0.76
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Ethics,0.7
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Cloud Computing,0.65
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Optimization,0.78
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Storytelling,0.67
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Machine Learning Algorithms,0.77
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Scikit-learn,0.75
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Data Pipelines,0.67
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Cloud Platforms,0.66
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Model Monitoring,0.86
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Version Control,0.69
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Testing,0.76
+P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania,Automation,0.67
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Python,0.74
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Machine Learning,0.76
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Deep Learning,0.76
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Neural Networks,0.71
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Natural Language Processing,0.81
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Computer Vision,0.67
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Model Deployment,0.6
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Cloud ML Services,0.54
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,TensorFlow,0.81
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,PyTorch,0.72
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Engineering,0.62
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Model Evaluation,0.52
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Feature Engineering,0.6
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Optimization Techniques,0.7
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Linear Algebra,0.58
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Probability Theory,0.76
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Big Data Tools,0.57
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,APIs,0.55
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Research Skills,0.7
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Problem Solving,0.51
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Statistics,0.55
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Cleaning,0.77
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Visualization,0.53
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,SQL,0.55
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Wrangling,0.52
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Experiment Design,0.52
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Communication,0.73
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Ethics,0.74
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Cloud Computing,0.78
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Optimization,0.53
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Storytelling,0.51
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Machine Learning Algorithms,0.8
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Scikit-learn,0.63
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Data Pipelines,0.68
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Cloud Platforms,0.64
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Model Monitoring,0.51
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Version Control,0.63
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Testing,0.75
+P0021,BSc Artificial Intelligence,Kyambogo University,Uganda,Automation,0.72
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Python,0.75
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Machine Learning,0.61
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Deep Learning,0.5
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Neural Networks,0.78
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Natural Language Processing,0.79
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Computer Vision,0.73
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Model Deployment,0.77
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Cloud ML Services,0.77
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,TensorFlow,0.55
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,PyTorch,0.69
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Engineering,0.58
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Model Evaluation,0.56
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Feature Engineering,0.53
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Optimization Techniques,0.69
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Linear Algebra,0.72
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Probability Theory,0.53
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Big Data Tools,0.58
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,APIs,0.69
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Research Skills,0.52
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Problem Solving,0.51
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Statistics,0.58
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Cleaning,0.71
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Visualization,0.75
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,SQL,0.51
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Wrangling,0.78
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Experiment Design,0.54
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Communication,0.71
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Ethics,0.64
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Cloud Computing,0.52
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Optimization,0.61
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Storytelling,0.7
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Machine Learning Algorithms,0.65
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Scikit-learn,0.78
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Data Pipelines,0.76
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Cloud Platforms,0.58
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Model Monitoring,0.71
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Version Control,0.65
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Testing,0.71
+P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda,Automation,0.68
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Python,0.81
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Machine Learning,0.83
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Deep Learning,0.69
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Neural Networks,0.7
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Natural Language Processing,0.71
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Computer Vision,0.7
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Model Deployment,0.71
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Cloud ML Services,0.72
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,TensorFlow,0.69
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,PyTorch,0.74
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Engineering,0.87
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Model Evaluation,0.68
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Feature Engineering,0.76
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Optimization Techniques,0.83
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Linear Algebra,0.89
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Probability Theory,0.88
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Big Data Tools,0.68
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,APIs,0.69
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Research Skills,0.76
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Problem Solving,0.86
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Statistics,0.73
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Cleaning,0.85
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Visualization,0.77
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,SQL,0.76
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Wrangling,0.85
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Experiment Design,0.83
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Communication,0.83
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Ethics,0.79
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Cloud Computing,0.67
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Optimization,0.78
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Storytelling,0.66
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Machine Learning Algorithms,0.83
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Scikit-learn,0.69
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Data Pipelines,0.71
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Cloud Platforms,0.79
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Model Monitoring,0.84
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Version Control,0.7
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Testing,0.73
+P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda,Automation,0.7
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Python,0.8
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Machine Learning,0.74
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Deep Learning,0.85
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Neural Networks,0.8
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Natural Language Processing,0.76
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Computer Vision,0.81
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Model Deployment,0.88
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Cloud ML Services,0.83
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,TensorFlow,0.72
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,PyTorch,0.8
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Engineering,0.83
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Model Evaluation,0.68
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Feature Engineering,0.78
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Optimization Techniques,0.78
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Linear Algebra,0.88
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Probability Theory,0.75
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Big Data Tools,0.85
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,APIs,0.81
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Research Skills,0.88
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Problem Solving,0.82
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Statistics,0.84
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Cleaning,0.7
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Visualization,0.74
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,SQL,0.72
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Wrangling,0.83
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Experiment Design,0.67
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Communication,0.85
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Ethics,0.7
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Cloud Computing,0.77
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Optimization,0.76
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Storytelling,0.87
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Machine Learning Algorithms,0.78
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Scikit-learn,0.82
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Data Pipelines,0.78
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Cloud Platforms,0.84
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Model Monitoring,0.67
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Version Control,0.85
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Testing,0.86
+P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania,Automation,0.72
+P0025,BBA Business Administration,University of Kigali,Rwanda,Requirements Gathering,0.64
+P0025,BBA Business Administration,University of Kigali,Rwanda,Process Modeling,0.6
+P0025,BBA Business Administration,University of Kigali,Rwanda,Data Analysis,0.51
+P0025,BBA Business Administration,University of Kigali,Rwanda,Stakeholder Management,0.54
+P0025,BBA Business Administration,University of Kigali,Rwanda,SQL,0.6
+P0025,BBA Business Administration,University of Kigali,Rwanda,Excel,0.6
+P0025,BBA Business Administration,University of Kigali,Rwanda,Communication,0.52
+P0025,BBA Business Administration,University of Kigali,Rwanda,Problem Solving,0.67
+P0025,BBA Business Administration,University of Kigali,Rwanda,Strategic Thinking,0.8
+P0025,BBA Business Administration,University of Kigali,Rwanda,Documentation Skills,0.68
+P0025,BBA Business Administration,University of Kigali,Rwanda,Business Process Improvement,0.55
+P0025,BBA Business Administration,University of Kigali,Rwanda,Presentation Skills,0.81
+P0025,BBA Business Administration,University of Kigali,Rwanda,Project Management,0.73
+P0025,BBA Business Administration,University of Kigali,Rwanda,Market Analysis,0.79
+P0025,BBA Business Administration,University of Kigali,Rwanda,Cost Benefit Analysis,0.51
+P0025,BBA Business Administration,University of Kigali,Rwanda,Data Visualization,0.76
+P0025,BBA Business Administration,University of Kigali,Rwanda,Decision Making,0.65
+P0025,BBA Business Administration,University of Kigali,Rwanda,Risk Analysis,0.67
+P0025,BBA Business Administration,University of Kigali,Rwanda,Time Management,0.73
+P0025,BBA Business Administration,University of Kigali,Rwanda,Documentation Standards,0.72
+P0025,BBA Business Administration,University of Kigali,Rwanda,Talent Acquisition,0.73
+P0025,BBA Business Administration,University of Kigali,Rwanda,Workforce Planning,0.67
+P0025,BBA Business Administration,University of Kigali,Rwanda,Performance Management,0.8
+P0025,BBA Business Administration,University of Kigali,Rwanda,Conflict Resolution,0.61
+P0025,BBA Business Administration,University of Kigali,Rwanda,Employment Law,0.62
+P0025,BBA Business Administration,University of Kigali,Rwanda,Compensation and Benefits,0.55
+P0025,BBA Business Administration,University of Kigali,Rwanda,Leadership,0.57
+P0025,BBA Business Administration,University of Kigali,Rwanda,Strategic Planning,0.56
+P0025,BBA Business Administration,University of Kigali,Rwanda,Organizational Development,0.73
+P0025,BBA Business Administration,University of Kigali,Rwanda,Training and Development,0.61
+P0025,BBA Business Administration,University of Kigali,Rwanda,Recruitment Strategies,0.77
+P0025,BBA Business Administration,University of Kigali,Rwanda,Employee Relations,0.79
+P0025,BBA Business Administration,University of Kigali,Rwanda,Ethics,0.71
+P0025,BBA Business Administration,University of Kigali,Rwanda,Reporting,0.48
+P0025,BBA Business Administration,University of Kigali,Rwanda,HR Analytics,0.51
+P0026,BBA Business Administration,Moi University,Kenya,Requirements Gathering,0.54
+P0026,BBA Business Administration,Moi University,Kenya,Process Modeling,0.79
+P0026,BBA Business Administration,Moi University,Kenya,Data Analysis,0.52
+P0026,BBA Business Administration,Moi University,Kenya,Stakeholder Management,0.6
+P0026,BBA Business Administration,Moi University,Kenya,SQL,0.73
+P0026,BBA Business Administration,Moi University,Kenya,Excel,0.63
+P0026,BBA Business Administration,Moi University,Kenya,Communication,0.78
+P0026,BBA Business Administration,Moi University,Kenya,Problem Solving,0.53
+P0026,BBA Business Administration,Moi University,Kenya,Strategic Thinking,0.7
+P0026,BBA Business Administration,Moi University,Kenya,Documentation Skills,0.56
+P0026,BBA Business Administration,Moi University,Kenya,Business Process Improvement,0.57
+P0026,BBA Business Administration,Moi University,Kenya,Presentation Skills,0.71
+P0026,BBA Business Administration,Moi University,Kenya,Project Management,0.51
+P0026,BBA Business Administration,Moi University,Kenya,Market Analysis,0.77
+P0026,BBA Business Administration,Moi University,Kenya,Cost Benefit Analysis,0.48
+P0026,BBA Business Administration,Moi University,Kenya,Data Visualization,0.71
+P0026,BBA Business Administration,Moi University,Kenya,Decision Making,0.69
+P0026,BBA Business Administration,Moi University,Kenya,Risk Analysis,0.78
+P0026,BBA Business Administration,Moi University,Kenya,Time Management,0.47
+P0026,BBA Business Administration,Moi University,Kenya,Documentation Standards,0.65
+P0026,BBA Business Administration,Moi University,Kenya,Talent Acquisition,0.5
+P0026,BBA Business Administration,Moi University,Kenya,Workforce Planning,0.79
+P0026,BBA Business Administration,Moi University,Kenya,Performance Management,0.56
+P0026,BBA Business Administration,Moi University,Kenya,Conflict Resolution,0.55
+P0026,BBA Business Administration,Moi University,Kenya,Employment Law,0.73
+P0026,BBA Business Administration,Moi University,Kenya,Compensation and Benefits,0.51
+P0026,BBA Business Administration,Moi University,Kenya,Leadership,0.73
+P0026,BBA Business Administration,Moi University,Kenya,Strategic Planning,0.73
+P0026,BBA Business Administration,Moi University,Kenya,Organizational Development,0.7
+P0026,BBA Business Administration,Moi University,Kenya,Training and Development,0.6
+P0026,BBA Business Administration,Moi University,Kenya,Recruitment Strategies,0.74
+P0026,BBA Business Administration,Moi University,Kenya,Employee Relations,0.49
+P0026,BBA Business Administration,Moi University,Kenya,Ethics,0.48
+P0026,BBA Business Administration,Moi University,Kenya,Reporting,0.79
+P0026,BBA Business Administration,Moi University,Kenya,HR Analytics,0.54
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Requirements Gathering,0.57
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Process Modeling,0.74
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Data Analysis,0.58
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Stakeholder Management,0.65
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,SQL,0.64
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Excel,0.7
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Communication,0.51
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Problem Solving,0.6
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Strategic Thinking,0.61
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Documentation Skills,0.75
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Business Process Improvement,0.82
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Presentation Skills,0.75
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Project Management,0.64
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Market Analysis,0.51
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Cost Benefit Analysis,0.72
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Data Visualization,0.62
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Decision Making,0.65
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Risk Analysis,0.71
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Time Management,0.62
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Documentation Standards,0.54
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Talent Acquisition,0.81
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Workforce Planning,0.56
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Performance Management,0.8
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Conflict Resolution,0.7
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Employment Law,0.76
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Compensation and Benefits,0.77
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Leadership,0.73
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Strategic Planning,0.76
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Organizational Development,0.63
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Training and Development,0.52
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Recruitment Strategies,0.52
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Employee Relations,0.66
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Ethics,0.52
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,Reporting,0.7
+P0027,BBA Business Administration,Technical University of Kenya,Kenya,HR Analytics,0.63
+P0028,BCom Accounting,United States International University Africa,Kenya,Financial Modeling,0.79
+P0028,BCom Accounting,United States International University Africa,Kenya,Financial Reporting,0.71
+P0028,BCom Accounting,United States International University Africa,Kenya,Excel,0.61
+P0028,BCom Accounting,United States International University Africa,Kenya,Valuation Techniques,0.65
+P0028,BCom Accounting,United States International University Africa,Kenya,Budgeting,0.57
+P0028,BCom Accounting,United States International University Africa,Kenya,Forecasting,0.64
+P0028,BCom Accounting,United States International University Africa,Kenya,Accounting Principles,0.78
+P0028,BCom Accounting,United States International University Africa,Kenya,Data Analysis,0.69
+P0028,BCom Accounting,United States International University Africa,Kenya,Corporate Finance,0.52
+P0028,BCom Accounting,United States International University Africa,Kenya,Risk Analysis,0.76
+P0028,BCom Accounting,United States International University Africa,Kenya,Investment Analysis,0.52
+P0028,BCom Accounting,United States International University Africa,Kenya,Financial Statements,0.52
+P0028,BCom Accounting,United States International University Africa,Kenya,Communication,0.74
+P0028,BCom Accounting,United States International University Africa,Kenya,Problem Solving,0.79
+P0028,BCom Accounting,United States International University Africa,Kenya,Financial Regulations,0.52
+P0028,BCom Accounting,United States International University Africa,Kenya,Cost Analysis,0.73
+P0028,BCom Accounting,United States International University Africa,Kenya,Strategic Planning,0.69
+P0028,BCom Accounting,United States International University Africa,Kenya,Presentation Skills,0.71
+P0028,BCom Accounting,United States International University Africa,Kenya,Attention to Detail,0.64
+P0028,BCom Accounting,United States International University Africa,Kenya,Financial Forecasting Tools,0.72
+P0029,BCom Accounting,Kenyatta University,Kenya,Financial Modeling,0.53
+P0029,BCom Accounting,Kenyatta University,Kenya,Financial Reporting,0.54
+P0029,BCom Accounting,Kenyatta University,Kenya,Excel,0.6
+P0029,BCom Accounting,Kenyatta University,Kenya,Valuation Techniques,0.5
+P0029,BCom Accounting,Kenyatta University,Kenya,Budgeting,0.62
+P0029,BCom Accounting,Kenyatta University,Kenya,Forecasting,0.78
+P0029,BCom Accounting,Kenyatta University,Kenya,Accounting Principles,0.64
+P0029,BCom Accounting,Kenyatta University,Kenya,Data Analysis,0.66
+P0029,BCom Accounting,Kenyatta University,Kenya,Corporate Finance,0.77
+P0029,BCom Accounting,Kenyatta University,Kenya,Risk Analysis,0.74
+P0029,BCom Accounting,Kenyatta University,Kenya,Investment Analysis,0.56
+P0029,BCom Accounting,Kenyatta University,Kenya,Financial Statements,0.78
+P0029,BCom Accounting,Kenyatta University,Kenya,Communication,0.56
+P0029,BCom Accounting,Kenyatta University,Kenya,Problem Solving,0.71
+P0029,BCom Accounting,Kenyatta University,Kenya,Financial Regulations,0.67
+P0029,BCom Accounting,Kenyatta University,Kenya,Cost Analysis,0.48
+P0029,BCom Accounting,Kenyatta University,Kenya,Strategic Planning,0.64
+P0029,BCom Accounting,Kenyatta University,Kenya,Presentation Skills,0.52
+P0029,BCom Accounting,Kenyatta University,Kenya,Attention to Detail,0.53
+P0029,BCom Accounting,Kenyatta University,Kenya,Financial Forecasting Tools,0.74
+P0030,BCom Accounting,Moi University,Kenya,Financial Modeling,0.73
+P0030,BCom Accounting,Moi University,Kenya,Financial Reporting,0.69
+P0030,BCom Accounting,Moi University,Kenya,Excel,0.56
+P0030,BCom Accounting,Moi University,Kenya,Valuation Techniques,0.68
+P0030,BCom Accounting,Moi University,Kenya,Budgeting,0.68
+P0030,BCom Accounting,Moi University,Kenya,Forecasting,0.8
+P0030,BCom Accounting,Moi University,Kenya,Accounting Principles,0.69
+P0030,BCom Accounting,Moi University,Kenya,Data Analysis,0.48
+P0030,BCom Accounting,Moi University,Kenya,Corporate Finance,0.74
+P0030,BCom Accounting,Moi University,Kenya,Risk Analysis,0.74
+P0030,BCom Accounting,Moi University,Kenya,Investment Analysis,0.51
+P0030,BCom Accounting,Moi University,Kenya,Financial Statements,0.69
+P0030,BCom Accounting,Moi University,Kenya,Communication,0.47
+P0030,BCom Accounting,Moi University,Kenya,Problem Solving,0.74
+P0030,BCom Accounting,Moi University,Kenya,Financial Regulations,0.54
+P0030,BCom Accounting,Moi University,Kenya,Cost Analysis,0.56
+P0030,BCom Accounting,Moi University,Kenya,Strategic Planning,0.49
+P0030,BCom Accounting,Moi University,Kenya,Presentation Skills,0.61
+P0030,BCom Accounting,Moi University,Kenya,Attention to Detail,0.59
+P0030,BCom Accounting,Moi University,Kenya,Financial Forecasting Tools,0.78
+P0031,BCom Finance,Makerere University,Uganda,Financial Modeling,0.68
+P0031,BCom Finance,Makerere University,Uganda,Financial Reporting,0.84
+P0031,BCom Finance,Makerere University,Uganda,Excel,0.84
+P0031,BCom Finance,Makerere University,Uganda,Valuation Techniques,0.67
+P0031,BCom Finance,Makerere University,Uganda,Budgeting,0.69
+P0031,BCom Finance,Makerere University,Uganda,Forecasting,0.72
+P0031,BCom Finance,Makerere University,Uganda,Accounting Principles,0.68
+P0031,BCom Finance,Makerere University,Uganda,Data Analysis,0.84
+P0031,BCom Finance,Makerere University,Uganda,Corporate Finance,0.78
+P0031,BCom Finance,Makerere University,Uganda,Risk Analysis,0.76
+P0031,BCom Finance,Makerere University,Uganda,Investment Analysis,0.88
+P0031,BCom Finance,Makerere University,Uganda,Financial Statements,0.78
+P0031,BCom Finance,Makerere University,Uganda,Communication,0.78
+P0031,BCom Finance,Makerere University,Uganda,Problem Solving,0.72
+P0031,BCom Finance,Makerere University,Uganda,Financial Regulations,0.86
+P0031,BCom Finance,Makerere University,Uganda,Cost Analysis,0.75
+P0031,BCom Finance,Makerere University,Uganda,Strategic Planning,0.82
+P0031,BCom Finance,Makerere University,Uganda,Presentation Skills,0.76
+P0031,BCom Finance,Makerere University,Uganda,Attention to Detail,0.88
+P0031,BCom Finance,Makerere University,Uganda,Financial Forecasting Tools,0.84
+P0031,BCom Finance,Makerere University,Uganda,Portfolio Management,0.79
+P0031,BCom Finance,Makerere University,Uganda,Market Research,0.68
+P0031,BCom Finance,Makerere University,Uganda,Equity Research,0.7
+P0031,BCom Finance,Makerere University,Uganda,Risk Assessment,0.86
+P0031,BCom Finance,Makerere University,Uganda,Financial Statements Analysis,0.74
+P0031,BCom Finance,Makerere University,Uganda,Strategic Thinking,0.82
+P0031,BCom Finance,Makerere University,Uganda,Time Management,0.76
+P0031,BCom Finance,Makerere University,Uganda,Decision Making,0.67
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Financial Modeling,0.67
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Financial Reporting,0.71
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Excel,0.51
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Valuation Techniques,0.51
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Budgeting,0.62
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Forecasting,0.8
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Accounting Principles,0.73
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Data Analysis,0.7
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Corporate Finance,0.74
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Risk Analysis,0.64
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Investment Analysis,0.6
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Financial Statements,0.61
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Communication,0.71
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Problem Solving,0.77
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Financial Regulations,0.69
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Cost Analysis,0.59
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Strategic Planning,0.67
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Presentation Skills,0.56
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Attention to Detail,0.67
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Financial Forecasting Tools,0.65
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Portfolio Management,0.58
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Market Research,0.53
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Equity Research,0.51
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Risk Assessment,0.79
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Financial Statements Analysis,0.55
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Strategic Thinking,0.81
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Time Management,0.74
+P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda,Decision Making,0.54
+P0033,BCom Finance,Mzumbe University,Tanzania,Financial Modeling,0.58
+P0033,BCom Finance,Mzumbe University,Tanzania,Financial Reporting,0.61
+P0033,BCom Finance,Mzumbe University,Tanzania,Excel,0.53
+P0033,BCom Finance,Mzumbe University,Tanzania,Valuation Techniques,0.74
+P0033,BCom Finance,Mzumbe University,Tanzania,Budgeting,0.71
+P0033,BCom Finance,Mzumbe University,Tanzania,Forecasting,0.61
+P0033,BCom Finance,Mzumbe University,Tanzania,Accounting Principles,0.61
+P0033,BCom Finance,Mzumbe University,Tanzania,Data Analysis,0.48
+P0033,BCom Finance,Mzumbe University,Tanzania,Corporate Finance,0.72
+P0033,BCom Finance,Mzumbe University,Tanzania,Risk Analysis,0.77
+P0033,BCom Finance,Mzumbe University,Tanzania,Investment Analysis,0.63
+P0033,BCom Finance,Mzumbe University,Tanzania,Financial Statements,0.51
+P0033,BCom Finance,Mzumbe University,Tanzania,Communication,0.61
+P0033,BCom Finance,Mzumbe University,Tanzania,Problem Solving,0.68
+P0033,BCom Finance,Mzumbe University,Tanzania,Financial Regulations,0.55
+P0033,BCom Finance,Mzumbe University,Tanzania,Cost Analysis,0.64
+P0033,BCom Finance,Mzumbe University,Tanzania,Strategic Planning,0.48
+P0033,BCom Finance,Mzumbe University,Tanzania,Presentation Skills,0.55
+P0033,BCom Finance,Mzumbe University,Tanzania,Attention to Detail,0.58
+P0033,BCom Finance,Mzumbe University,Tanzania,Financial Forecasting Tools,0.49
+P0033,BCom Finance,Mzumbe University,Tanzania,Portfolio Management,0.82
+P0033,BCom Finance,Mzumbe University,Tanzania,Market Research,0.57
+P0033,BCom Finance,Mzumbe University,Tanzania,Equity Research,0.69
+P0033,BCom Finance,Mzumbe University,Tanzania,Risk Assessment,0.65
+P0033,BCom Finance,Mzumbe University,Tanzania,Financial Statements Analysis,0.67
+P0033,BCom Finance,Mzumbe University,Tanzania,Strategic Thinking,0.8
+P0033,BCom Finance,Mzumbe University,Tanzania,Time Management,0.59
+P0033,BCom Finance,Mzumbe University,Tanzania,Decision Making,0.75
+P0034,BCom Finance,Kyambogo University,Uganda,Financial Modeling,0.55
+P0034,BCom Finance,Kyambogo University,Uganda,Financial Reporting,0.65
+P0034,BCom Finance,Kyambogo University,Uganda,Excel,0.54
+P0034,BCom Finance,Kyambogo University,Uganda,Valuation Techniques,0.51
+P0034,BCom Finance,Kyambogo University,Uganda,Budgeting,0.75
+P0034,BCom Finance,Kyambogo University,Uganda,Forecasting,0.77
+P0034,BCom Finance,Kyambogo University,Uganda,Accounting Principles,0.8
+P0034,BCom Finance,Kyambogo University,Uganda,Data Analysis,0.68
+P0034,BCom Finance,Kyambogo University,Uganda,Corporate Finance,0.79
+P0034,BCom Finance,Kyambogo University,Uganda,Risk Analysis,0.58
+P0034,BCom Finance,Kyambogo University,Uganda,Investment Analysis,0.73
+P0034,BCom Finance,Kyambogo University,Uganda,Financial Statements,0.72
+P0034,BCom Finance,Kyambogo University,Uganda,Communication,0.67
+P0034,BCom Finance,Kyambogo University,Uganda,Problem Solving,0.5
+P0034,BCom Finance,Kyambogo University,Uganda,Financial Regulations,0.48
+P0034,BCom Finance,Kyambogo University,Uganda,Cost Analysis,0.51
+P0034,BCom Finance,Kyambogo University,Uganda,Strategic Planning,0.51
+P0034,BCom Finance,Kyambogo University,Uganda,Presentation Skills,0.56
+P0034,BCom Finance,Kyambogo University,Uganda,Attention to Detail,0.65
+P0034,BCom Finance,Kyambogo University,Uganda,Financial Forecasting Tools,0.55
+P0034,BCom Finance,Kyambogo University,Uganda,Portfolio Management,0.61
+P0034,BCom Finance,Kyambogo University,Uganda,Market Research,0.75
+P0034,BCom Finance,Kyambogo University,Uganda,Equity Research,0.53
+P0034,BCom Finance,Kyambogo University,Uganda,Risk Assessment,0.61
+P0034,BCom Finance,Kyambogo University,Uganda,Financial Statements Analysis,0.81
+P0034,BCom Finance,Kyambogo University,Uganda,Strategic Thinking,0.68
+P0034,BCom Finance,Kyambogo University,Uganda,Time Management,0.62
+P0034,BCom Finance,Kyambogo University,Uganda,Decision Making,0.76
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Financial Modeling,0.73
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Financial Reporting,0.71
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Excel,0.67
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Valuation Techniques,0.75
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Budgeting,0.71
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Forecasting,0.79
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Accounting Principles,0.73
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Data Analysis,0.78
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Corporate Finance,0.69
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Risk Analysis,0.82
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Investment Analysis,0.86
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Financial Statements,0.72
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Communication,0.74
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Problem Solving,0.87
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Financial Regulations,0.78
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Cost Analysis,0.79
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Strategic Planning,0.75
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Presentation Skills,0.69
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Attention to Detail,0.83
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Financial Forecasting Tools,0.82
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Portfolio Management,0.69
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Market Research,0.87
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Equity Research,0.73
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Risk Assessment,0.76
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Financial Statements Analysis,0.8
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Strategic Thinking,0.84
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Time Management,0.69
+P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya,Decision Making,0.85
+P0036,BSc Economics,University of Rwanda,Rwanda,Microeconomics,0.82
+P0036,BSc Economics,University of Rwanda,Rwanda,Macroeconomics,0.83
+P0036,BSc Economics,University of Rwanda,Rwanda,Econometrics,0.78
+P0036,BSc Economics,University of Rwanda,Rwanda,Statistical Analysis,0.75
+P0036,BSc Economics,University of Rwanda,Rwanda,Data Analysis,0.67
+P0036,BSc Economics,University of Rwanda,Rwanda,Research Methods,0.72
+P0036,BSc Economics,University of Rwanda,Rwanda,Policy Analysis,0.7
+P0036,BSc Economics,University of Rwanda,Rwanda,Forecasting,0.72
+P0036,BSc Economics,University of Rwanda,Rwanda,Market Analysis,0.83
+P0036,BSc Economics,University of Rwanda,Rwanda,Report Writing,0.76
+P0036,BSc Economics,University of Rwanda,Rwanda,Data Visualization,0.85
+P0036,BSc Economics,University of Rwanda,Rwanda,Communication,0.72
+P0036,BSc Economics,University of Rwanda,Rwanda,Problem Solving,0.77
+P0036,BSc Economics,University of Rwanda,Rwanda,Critical Thinking,0.83
+P0036,BSc Economics,University of Rwanda,Rwanda,Statistical Software,0.73
+P0036,BSc Economics,University of Rwanda,Rwanda,Quantitative Methods,0.88
+P0036,BSc Economics,University of Rwanda,Rwanda,Public Finance,0.69
+P0036,BSc Economics,University of Rwanda,Rwanda,International Economics,0.81
+P0036,BSc Economics,University of Rwanda,Rwanda,Time Series Analysis,0.68
+P0036,BSc Economics,University of Rwanda,Rwanda,Presentation Skills,0.75
+P0036,BSc Economics,University of Rwanda,Rwanda,Financial Modeling,0.85
+P0036,BSc Economics,University of Rwanda,Rwanda,Financial Reporting,0.77
+P0036,BSc Economics,University of Rwanda,Rwanda,Excel,0.75
+P0036,BSc Economics,University of Rwanda,Rwanda,Valuation Techniques,0.77
+P0036,BSc Economics,University of Rwanda,Rwanda,Budgeting,0.71
+P0036,BSc Economics,University of Rwanda,Rwanda,Accounting Principles,0.88
+P0036,BSc Economics,University of Rwanda,Rwanda,Corporate Finance,0.82
+P0036,BSc Economics,University of Rwanda,Rwanda,Risk Analysis,0.7
+P0036,BSc Economics,University of Rwanda,Rwanda,Investment Analysis,0.81
+P0036,BSc Economics,University of Rwanda,Rwanda,Financial Statements,0.75
+P0036,BSc Economics,University of Rwanda,Rwanda,Financial Regulations,0.85
+P0036,BSc Economics,University of Rwanda,Rwanda,Cost Analysis,0.85
+P0036,BSc Economics,University of Rwanda,Rwanda,Strategic Planning,0.85
+P0036,BSc Economics,University of Rwanda,Rwanda,Attention to Detail,0.76
+P0036,BSc Economics,University of Rwanda,Rwanda,Financial Forecasting Tools,0.83
+P0037,BSc Economics,Makerere University,Uganda,Microeconomics,0.68
+P0037,BSc Economics,Makerere University,Uganda,Macroeconomics,0.88
+P0037,BSc Economics,Makerere University,Uganda,Econometrics,0.71
+P0037,BSc Economics,Makerere University,Uganda,Statistical Analysis,0.77
+P0037,BSc Economics,Makerere University,Uganda,Data Analysis,0.76
+P0037,BSc Economics,Makerere University,Uganda,Research Methods,0.77
+P0037,BSc Economics,Makerere University,Uganda,Policy Analysis,0.85
+P0037,BSc Economics,Makerere University,Uganda,Forecasting,0.86
+P0037,BSc Economics,Makerere University,Uganda,Market Analysis,0.71
+P0037,BSc Economics,Makerere University,Uganda,Report Writing,0.87
+P0037,BSc Economics,Makerere University,Uganda,Data Visualization,0.71
+P0037,BSc Economics,Makerere University,Uganda,Communication,0.67
+P0037,BSc Economics,Makerere University,Uganda,Problem Solving,0.8
+P0037,BSc Economics,Makerere University,Uganda,Critical Thinking,0.76
+P0037,BSc Economics,Makerere University,Uganda,Statistical Software,0.72
+P0037,BSc Economics,Makerere University,Uganda,Quantitative Methods,0.83
+P0037,BSc Economics,Makerere University,Uganda,Public Finance,0.85
+P0037,BSc Economics,Makerere University,Uganda,International Economics,0.85
+P0037,BSc Economics,Makerere University,Uganda,Time Series Analysis,0.67
+P0037,BSc Economics,Makerere University,Uganda,Presentation Skills,0.69
+P0037,BSc Economics,Makerere University,Uganda,Financial Modeling,0.88
+P0037,BSc Economics,Makerere University,Uganda,Financial Reporting,0.83
+P0037,BSc Economics,Makerere University,Uganda,Excel,0.87
+P0037,BSc Economics,Makerere University,Uganda,Valuation Techniques,0.75
+P0037,BSc Economics,Makerere University,Uganda,Budgeting,0.84
+P0037,BSc Economics,Makerere University,Uganda,Accounting Principles,0.78
+P0037,BSc Economics,Makerere University,Uganda,Corporate Finance,0.71
+P0037,BSc Economics,Makerere University,Uganda,Risk Analysis,0.73
+P0037,BSc Economics,Makerere University,Uganda,Investment Analysis,0.88
+P0037,BSc Economics,Makerere University,Uganda,Financial Statements,0.85
+P0037,BSc Economics,Makerere University,Uganda,Financial Regulations,0.87
+P0037,BSc Economics,Makerere University,Uganda,Cost Analysis,0.7
+P0037,BSc Economics,Makerere University,Uganda,Strategic Planning,0.74
+P0037,BSc Economics,Makerere University,Uganda,Attention to Detail,0.83
+P0037,BSc Economics,Makerere University,Uganda,Financial Forecasting Tools,0.68
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Microeconomics,0.75
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Macroeconomics,0.69
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Econometrics,0.69
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Statistical Analysis,0.74
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Data Analysis,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Research Methods,0.77
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Policy Analysis,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Forecasting,0.85
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Market Analysis,0.68
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Report Writing,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Data Visualization,0.85
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Communication,0.8
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Problem Solving,0.81
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Critical Thinking,0.75
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Statistical Software,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Quantitative Methods,0.84
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Public Finance,0.8
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,International Economics,0.81
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Time Series Analysis,0.81
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Presentation Skills,0.66
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Financial Modeling,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Financial Reporting,0.88
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Excel,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Valuation Techniques,0.72
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Budgeting,0.85
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Accounting Principles,0.86
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Corporate Finance,0.88
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Risk Analysis,0.71
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Investment Analysis,0.7
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Financial Statements,0.82
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Financial Regulations,0.7
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Cost Analysis,0.81
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Strategic Planning,0.83
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Attention to Detail,0.87
+P0038,BSc Economics,University of Dar es Salaam,Tanzania,Financial Forecasting Tools,0.83
+P0043,BSc Business Analytics,Makerere University,Uganda,Requirements Gathering,0.76
+P0043,BSc Business Analytics,Makerere University,Uganda,Process Modeling,0.84
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Analysis,0.84
+P0043,BSc Business Analytics,Makerere University,Uganda,Stakeholder Management,0.8
+P0043,BSc Business Analytics,Makerere University,Uganda,SQL,0.8
+P0043,BSc Business Analytics,Makerere University,Uganda,Excel,0.85
+P0043,BSc Business Analytics,Makerere University,Uganda,Communication,0.77
+P0043,BSc Business Analytics,Makerere University,Uganda,Problem Solving,0.87
+P0043,BSc Business Analytics,Makerere University,Uganda,Strategic Thinking,0.68
+P0043,BSc Business Analytics,Makerere University,Uganda,Documentation Skills,0.76
+P0043,BSc Business Analytics,Makerere University,Uganda,Business Process Improvement,0.69
+P0043,BSc Business Analytics,Makerere University,Uganda,Presentation Skills,0.74
+P0043,BSc Business Analytics,Makerere University,Uganda,Project Management,0.82
+P0043,BSc Business Analytics,Makerere University,Uganda,Market Analysis,0.74
+P0043,BSc Business Analytics,Makerere University,Uganda,Cost Benefit Analysis,0.88
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Visualization,0.77
+P0043,BSc Business Analytics,Makerere University,Uganda,Decision Making,0.7
+P0043,BSc Business Analytics,Makerere University,Uganda,Risk Analysis,0.79
+P0043,BSc Business Analytics,Makerere University,Uganda,Time Management,0.7
+P0043,BSc Business Analytics,Makerere University,Uganda,Documentation Standards,0.75
+P0043,BSc Business Analytics,Makerere University,Uganda,Python,0.73
+P0043,BSc Business Analytics,Makerere University,Uganda,Statistics,0.85
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Cleaning,0.82
+P0043,BSc Business Analytics,Makerere University,Uganda,Exploratory Data Analysis,0.71
+P0043,BSc Business Analytics,Makerere University,Uganda,Power BI,0.83
+P0043,BSc Business Analytics,Makerere University,Uganda,Tableau,0.7
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Wrangling,0.8
+P0043,BSc Business Analytics,Makerere University,Uganda,Database Design,0.7
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Interpretation,0.73
+P0043,BSc Business Analytics,Makerere University,Uganda,Reporting,0.81
+P0043,BSc Business Analytics,Makerere University,Uganda,Descriptive Statistics,0.83
+P0043,BSc Business Analytics,Makerere University,Uganda,Business Understanding,0.71
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Ethics,0.83
+P0043,BSc Business Analytics,Makerere University,Uganda,Data Querying,0.77
+P0043,BSc Business Analytics,Makerere University,Uganda,Dashboard Design,0.7
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Requirements Gathering,0.83
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Process Modeling,0.81
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Analysis,0.77
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Stakeholder Management,0.69
+P0044,BSc Business Analytics,African Leadership University,Rwanda,SQL,0.68
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Excel,0.82
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Communication,0.76
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Problem Solving,0.83
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Strategic Thinking,0.77
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Documentation Skills,0.83
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Business Process Improvement,0.77
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Presentation Skills,0.8
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Project Management,0.87
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Market Analysis,0.68
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Cost Benefit Analysis,0.67
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Visualization,0.8
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Decision Making,0.76
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Risk Analysis,0.81
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Time Management,0.81
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Documentation Standards,0.74
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Python,0.75
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Statistics,0.73
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Cleaning,0.71
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Exploratory Data Analysis,0.83
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Power BI,0.78
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Tableau,0.82
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Wrangling,0.75
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Database Design,0.78
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Interpretation,0.79
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Reporting,0.86
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Descriptive Statistics,0.74
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Business Understanding,0.8
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Ethics,0.67
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Data Querying,0.67
+P0044,BSc Business Analytics,African Leadership University,Rwanda,Dashboard Design,0.83
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Requirements Gathering,0.62
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Process Modeling,0.81
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Analysis,0.64
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Stakeholder Management,0.65
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,SQL,0.81
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Excel,0.8
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Communication,0.74
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Problem Solving,0.71
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Strategic Thinking,0.74
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Documentation Skills,0.78
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Business Process Improvement,0.81
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Presentation Skills,0.56
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Project Management,0.59
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Market Analysis,0.54
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Cost Benefit Analysis,0.61
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Visualization,0.8
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Decision Making,0.59
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Risk Analysis,0.6
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Time Management,0.8
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Documentation Standards,0.56
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Python,0.5
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Statistics,0.76
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Cleaning,0.77
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Exploratory Data Analysis,0.73
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Power BI,0.7
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Tableau,0.66
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Wrangling,0.47
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Database Design,0.59
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Interpretation,0.48
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Reporting,0.51
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Descriptive Statistics,0.56
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Business Understanding,0.57
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Ethics,0.53
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Data Querying,0.58
+P0045,BSc Business Analytics,University of Dodoma,Tanzania,Dashboard Design,0.54
+P0046,BSc Business Analytics,Moi University,Kenya,Requirements Gathering,0.69
+P0046,BSc Business Analytics,Moi University,Kenya,Process Modeling,0.79
+P0046,BSc Business Analytics,Moi University,Kenya,Data Analysis,0.56
+P0046,BSc Business Analytics,Moi University,Kenya,Stakeholder Management,0.67
+P0046,BSc Business Analytics,Moi University,Kenya,SQL,0.58
+P0046,BSc Business Analytics,Moi University,Kenya,Excel,0.7
+P0046,BSc Business Analytics,Moi University,Kenya,Communication,0.51
+P0046,BSc Business Analytics,Moi University,Kenya,Problem Solving,0.78
+P0046,BSc Business Analytics,Moi University,Kenya,Strategic Thinking,0.54
+P0046,BSc Business Analytics,Moi University,Kenya,Documentation Skills,0.51
+P0046,BSc Business Analytics,Moi University,Kenya,Business Process Improvement,0.59
+P0046,BSc Business Analytics,Moi University,Kenya,Presentation Skills,0.64
+P0046,BSc Business Analytics,Moi University,Kenya,Project Management,0.72
+P0046,BSc Business Analytics,Moi University,Kenya,Market Analysis,0.54
+P0046,BSc Business Analytics,Moi University,Kenya,Cost Benefit Analysis,0.51
+P0046,BSc Business Analytics,Moi University,Kenya,Data Visualization,0.71
+P0046,BSc Business Analytics,Moi University,Kenya,Decision Making,0.56
+P0046,BSc Business Analytics,Moi University,Kenya,Risk Analysis,0.65
+P0046,BSc Business Analytics,Moi University,Kenya,Time Management,0.74
+P0046,BSc Business Analytics,Moi University,Kenya,Documentation Standards,0.6
+P0046,BSc Business Analytics,Moi University,Kenya,Python,0.68
+P0046,BSc Business Analytics,Moi University,Kenya,Statistics,0.54
+P0046,BSc Business Analytics,Moi University,Kenya,Data Cleaning,0.76
+P0046,BSc Business Analytics,Moi University,Kenya,Exploratory Data Analysis,0.64
+P0046,BSc Business Analytics,Moi University,Kenya,Power BI,0.79
+P0046,BSc Business Analytics,Moi University,Kenya,Tableau,0.74
+P0046,BSc Business Analytics,Moi University,Kenya,Data Wrangling,0.78
+P0046,BSc Business Analytics,Moi University,Kenya,Database Design,0.67
+P0046,BSc Business Analytics,Moi University,Kenya,Data Interpretation,0.52
+P0046,BSc Business Analytics,Moi University,Kenya,Reporting,0.52
+P0046,BSc Business Analytics,Moi University,Kenya,Descriptive Statistics,0.75
+P0046,BSc Business Analytics,Moi University,Kenya,Business Understanding,0.63
+P0046,BSc Business Analytics,Moi University,Kenya,Data Ethics,0.6
+P0046,BSc Business Analytics,Moi University,Kenya,Data Querying,0.56
+P0046,BSc Business Analytics,Moi University,Kenya,Dashboard Design,0.55
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Requirements Gathering,0.78
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Process Modeling,0.71
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Analysis,0.52
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Stakeholder Management,0.57
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,SQL,0.56
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Excel,0.49
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Communication,0.62
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Problem Solving,0.54
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Strategic Thinking,0.77
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Documentation Skills,0.58
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Business Process Improvement,0.61
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Presentation Skills,0.8
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Project Management,0.77
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Market Analysis,0.49
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Cost Benefit Analysis,0.58
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Visualization,0.75
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Decision Making,0.69
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Risk Analysis,0.54
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Time Management,0.76
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Documentation Standards,0.6
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Python,0.71
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Statistics,0.53
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Cleaning,0.57
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Exploratory Data Analysis,0.72
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Power BI,0.64
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Tableau,0.56
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Wrangling,0.74
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Database Design,0.56
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Interpretation,0.54
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Reporting,0.72
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Descriptive Statistics,0.75
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Business Understanding,0.71
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Ethics,0.52
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Data Querying,0.8
+P0047,BSc Business Analytics,Uganda Christian University,Uganda,Dashboard Design,0.72
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Power Generation Systems,0.68
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Power Distribution Networks,0.72
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Electrical Machines,0.85
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Smart Grid Systems,0.8
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Renewable Energy Integration,0.85
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Protection Systems,0.84
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Load Flow Analysis,0.69
+P0056,BEng Electrical Engineering,Makerere University,Uganda,High Voltage Engineering,0.72
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Energy Storage Systems,0.67
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Safety Standards,0.86
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Regulatory Compliance,0.83
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Project Management,0.68
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Technical Reporting,0.83
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Quality Control,0.81
+P0056,BEng Electrical Engineering,Makerere University,Uganda,Problem Solving,0.77
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Power Generation Systems,0.59
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Power Distribution Networks,0.6
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Electrical Machines,0.82
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Smart Grid Systems,0.77
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Renewable Energy Integration,0.48
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Protection Systems,0.82
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Load Flow Analysis,0.63
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,High Voltage Engineering,0.66
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Energy Storage Systems,0.68
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Safety Standards,0.6
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Regulatory Compliance,0.49
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Project Management,0.8
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Technical Reporting,0.62
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Quality Control,0.76
+P0057,BEng Electrical Engineering,Uganda Christian University,Uganda,Problem Solving,0.54
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Power Generation Systems,0.52
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Power Distribution Networks,0.5
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Electrical Machines,0.72
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Smart Grid Systems,0.49
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Renewable Energy Integration,0.69
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Protection Systems,0.52
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Load Flow Analysis,0.62
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,High Voltage Engineering,0.78
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Energy Storage Systems,0.69
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Safety Standards,0.54
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Regulatory Compliance,0.49
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Project Management,0.75
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Technical Reporting,0.8
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Quality Control,0.8
+P0058,BEng Electrical Engineering,United States International University Africa,Kenya,Problem Solving,0.8
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Power Generation Systems,0.86
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Power Distribution Networks,0.86
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Electrical Machines,0.79
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Smart Grid Systems,0.67
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Renewable Energy Integration,0.76
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Protection Systems,0.88
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Load Flow Analysis,0.86
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,High Voltage Engineering,0.89
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Energy Storage Systems,0.73
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Safety Standards,0.69
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Regulatory Compliance,0.77
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Project Management,0.7
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Technical Reporting,0.72
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Quality Control,0.87
+P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda,Problem Solving,0.68
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Environmental Impact Assessment,0.63
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Water Treatment Systems,0.75
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Waste Management,0.58
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Air Pollution Control,0.73
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Sustainability Engineering,0.62
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Hydrology,0.48
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Environmental Chemistry,0.6
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Soil Science,0.66
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Environmental Regulations,0.7
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Risk Assessment,0.53
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Project Management,0.61
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Data Analysis,0.48
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Geographic Information Systems,0.81
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Climate Change Mitigation,0.59
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Renewable Energy Systems,0.67
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Engineering Mathematics,0.56
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Technical Reporting,0.77
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Quality Control,0.63
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Problem Solving,0.6
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Communication,0.79
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Policy Analysis,0.55
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Public Health Engineering,0.57
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Resource Management,0.6
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Sampling Techniques,0.58
+P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda,Field Work Techniques,0.62
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Environmental Impact Assessment,0.62
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Water Treatment Systems,0.63
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Waste Management,0.73
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Air Pollution Control,0.55
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Sustainability Engineering,0.74
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Hydrology,0.69
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Environmental Chemistry,0.82
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Soil Science,0.68
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Environmental Regulations,0.51
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Risk Assessment,0.58
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Project Management,0.66
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Data Analysis,0.76
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Geographic Information Systems,0.72
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Climate Change Mitigation,0.81
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Renewable Energy Systems,0.57
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Engineering Mathematics,0.5
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Technical Reporting,0.49
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Quality Control,0.77
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Problem Solving,0.63
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Communication,0.79
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Policy Analysis,0.7
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Public Health Engineering,0.73
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Resource Management,0.6
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Sampling Techniques,0.75
+P0066,BEng Environmental Engineering,Uganda Christian University,Uganda,Field Work Techniques,0.76
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Environmental Impact Assessment,0.77
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Water Treatment Systems,0.7
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Waste Management,0.63
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Air Pollution Control,0.81
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Sustainability Engineering,0.64
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Hydrology,0.62
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Environmental Chemistry,0.59
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Soil Science,0.66
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Environmental Regulations,0.59
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Risk Assessment,0.68
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Project Management,0.72
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Data Analysis,0.62
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Geographic Information Systems,0.77
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Climate Change Mitigation,0.56
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Renewable Energy Systems,0.76
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Engineering Mathematics,0.72
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Technical Reporting,0.57
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Quality Control,0.72
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Problem Solving,0.56
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Communication,0.69
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Policy Analysis,0.62
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Public Health Engineering,0.5
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Resource Management,0.55
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Sampling Techniques,0.68
+P0067,BEng Environmental Engineering,University of Kigali,Rwanda,Field Work Techniques,0.52
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Manufacturing Processes,0.64
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Lean Manufacturing,0.55
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Process Optimization,0.7
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Quality Control Systems,0.52
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Industrial Automation,0.62
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,CAD/CAM Systems,0.69
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Production Planning,0.66
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Supply Chain Management,0.72
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Cost Analysis,0.76
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Project Management,0.8
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Safety Standards,0.64
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Maintenance Engineering,0.8
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Statistical Process Control,0.7
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Technical Documentation,0.56
+P0068,BEng Industrial Engineering,Kenyatta University,Kenya,Problem Solving,0.55
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Manufacturing Processes,0.64
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Lean Manufacturing,0.53
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Process Optimization,0.66
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Quality Control Systems,0.6
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Industrial Automation,0.81
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,CAD/CAM Systems,0.63
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Production Planning,0.54
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Supply Chain Management,0.49
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Cost Analysis,0.81
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Project Management,0.73
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Safety Standards,0.78
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Maintenance Engineering,0.72
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Statistical Process Control,0.58
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Technical Documentation,0.69
+P0069,BEng Industrial Engineering,Mzumbe University,Tanzania,Problem Solving,0.5
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Manufacturing Processes,0.61
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Lean Manufacturing,0.51
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Process Optimization,0.79
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Quality Control Systems,0.49
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Industrial Automation,0.78
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,CAD/CAM Systems,0.65
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Production Planning,0.51
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Supply Chain Management,0.65
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Cost Analysis,0.59
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Project Management,0.55
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Safety Standards,0.79
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Maintenance Engineering,0.72
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Statistical Process Control,0.51
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Technical Documentation,0.74
+P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda,Problem Solving,0.58
+P0071,BEng Industrial Engineering,Moi University,Kenya,Manufacturing Processes,0.64
+P0071,BEng Industrial Engineering,Moi University,Kenya,Lean Manufacturing,0.73
+P0071,BEng Industrial Engineering,Moi University,Kenya,Process Optimization,0.77
+P0071,BEng Industrial Engineering,Moi University,Kenya,Quality Control Systems,0.56
+P0071,BEng Industrial Engineering,Moi University,Kenya,Industrial Automation,0.75
+P0071,BEng Industrial Engineering,Moi University,Kenya,CAD/CAM Systems,0.51
+P0071,BEng Industrial Engineering,Moi University,Kenya,Production Planning,0.56
+P0071,BEng Industrial Engineering,Moi University,Kenya,Supply Chain Management,0.7
+P0071,BEng Industrial Engineering,Moi University,Kenya,Cost Analysis,0.49
+P0071,BEng Industrial Engineering,Moi University,Kenya,Project Management,0.55
+P0071,BEng Industrial Engineering,Moi University,Kenya,Safety Standards,0.76
+P0071,BEng Industrial Engineering,Moi University,Kenya,Maintenance Engineering,0.51
+P0071,BEng Industrial Engineering,Moi University,Kenya,Statistical Process Control,0.65
+P0071,BEng Industrial Engineering,Moi University,Kenya,Technical Documentation,0.78
+P0071,BEng Industrial Engineering,Moi University,Kenya,Problem Solving,0.68
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Manufacturing Processes,0.71
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Lean Manufacturing,0.86
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Process Optimization,0.75
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Quality Control Systems,0.69
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Industrial Automation,0.7
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,CAD/CAM Systems,0.72
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Production Planning,0.81
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Supply Chain Management,0.72
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Cost Analysis,0.68
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Project Management,0.79
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Safety Standards,0.8
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Maintenance Engineering,0.85
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Statistical Process Control,0.7
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Technical Documentation,0.78
+P0072,BEng Industrial Engineering,University of Nairobi,Kenya,Problem Solving,0.7

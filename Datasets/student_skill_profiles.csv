@@ -1,0 +1,61 @@
+student_id,target_career,proficiency_level,skill_name,proficiency_score
+STU_BEGINNER,AI Engineer,beginner,apis,0.2966031869068446
+STU_BEGINNER,AI Engineer,beginner,big data tools,0.26140470953216877
+STU_BEGINNER,AI Engineer,beginner,cloud ml services,0.42862125274557883
+STU_BEGINNER,AI Engineer,beginner,computer vision,0.2970259980080768
+STU_BEGINNER,AI Engineer,beginner,data engineering,0.26428035290621427
+STU_BEGINNER,AI Engineer,beginner,deep learning,0.3578088249474745
+STU_BEGINNER,AI Engineer,beginner,feature engineering,0.23227726749242877
+STU_BEGINNER,AI Engineer,beginner,linear algebra,0.43065909422621185
+STU_BEGINNER,AI Engineer,beginner,machine learning,0.21736519310393124
+STU_BEGINNER,AI Engineer,beginner,model deployment,0.48106608098015513
+STU_BEGINNER,AI Engineer,beginner,model evaluation,0.4216734307889972
+STU_BEGINNER,AI Engineer,beginner,natural language processing,0.2496147044602517
+STU_BEGINNER,AI Engineer,beginner,neural networks,0.1916566351370807
+STU_BEGINNER,AI Engineer,beginner,optimization techniques,0.4296384285364502
+STU_BEGINNER,AI Engineer,beginner,probability theory,0.3970572031542851
+STU_BEGINNER,AI Engineer,beginner,problem solving,0.4087021504122962
+STU_BEGINNER,AI Engineer,beginner,python,0.42638110400578366
+STU_BEGINNER,AI Engineer,beginner,pytorch,0.21221339552022708
+STU_BEGINNER,AI Engineer,beginner,research skills,0.29253971856328176
+STU_BEGINNER,AI Engineer,beginner,tensorflow,0.22476071785753887
+STU_INTERMEDIATE,AI Engineer,intermediate,apis,0.7752413703502374
+STU_INTERMEDIATE,AI Engineer,intermediate,big data tools,0.6793192507310232
+STU_INTERMEDIATE,AI Engineer,intermediate,cloud ml services,0.5623592099410597
+STU_INTERMEDIATE,AI Engineer,intermediate,computer vision,0.46542334011440945
+STU_INTERMEDIATE,AI Engineer,intermediate,data engineering,0.5543929286862649
+STU_INTERMEDIATE,AI Engineer,intermediate,deep learning,0.5750733288106988
+STU_INTERMEDIATE,AI Engineer,intermediate,feature engineering,0.7318424713352256
+STU_INTERMEDIATE,AI Engineer,intermediate,linear algebra,0.6950229885420853
+STU_INTERMEDIATE,AI Engineer,intermediate,machine learning,0.7998850970305307
+STU_INTERMEDIATE,AI Engineer,intermediate,model deployment,0.6238859700647797
+STU_INTERMEDIATE,AI Engineer,intermediate,model evaluation,0.48783769837532065
+STU_INTERMEDIATE,AI Engineer,intermediate,natural language processing,0.725297914889198
+STU_INTERMEDIATE,AI Engineer,intermediate,neural networks,0.744314019446759
+STU_INTERMEDIATE,AI Engineer,intermediate,optimization techniques,0.6595108790277985
+STU_INTERMEDIATE,AI Engineer,intermediate,probability theory,0.7433868719818244
+STU_INTERMEDIATE,AI Engineer,intermediate,problem solving,0.6375182385457563
+STU_INTERMEDIATE,AI Engineer,intermediate,python,0.6540931317527976
+STU_INTERMEDIATE,AI Engineer,intermediate,pytorch,0.6110164073434199
+STU_INTERMEDIATE,AI Engineer,intermediate,research skills,0.4451676506976381
+STU_INTERMEDIATE,AI Engineer,intermediate,tensorflow,0.48315657079732177
+STU_ADVANCED,AI Engineer,advanced,apis,0.7862858371373469
+STU_ADVANCED,AI Engineer,advanced,big data tools,0.9072820822527561
+STU_ADVANCED,AI Engineer,advanced,cloud ml services,0.8428711962152653
+STU_ADVANCED,AI Engineer,advanced,computer vision,0.8917141382329405
+STU_ADVANCED,AI Engineer,advanced,data engineering,0.9615132947852186
+STU_ADVANCED,AI Engineer,advanced,deep learning,0.844858445829775
+STU_ADVANCED,AI Engineer,advanced,feature engineering,0.872076584607126
+STU_ADVANCED,AI Engineer,advanced,linear algebra,0.9411102277086097
+STU_ADVANCED,AI Engineer,advanced,machine learning,0.8407596330983245
+STU_ADVANCED,AI Engineer,advanced,model deployment,0.8003959819657586
+STU_ADVANCED,AI Engineer,advanced,model evaluation,0.8479502905827536
+STU_ADVANCED,AI Engineer,advanced,natural language processing,0.8222442574508009
+STU_ADVANCED,AI Engineer,advanced,neural networks,0.9759395304685147
+STU_ADVANCED,AI Engineer,advanced,optimization techniques,0.9466240759128834
+STU_ADVANCED,AI Engineer,advanced,probability theory,0.9116807513020847
+STU_ADVANCED,AI Engineer,advanced,problem solving,0.9642921180375436
+STU_ADVANCED,AI Engineer,advanced,python,0.955734415379823
+STU_ADVANCED,AI Engineer,advanced,pytorch,0.8273140117772072
+STU_ADVANCED,AI Engineer,advanced,research skills,0.9635117996979956
+STU_ADVANCED,AI Engineer,advanced,tensorflow,0.8978684483831302

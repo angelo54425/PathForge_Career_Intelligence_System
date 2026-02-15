@@ -1,0 +1,498 @@
+skill_id,skill_name_normalized,in_career_data,in_program_data,career_frequency,program_frequency
+SK0001,3d mathematics,True,False,1,0
+SK0002,accessibility standards,True,False,1,0
+SK0003,accounting principles,True,True,3,11
+SK0004,actuator systems,True,False,2,0
+SK0005,adaptability,True,False,1,0
+SK0006,aerodynamics,True,False,1,0
+SK0007,air pollution control,True,True,1,3
+SK0008,aircraft structures,True,False,1,0
+SK0009,algorithms,True,False,1,0
+SK0010,analog systems,True,False,1,0
+SK0011,analytical thinking,True,False,3,0
+SK0012,animation systems,True,False,1,0
+SK0013,api documentation,True,False,1,0
+SK0014,api integration,True,False,1,0
+SK0015,apis,True,True,3,14
+SK0016,attention to detail,True,True,7,11
+SK0017,auditing,True,False,1,0
+SK0018,auditing standards,True,False,1,0
+SK0019,authentication,True,True,1,7
+SK0020,authentication systems,True,False,1,0
+SK0021,autocad,True,False,2,0
+SK0022,automation,True,True,2,12
+SK0023,automation systems,True,False,8,0
+SK0024,automotive electronics,True,False,1,0
+SK0025,avionics systems,True,False,1,0
+SK0026,aws,True,True,1,7
+SK0027,azure,True,True,1,7
+SK0028,backend integration,True,True,1,4
+SK0029,big data tools,True,True,2,14
+SK0030,bioinstrumentation,True,False,1,0
+SK0031,biomaterials,True,False,1,0
+SK0032,biomechanics,True,False,1,0
+SK0033,blasting techniques,True,False,1,0
+SK0034,blockchain architecture,True,True,1,4
+SK0035,bookkeeping,True,False,1,0
+SK0036,brand analysis,True,False,1,0
+SK0037,budgeting,True,True,3,11
+SK0038,build tools,True,False,1,0
+SK0039,building codes and standards,True,False,3,0
+SK0040,business model design,True,False,1,0
+SK0041,business process improvement,True,True,1,8
+SK0042,business strategy,True,False,1,0
+SK0043,business understanding,True,True,1,14
+SK0044,c++,True,False,1,0
+SK0045,cad software,True,False,2,0
+SK0046,cad/cam systems,True,True,1,5
+SK0047,campaign analysis,True,False,1,0
+SK0048,capital budgeting,True,False,1,0
+SK0049,capital raising,True,False,1,0
+SK0050,change management,True,False,1,0
+SK0051,chemical kinetics,True,False,1,0
+SK0052,ci/cd pipelines,True,True,1,7
+SK0053,circuit analysis,True,False,1,0
+SK0054,circuit design,True,False,2,0
+SK0055,client management,True,False,2,0
+SK0056,climate adaptation systems,True,False,1,0
+SK0057,climate change mitigation,True,True,1,3
+SK0058,clinical engineering,True,False,1,0
+SK0059,cloud computing,True,True,2,17
+SK0060,cloud computing fundamentals,True,False,1,0
+SK0061,cloud ml services,True,True,1,14
+SK0062,cloud platforms,True,True,1,5
+SK0063,cloud security,True,True,1,7
+SK0064,cloud services,True,True,2,7
+SK0065,communication,True,True,35,36
+SK0066,compensation and benefits,True,True,1,3
+SK0067,compliance monitoring,True,False,1,0
+SK0068,compliance standards,True,True,3,7
+SK0069,composite materials,True,False,1,0
+SK0070,computational fluid dynamics,True,False,1,0
+SK0071,computer architecture,True,False,1,0
+SK0072,computer programming,True,False,1,0
+SK0073,computer vision,True,True,2,14
+SK0074,concrete design,True,False,1,0
+SK0075,concrete technology,True,False,1,0
+SK0076,conflict resolution,True,True,1,3
+SK0077,consensus algorithms,True,True,1,4
+SK0078,construction management,True,False,2,0
+SK0079,construction techniques,True,False,1,0
+SK0080,consumer behavior analysis,True,False,1,0
+SK0081,container orchestration,True,True,1,7
+SK0082,continuous improvement,True,False,1,0
+SK0083,contract management,True,False,1,0
+SK0084,control systems,True,False,8,0
+SK0085,control theory,True,False,1,0
+SK0086,corporate finance,True,True,4,11
+SK0087,corrosion engineering,True,False,1,0
+SK0088,cost accounting,True,False,1,0
+SK0089,cost analysis,True,True,4,16
+SK0090,cost benefit analysis,True,True,1,8
+SK0091,cost control,True,False,1,0
+SK0092,cost estimation,True,False,4,0
+SK0093,credit risk assessment,True,False,1,0
+SK0094,critical thinking,True,True,1,3
+SK0095,crop processing technology,True,False,1,0
+SK0096,cross-browser compatibility,True,False,1,0
+SK0097,cryptography,True,True,2,11
+SK0098,css,True,True,2,7
+SK0099,customer segmentation,True,False,1,0
+SK0100,cybersecurity basics,True,False,1,0
+SK0101,dashboard design,True,True,1,14
+SK0102,data accuracy,True,False,1,0
+SK0103,data analysis,True,True,23,22
+SK0104,data cleaning,True,True,2,19
+SK0105,data engineering,True,True,2,14
+SK0106,data ethics,True,True,2,19
+SK0107,data interpretation,True,True,2,14
+SK0108,data modeling,True,False,1,0
+SK0109,data pipelines,True,True,1,5
+SK0110,data querying,True,True,1,14
+SK0111,data storytelling,True,True,1,10
+SK0112,data structures,True,False,1,0
+SK0113,data visualization,True,True,6,25
+SK0114,data wrangling,True,True,2,19
+SK0115,database design,True,True,3,21
+SK0116,debugging,True,True,4,7
+SK0117,decision analysis,True,False,2,0
+SK0118,decision making,True,True,8,13
+SK0119,deep learning,True,True,3,14
+SK0120,defi concepts,True,True,1,4
+SK0121,deployment,True,True,2,7
+SK0122,deployment pipelines,True,False,1,0
+SK0123,descriptive statistics,True,True,1,14
+SK0124,devsecops,True,True,1,7
+SK0125,digital communication systems,True,False,1,0
+SK0126,digital logic design,True,False,1,0
+SK0127,digital marketing,True,False,1,0
+SK0128,digital systems,True,False,1,0
+SK0129,distributed systems,True,True,1,4
+SK0130,docker,True,True,1,7
+SK0131,documentation skills,True,True,2,8
+SK0132,documentation standards,True,True,1,8
+SK0133,drilling engineering,True,False,1,0
+SK0134,due diligence,True,False,1,0
+SK0135,econometrics,True,True,1,3
+SK0136,electric vehicle systems,True,False,1,0
+SK0137,electrical machines,True,True,1,4
+SK0138,electrical systems,True,False,1,0
+SK0139,electronics,True,False,2,0
+SK0140,embedded systems,True,False,6,0
+SK0141,emission control systems,True,False,1,0
+SK0142,employee relations,True,True,1,3
+SK0143,employment law,True,True,1,3
+SK0144,encryption techniques,True,True,1,7
+SK0145,energy efficiency analysis,True,False,2,0
+SK0146,energy policy fundamentals,True,False,1,0
+SK0147,energy storage systems,True,True,1,4
+SK0148,energy storage technologies,True,False,2,0
+SK0149,energy systems,True,False,3,0
+SK0150,engineering economics,True,False,1,0
+SK0151,engineering mathematics,True,True,15,3
+SK0152,environmental assessment,True,False,1,0
+SK0153,environmental chemistry,True,True,1,3
+SK0154,environmental compliance,True,False,6,0
+SK0155,environmental engineering,True,False,1,0
+SK0156,environmental impact assessment,True,True,3,3
+SK0157,environmental management,True,False,1,0
+SK0158,environmental regulations,True,True,1,3
+SK0159,equipment maintenance,True,False,1,0
+SK0160,equipment operation,True,False,1,0
+SK0161,equity research,True,True,1,5
+SK0162,ergonomics,True,False,1,0
+SK0163,erp systems,True,False,2,0
+SK0164,ethereum,True,True,1,4
+SK0165,ethical hacking,True,True,1,7
+SK0166,ethics,True,True,4,3
+SK0167,ethics in healthcare,True,False,1,0
+SK0168,excel,True,True,9,28
+SK0169,experiment design,True,True,1,10
+SK0170,exploratory data analysis,True,True,1,14
+SK0171,express.js,True,True,1,7
+SK0172,failure analysis,True,False,2,0
+SK0173,farm machinery design,True,False,1,0
+SK0174,feature engineering,True,True,3,14
+SK0175,feedback systems,True,False,1,0
+SK0176,fiber optics,True,False,1,0
+SK0177,field testing methods,True,False,1,0
+SK0178,field work techniques,True,True,2,3
+SK0179,financial analysis,True,False,2,0
+SK0180,financial forecasting tools,True,True,1,11
+SK0181,financial literacy,True,False,1,0
+SK0182,financial mathematics,True,False,1,0
+SK0183,financial modeling,True,True,6,11
+SK0184,financial planning,True,False,2,0
+SK0185,financial regulations,True,True,5,11
+SK0186,financial reporting,True,True,5,11
+SK0187,financial statements,True,True,2,11
+SK0188,financial statements analysis,True,True,4,5
+SK0189,finite element analysis,True,False,3,0
+SK0190,firewalls,True,True,1,7
+SK0191,flight mechanics,True,False,1,0
+SK0192,flood modeling,True,False,1,0
+SK0193,fluid mechanics,True,False,6,0
+SK0194,forecasting,True,True,8,11
+SK0195,foundation design,True,False,2,0
+SK0196,fpga design,True,False,1,0
+SK0197,game ai,True,False,1,0
+SK0198,game design principles,True,False,1,0
+SK0199,game physics,True,False,1,0
+SK0200,gas optimization,True,True,1,4
+SK0201,geographic information systems,True,True,3,3
+SK0202,geology fundamentals,True,False,1,0
+SK0203,geometric design,True,False,1,0
+SK0204,geotechnical engineering,True,False,2,0
+SK0205,geotechnical investigation,True,False,1,0
+SK0206,geotechnical software tools,True,False,1,0
+SK0207,git,True,True,2,7
+SK0208,graphics programming,True,False,1,0
+SK0209,ground improvement techniques,True,False,1,0
+SK0210,hardware-software integration,True,False,1,0
+SK0211,health and safety standards,True,False,1,0
+SK0212,heat transfer,True,False,3,0
+SK0213,heat treatment processes,True,False,1,0
+SK0214,high voltage engineering,True,True,1,4
+SK0215,highway design,True,False,1,0
+SK0216,hr analytics,True,True,1,3
+SK0217,html,True,True,2,7
+SK0218,human physiology,True,False,1,0
+SK0219,hydraulics,True,False,2,0
+SK0220,hydrocarbon processing,True,False,1,0
+SK0221,hydrodynamics,True,False,1,0
+SK0222,hydrology,True,True,3,3
+SK0223,incident response,True,True,1,7
+SK0224,industrial automation,True,True,1,5
+SK0225,industrial chemistry,True,False,1,0
+SK0226,industrial robotics,True,False,2,0
+SK0227,infrastructure as code,True,True,1,7
+SK0228,innovation,True,False,1,0
+SK0229,instrumentation,True,False,3,0
+SK0230,instrumentation calibration,True,False,1,0
+SK0231,insurance principles,True,False,1,0
+SK0232,integration testing,True,False,1,0
+SK0233,internal combustion engines,True,False,1,0
+SK0234,internal controls,True,False,2,0
+SK0235,international economics,True,True,1,3
+SK0236,intrusion detection,True,True,1,7
+SK0237,inventory management,True,False,1,0
+SK0238,investment analysis,True,True,3,11
+SK0239,ipfs,True,True,1,4
+SK0240,irrigation systems,True,False,2,0
+SK0241,java,True,False,1,0
+SK0242,javascript,True,True,2,7
+SK0243,kubernetes,True,True,1,7
+SK0244,leadership,True,True,5,3
+SK0245,lean manufacturing,True,True,2,5
+SK0246,level design,True,False,1,0
+SK0247,linear algebra,True,True,3,14
+SK0248,linux administration,True,True,2,7
+SK0249,load calculations,True,False,1,0
+SK0250,load flow analysis,True,True,1,4
+SK0251,logging systems,True,True,1,7
+SK0252,logistics management,True,False,2,0
+SK0253,logistics planning,True,False,1,0
+SK0254,machine dynamics,True,False,1,0
+SK0255,machine learning,True,True,2,14
+SK0256,machine learning algorithms,True,True,1,5
+SK0257,machine learning basics,True,False,1,0
+SK0258,macroeconomics,True,True,1,3
+SK0259,maintenance engineering,True,True,3,5
+SK0260,malware analysis,True,True,1,7
+SK0261,manufacturing processes,True,True,6,5
+SK0262,marine propulsion systems,True,False,1,0
+SK0263,marine safety standards,True,False,1,0
+SK0264,market analysis,True,True,4,11
+SK0265,market research,True,True,2,5
+SK0266,market risk analysis,True,False,1,0
+SK0267,market validation,True,False,1,0
+SK0268,marketing strategy,True,False,2,0
+SK0269,mass transfer,True,False,1,0
+SK0270,material testing,True,False,1,0
+SK0271,materials science,True,False,4,0
+SK0272,materials testing,True,False,1,0
+SK0273,mechanical design,True,False,3,0
+SK0274,mechanical testing,True,False,1,0
+SK0275,mechanics,True,False,1,0
+SK0276,medical device design,True,False,1,0
+SK0277,medical imaging systems,True,False,1,0
+SK0278,mergers and acquisitions,True,False,1,0
+SK0279,metallurgy,True,False,1,0
+SK0280,microcontrollers,True,False,2,0
+SK0281,microeconomics,True,True,1,3
+SK0282,microprocessors,True,False,1,0
+SK0283,microservices architecture,True,False,1,0
+SK0284,microwave engineering,True,False,1,0
+SK0285,mine planning,True,False,1,0
+SK0286,mineral processing,True,False,1,0
+SK0287,model deployment,True,True,3,14
+SK0288,model evaluation,True,True,3,14
+SK0289,model monitoring,True,True,1,5
+SK0290,monitoring tools,True,True,1,7
+SK0291,multiplayer networking,True,False,1,0
+SK0292,nanotechnology,True,False,1,0
+SK0293,natural language processing,True,True,1,14
+SK0294,naval architecture basics,True,False,1,0
+SK0295,negotiation skills,True,False,4,0
+SK0296,network architecture,True,False,1,0
+SK0297,network security,True,True,1,7
+SK0298,networking,True,True,3,10
+SK0299,networking fundamentals,True,False,2,0
+SK0300,networking protocols,True,False,1,0
+SK0301,neural networks,True,True,1,14
+SK0302,node.js,True,True,2,7
+SK0303,nuclear reactor physics,True,False,1,0
+SK0304,nuclear safety engineering,True,False,1,0
+SK0305,offshore engineering,True,False,1,0
+SK0306,operating systems,True,True,2,7
+SK0307,operations management,True,False,1,0
+SK0308,operations research,True,False,1,0
+SK0309,opportunity recognition,True,False,1,0
+SK0310,optimization,True,True,2,10
+SK0311,optimization techniques,True,True,2,14
+SK0312,organizational development,True,True,1,3
+SK0313,pcb design,True,False,1,0
+SK0314,penetration testing,True,True,1,7
+SK0315,performance management,True,True,1,3
+SK0316,performance metrics,True,False,1,0
+SK0317,performance optimization,True,True,3,7
+SK0318,performance profiling,True,False,1,0
+SK0319,petrophysics,True,False,1,0
+SK0320,physics,True,False,14,0
+SK0321,pid controllers,True,False,1,0
+SK0322,pipeline systems,True,False,1,0
+SK0323,plant operations,True,False,1,0
+SK0324,policy analysis,True,True,2,6
+SK0325,polymer engineering,True,False,1,0
+SK0326,portfolio management,True,True,1,5
+SK0327,power bi,True,True,1,14
+SK0328,power distribution networks,True,True,1,4
+SK0329,power electronics,True,False,2,0
+SK0330,power generation systems,True,True,2,4
+SK0331,power systems,True,False,2,0
+SK0332,power systems engineering,True,False,1,0
+SK0333,powerpoint,True,False,1,0
+SK0334,powertrain design,True,False,1,0
+SK0335,presentation skills,True,True,8,19
+SK0336,probability theory,True,True,4,14
+SK0337,problem solving,True,True,54,52
+SK0338,process control,True,False,2,0
+SK0339,process design,True,False,1,0
+SK0340,process evaluation,True,False,1,0
+SK0341,process mapping,True,False,1,0
+SK0342,process modeling,True,True,1,8
+SK0343,process optimization,True,True,7,5
+SK0344,process simulation software,True,False,1,0
+SK0345,procurement,True,False,1,0
+SK0346,production engineering,True,False,1,0
+SK0347,production optimization,True,False,1,0
+SK0348,production planning,True,True,2,5
+SK0349,programming (c/c++),True,False,2,0
+SK0350,programming (matlab/python),True,False,1,0
+SK0351,programming (python/c++),True,False,1,0
+SK0352,project management,True,True,32,20
+SK0353,project scheduling,True,False,1,0
+SK0354,propulsion systems,True,False,1,0
+SK0355,protection systems,True,True,1,4
+SK0356,public finance,True,True,1,3
+SK0357,public health engineering,True,True,1,3
+SK0358,python,True,True,5,23
+SK0359,pytorch,True,True,1,14
+SK0360,quality assurance,True,False,4,0
+SK0361,quality control,True,True,17,7
+SK0362,quality control systems,True,True,3,5
+SK0363,quality engineering,True,False,1,0
+SK0364,quality management,True,False,1,0
+SK0365,quantitative methods,True,True,1,3
+SK0366,radiation protection,True,False,1,0
+SK0367,radio frequency engineering,True,False,1,0
+SK0368,react,True,True,2,7
+SK0369,reaction engineering,True,False,1,0
+SK0370,recruitment strategies,True,True,1,3
+SK0371,regulatory compliance,True,True,8,4
+SK0372,regulatory knowledge,True,False,1,0
+SK0373,renewable energy integration,True,True,1,4
+SK0374,renewable energy systems,True,True,4,3
+SK0375,report writing,True,True,2,3
+SK0376,reporting,True,True,6,17
+SK0377,reporting standards,True,False,1,0
+SK0378,requirements engineering,True,False,1,0
+SK0379,requirements gathering,True,True,1,8
+SK0380,research methods,True,True,4,3
+SK0381,research skills,True,True,1,14
+SK0382,reservoir engineering,True,False,1,0
+SK0383,resource management,True,True,2,3
+SK0384,responsive design,True,True,2,7
+SK0385,rest apis,True,True,3,7
+SK0386,risk analysis,True,True,2,19
+SK0387,risk assessment,True,True,17,15
+SK0388,risk management,True,False,8,0
+SK0389,risk modeling,True,False,2,0
+SK0390,road safety engineering,True,False,1,0
+SK0391,robotics fundamentals,True,False,3,0
+SK0392,rock mechanics,True,False,2,0
+SK0393,safety engineering,True,False,2,0
+SK0394,safety standards,True,True,11,9
+SK0395,sales strategy,True,False,1,0
+SK0396,sampling techniques,True,True,1,3
+SK0397,scikit-learn,True,True,1,5
+SK0398,scripting,True,True,4,10
+SK0399,security auditing,True,True,2,11
+SK0400,security best practices,True,True,3,7
+SK0401,security policies,True,True,1,7
+SK0402,security practices,True,True,1,7
+SK0403,seismic design,True,False,1,0
+SK0404,sensor integration,True,False,2,0
+SK0405,seo,True,False,1,0
+SK0406,separation processes,True,False,1,0
+SK0407,shader programming,True,False,1,0
+SK0408,ship design,True,False,1,0
+SK0409,siem tools,True,True,1,7
+SK0410,signal processing,True,False,6,0
+SK0411,simulation modeling,True,False,1,0
+SK0412,simulation software,True,False,2,0
+SK0413,simulation tools,True,False,3,0
+SK0414,site supervision,True,False,2,0
+SK0415,slope stability analysis,True,False,1,0
+SK0416,smart contract testing,True,True,1,4
+SK0417,smart contracts,True,True,1,4
+SK0418,smart grid systems,True,True,3,4
+SK0419,software architecture,True,False,1,0
+SK0420,software engineering principles,True,False,1,0
+SK0421,soil mechanics,True,False,3,0
+SK0422,soil science,True,True,1,3
+SK0423,solar energy systems,True,False,2,0
+SK0424,solidity,True,True,1,4
+SK0425,sql,True,True,6,29
+SK0426,stakeholder communication,True,False,1,0
+SK0427,stakeholder management,True,True,3,8
+SK0428,state management,True,False,1,0
+SK0429,statistical analysis,True,True,4,3
+SK0430,statistical process control,True,True,1,5
+SK0431,statistical software,True,True,1,3
+SK0432,statistics,True,True,4,19
+SK0433,steel design,True,False,1,0
+SK0434,stormwater management,True,False,1,0
+SK0435,strategic planning,True,True,7,14
+SK0436,strategic thinking,True,True,8,13
+SK0437,stress testing,True,False,1,0
+SK0438,structural analysis,True,False,3,0
+SK0439,structural design basics,True,False,1,0
+SK0440,structural design software,True,False,1,0
+SK0441,structural modeling software,True,False,1,0
+SK0442,supply chain management,True,True,3,5
+SK0443,surface engineering,True,False,1,0
+SK0444,surface mining operations,True,False,1,0
+SK0445,surveying,True,False,3,0
+SK0446,sustainability engineering,True,True,3,3
+SK0447,sustainability practices,True,False,2,0
+SK0448,system architecture design,True,False,1,0
+SK0449,system modeling,True,False,2,0
+SK0450,system optimization,True,False,2,0
+SK0451,system simulation,True,False,4,0
+SK0452,system testing,True,False,1,0
+SK0453,systems engineering,True,False,1,0
+SK0454,tableau,True,True,1,14
+SK0455,talent acquisition,True,True,1,3
+SK0456,taxation,True,False,1,0
+SK0457,technical documentation,True,True,16,5
+SK0458,technical drawing,True,False,4,0
+SK0459,technical reporting,True,True,8,7
+SK0460,telecom regulations,True,False,1,0
+SK0461,tensorflow,True,True,1,14
+SK0462,testing,True,True,4,12
+SK0463,testing and troubleshooting,True,False,2,0
+SK0464,testing and validation,True,False,7,0
+SK0465,thermodynamics,True,False,6,0
+SK0466,threat modeling,True,True,1,7
+SK0467,time management,True,True,21,13
+SK0468,time series analysis,True,True,1,3
+SK0469,token standards,True,True,1,4
+SK0470,tokenomics,True,True,1,4
+SK0471,traffic flow analysis,True,False,1,0
+SK0472,traffic simulation software,True,False,1,0
+SK0473,training and development,True,True,1,3
+SK0474,transportation planning,True,False,1,0
+SK0475,transportation systems,True,False,1,0
+SK0476,troubleshooting,True,True,2,7
+SK0477,ui design principles,True,True,2,7
+SK0478,underground mining systems,True,False,1,0
+SK0479,unity,True,False,1,0
+SK0480,unreal engine,True,False,1,0
+SK0481,urban mobility systems,True,False,1,0
+SK0482,user experience design,True,False,1,0
+SK0483,ux principles,True,False,1,0
+SK0484,valuation techniques,True,True,3,11
+SK0485,vehicle dynamics,True,False,1,0
+SK0486,vendor management,True,False,1,0
+SK0487,version control,True,True,8,16
+SK0488,vulnerability assessment,True,True,1,7
+SK0489,waste management,True,True,1,3
+SK0490,water resources engineering,True,False,2,0
+SK0491,water treatment systems,True,True,2,3
+SK0492,web3.js,True,True,1,4
+SK0493,well logging,True,False,1,0
+SK0494,well testing,True,False,1,0
+SK0495,wind energy systems,True,False,2,0
+SK0496,wireless communication systems,True,False,1,0
+SK0497,workforce planning,True,True,1,3
