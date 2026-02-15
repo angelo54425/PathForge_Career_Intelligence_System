@@ -36,7 +36,7 @@ https://github.com/angelo54425/PathForge_Career_Intelligence_System
 
 ## 🎥 Video demo link
 
-https://github.com/angelo54425/PathForge_Career_Intelligence_System
+https://drive.google.com/file/d/1smZGlVmxxIt-1dgDoBz-r8QiUrgvbQId/view?usp=sharing
 
 ---
 
