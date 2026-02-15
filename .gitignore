@@ -1,3 +1,48 @@
 git rm --cached .DS_Store
 git rm --cached workspace.code-workspace
 git commit -m "Remove ignored files"
+
+# -------------------------
+# OS Files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.env
+venv/
+.env.*
+*.sqlite3
+
+# -------------------------
+# Node / Frontend
+# -------------------------
+node_modules/
+dist/
+build/
+.next/
+
+# -------------------------
+# VS Code
+# -------------------------
+.vscode/
+*.code-workspace
+workspace.code-workspace
+
+# -------------------------
+# Logs
+# -------------------------
+*.log
+
+# -------------------------
+# Docker
+# -------------------------
+*.dockerignore
