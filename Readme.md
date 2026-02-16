@@ -44,7 +44,7 @@ https://drive.google.com/file/d/1smZGlVmxxIt-1dgDoBz-r8QiUrgvbQId/view?usp=shari
 
 **Estimated Deployment Time:** 14 Days  
 **Preconditions:**
-- Figma mockups completed  
+- Figma mockups completed (link: https://drive.google.com/drive/folders/1vHVpxZWJYEF_CJoPd_y-4t3683fRou_g?usp=drive_link)
 - Python analytical notebook finalized  
 - career_skills.csv and program_skill_coverage.csv prepared  
 
