@@ -1,0 +1,87 @@
+{
+  "pathforge_user_angelo": {
+    "student_id": "pathforge_user_angelo",
+    "name": "PathForge User",
+    "email": "",
+    "skills": {
+      "python": 0.6,
+      "python_advanced": 0.45,
+      "version_control_git": 0.55,
+      "linux_command_line": 0.4,
+      "api_development": 0.35,
+      "documentation": 0.55,
+      "machine_learning": 0.8,
+      "machine_learning_fundamentals": 0.85,
+      "deep_learning": 0.7,
+      "statistics": 0.82,
+      "model_evaluation": 0.75,
+      "feature_engineering": 0.65,
+      "r_programming": 0.5,
+      "sql": 0.6,
+      "data_visualization": 0.6,
+      "data_analysis": 0.65,
+      "cloud_computing": 0.25,
+      "communication": 0.55,
+      "problem_solving": 0.55,
+      "critical_thinking": 0.6,
+      "agile_methodology": 0.4
+    },
+    "region": "Tanzania",
+    "target_careers": [
+      "Data Scientist"
+    ],
+    "created_at": "2026-03-02T16:11:36.213005",
+    "updated_at": "2026-03-02T16:11:36.213005",
+    "progress_snapshots": []
+  },
+  "stu_test_001": {
+    "student_id": "stu_test_001",
+    "name": "Alice Nakato",
+    "email": "alice@test.com",
+    "skills": {
+      "python": 0.85,
+      "sql": 0.6,
+      "machine_learning": 0.6,
+      "statistics": 0.7,
+      "communication": 0.75,
+      "deep_learning": 0.25,
+      "data_visualization": 0.65
+    },
+    "region": "Uganda",
+    "target_careers": [
+      "Data Scientist"
+    ],
+    "created_at": "2026-03-02T20:44:25.698578",
+    "updated_at": "2026-03-02T20:44:25.846025",
+    "progress_snapshots": [
+      {
+        "date": "2026-03-02",
+        "career": "Data Scientist",
+        "readiness_score": 0.1845,
+        "skills": {
+          "python": 0.85,
+          "sql": 0.6,
+          "machine_learning": 0.35,
+          "statistics": 0.5,
+          "communication": 0.75,
+          "deep_learning": 0.25,
+          "data_visualization": 0.55
+        }
+      },
+      {
+        "date": "2026-03-02",
+        "career": "Data Scientist",
+        "readiness_score": 0.2129,
+        "skills": {
+          "python": 0.85,
+          "sql": 0.6,
+          "machine_learning": 0.6,
+          "statistics": 0.7,
+          "communication": 0.75,
+          "deep_learning": 0.25,
+          "data_visualization": 0.65
+        }
+      }
+    ]
+  }
+}

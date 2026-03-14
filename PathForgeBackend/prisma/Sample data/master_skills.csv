@@ -1,0 +1,351 @@
+skill_id,skill_name_normalized,in_career_data,in_program_data,career_frequency,program_frequency
+SK0001,accounting principles,False,True,0,11
+SK0002,accounts_payable,True,False,1,0
+SK0003,actuarial_modeling,True,False,1,0
+SK0004,agile_methodology,True,False,8,0
+SK0005,air pollution control,False,True,0,3
+SK0006,api_development,True,False,8,0
+SK0007,apis,False,True,0,14
+SK0008,aspen_plus,True,False,1,0
+SK0009,attention to detail,False,True,0,11
+SK0010,attention_to_detail,True,False,8,0
+SK0011,audit_procedures,True,False,1,0
+SK0012,audit_support,True,False,1,0
+SK0013,authentication,False,True,0,7
+SK0014,autocad,True,False,8,0
+SK0015,automation,False,True,0,12
+SK0016,aws,False,True,0,7
+SK0017,azure,False,True,0,7
+SK0018,backend integration,False,True,0,4
+SK0019,big data tools,False,True,0,14
+SK0020,bioinformatics,True,False,1,0
+SK0021,biomechanics,True,False,1,0
+SK0022,blockchain architecture,False,True,0,4
+SK0023,bloomberg_terminal,True,False,1,0
+SK0024,bookkeeping,True,False,1,0
+SK0025,budgeting,False,True,0,11
+SK0026,building_codes,True,False,1,0
+SK0027,business process improvement,False,True,0,8
+SK0028,business understanding,False,True,0,14
+SK0029,cad/cam systems,False,True,0,5
+SK0030,capital_markets,True,False,1,0
+SK0031,ci/cd pipelines,False,True,0,7
+SK0032,ci_cd_pipelines,True,False,1,0
+SK0033,circuit_design,True,False,1,0
+SK0034,climate change mitigation,False,True,0,3
+SK0035,clinical_trials,True,False,1,0
+SK0036,cloud computing,False,True,0,17
+SK0037,cloud ml services,False,True,0,14
+SK0038,cloud platforms,False,True,0,5
+SK0039,cloud security,False,True,0,7
+SK0040,cloud services,False,True,0,7
+SK0041,cloud_computing,True,False,8,0
+SK0042,communication,True,True,24,36
+SK0043,compensation and benefits,False,True,0,3
+SK0044,compliance standards,False,True,0,7
+SK0045,compliance_testing,True,False,1,0
+SK0046,computer vision,False,True,0,14
+SK0047,computer_vision,True,False,1,0
+SK0048,conflict resolution,False,True,0,3
+SK0049,consensus algorithms,False,True,0,4
+SK0050,construction_management,True,False,1,0
+SK0051,container orchestration,False,True,0,7
+SK0052,corporate finance,False,True,0,11
+SK0053,cost analysis,False,True,0,16
+SK0054,cost benefit analysis,False,True,0,8
+SK0055,critical thinking,False,True,0,3
+SK0056,critical_thinking,True,False,24,0
+SK0057,cryptography,True,True,2,11
+SK0058,css,False,True,0,7
+SK0059,dashboard design,False,True,0,14
+SK0060,data analysis,False,True,0,22
+SK0061,data cleaning,False,True,0,19
+SK0062,data engineering,False,True,0,14
+SK0063,data ethics,False,True,0,19
+SK0064,data interpretation,False,True,0,14
+SK0065,data pipelines,False,True,0,5
+SK0066,data querying,False,True,0,14
+SK0067,data storytelling,False,True,0,10
+SK0068,data visualization,False,True,0,25
+SK0069,data wrangling,False,True,0,19
+SK0070,data_analysis,True,False,16,0
+SK0071,data_cleaning,True,False,1,0
+SK0072,data_visualization,True,False,8,0
+SK0073,database design,False,True,0,21
+SK0074,database_design,True,False,1,0
+SK0075,deal_structuring,True,False,1,0
+SK0076,debugging,False,True,0,7
+SK0077,decision making,False,True,0,13
+SK0078,deep learning,False,True,0,14
+SK0079,deep_learning,True,False,3,0
+SK0080,defi concepts,False,True,0,4
+SK0081,deployment,False,True,0,7
+SK0082,descriptive statistics,False,True,0,14
+SK0083,devsecops,False,True,0,7
+SK0084,distributed systems,False,True,0,4
+SK0085,distributed_systems,True,False,1,0
+SK0086,docker,True,True,1,7
+SK0087,documentation,True,False,16,0
+SK0088,documentation skills,False,True,0,8
+SK0089,documentation standards,False,True,0,8
+SK0090,econometrics,True,True,1,3
+SK0091,electrical machines,False,True,0,4
+SK0092,electrical_codes,True,False,1,0
+SK0093,embedded_systems,True,False,2,0
+SK0094,employee relations,False,True,0,3
+SK0095,employment law,False,True,0,3
+SK0096,encryption techniques,False,True,0,7
+SK0097,energy storage systems,False,True,0,4
+SK0098,engineering mathematics,False,True,0,3
+SK0099,environmental chemistry,False,True,0,3
+SK0100,environmental impact assessment,False,True,0,3
+SK0101,environmental regulations,False,True,0,3
+SK0102,environmental_impact_assessment,True,False,1,0
+SK0103,environmental_regulations,True,False,1,0
+SK0104,equity research,False,True,0,5
+SK0105,erp_systems,True,False,2,0
+SK0106,ethereum,True,True,1,4
+SK0107,ethical hacking,False,True,0,7
+SK0108,ethical_hacking,True,False,1,0
+SK0109,ethics,False,True,0,3
+SK0110,excel,True,True,1,28
+SK0111,excel_advanced,True,False,8,0
+SK0112,experiment design,False,True,0,10
+SK0113,exploratory data analysis,False,True,0,14
+SK0114,express.js,False,True,0,7
+SK0115,fda_regulations,True,False,1,0
+SK0116,fea_analysis,True,False,1,0
+SK0117,feature engineering,False,True,0,14
+SK0118,feature_engineering,True,False,2,0
+SK0119,field work techniques,False,True,0,3
+SK0120,financial forecasting tools,False,True,0,11
+SK0121,financial modeling,False,True,0,11
+SK0122,financial regulations,False,True,0,11
+SK0123,financial reporting,False,True,0,11
+SK0124,financial statements,False,True,0,11
+SK0125,financial statements analysis,False,True,0,5
+SK0126,financial_analysis,True,False,8,0
+SK0127,financial_modeling,True,False,2,0
+SK0128,firewalls,True,True,1,7
+SK0129,fluid_mechanics,True,False,1,0
+SK0130,forecasting,True,True,2,11
+SK0131,fpga_programming,True,False,1,0
+SK0132,fraud_detection,True,False,1,0
+SK0133,gaap_ifrs,True,False,2,0
+SK0134,gas optimization,False,True,0,4
+SK0135,geographic information systems,False,True,0,3
+SK0136,geotechnical_engineering,True,False,1,0
+SK0137,gis_mapping,True,False,1,0
+SK0138,git,False,True,0,7
+SK0139,hardware_design,True,False,1,0
+SK0140,high voltage engineering,False,True,0,4
+SK0141,hr analytics,False,True,0,3
+SK0142,html,False,True,0,7
+SK0143,html_css,True,False,1,0
+SK0144,hvac_systems,True,False,1,0
+SK0145,hydrology,False,True,0,3
+SK0146,incident response,False,True,0,7
+SK0147,incident_response,True,False,1,0
+SK0148,industrial automation,False,True,0,5
+SK0149,infrastructure as code,False,True,0,7
+SK0150,internal_controls,True,False,1,0
+SK0151,international economics,False,True,0,3
+SK0152,intrusion detection,False,True,0,7
+SK0153,investment analysis,False,True,0,11
+SK0154,ipfs,False,True,0,4
+SK0155,javascript,True,True,1,7
+SK0156,kubernetes,True,True,1,7
+SK0157,leadership,False,True,0,3
+SK0158,lean manufacturing,False,True,0,5
+SK0159,lean_manufacturing,True,False,1,0
+SK0160,life_tables,True,False,1,0
+SK0161,linear algebra,False,True,0,14
+SK0162,linux administration,False,True,0,7
+SK0163,linux_command_line,True,False,8,0
+SK0164,load flow analysis,False,True,0,4
+SK0165,logging systems,False,True,0,7
+SK0166,machine learning,False,True,0,14
+SK0167,machine learning algorithms,False,True,0,5
+SK0168,machine_learning,True,False,2,0
+SK0169,machine_learning_fundamentals,True,False,8,0
+SK0170,macroeconomic_analysis,True,False,1,0
+SK0171,macroeconomics,False,True,0,3
+SK0172,maintenance engineering,False,True,0,5
+SK0173,malware analysis,False,True,0,7
+SK0174,manufacturing processes,False,True,0,5
+SK0175,manufacturing_processes,True,False,1,0
+SK0176,market analysis,False,True,0,11
+SK0177,market research,False,True,0,5
+SK0178,material_balances,True,False,1,0
+SK0179,mathematics_advanced,True,False,8,0
+SK0180,matlab,True,False,8,0
+SK0181,medical_device_design,True,False,1,0
+SK0182,mergers_acquisitions,True,False,1,0
+SK0183,microcontrollers,True,False,1,0
+SK0184,microeconomics,False,True,0,3
+SK0185,microsoft_office,True,False,8,0
+SK0186,mlops,True,False,1,0
+SK0187,model deployment,False,True,0,14
+SK0188,model evaluation,False,True,0,14
+SK0189,model monitoring,False,True,0,5
+SK0190,model_deployment,True,False,2,0
+SK0191,model_evaluation,True,False,1,0
+SK0192,monitoring tools,False,True,0,7
+SK0193,monitoring_tools,True,False,1,0
+SK0194,monte_carlo_simulation,True,False,1,0
+SK0195,natural language processing,False,True,0,14
+SK0196,network security,False,True,0,7
+SK0197,network_security,True,False,1,0
+SK0198,networking,False,True,0,10
+SK0199,neural networks,False,True,0,14
+SK0200,nlp,True,False,1,0
+SK0201,node.js,False,True,0,7
+SK0202,nodejs,True,False,1,0
+SK0203,operating systems,False,True,0,7
+SK0204,operations_research,True,False,1,0
+SK0205,optimization,False,True,0,10
+SK0206,optimization techniques,False,True,0,14
+SK0207,organizational development,False,True,0,3
+SK0208,pcb_design,True,False,1,0
+SK0209,penetration testing,False,True,0,7
+SK0210,penetration_testing,True,False,1,0
+SK0211,performance management,False,True,0,3
+SK0212,performance optimization,False,True,0,7
+SK0213,physics_applied,True,False,8,0
+SK0214,pitch_decks,True,False,1,0
+SK0215,plc_programming,True,False,1,0
+SK0216,policy analysis,False,True,0,6
+SK0217,policy_analysis,True,False,1,0
+SK0218,portfolio management,False,True,0,5
+SK0219,portfolio_analysis,True,False,1,0
+SK0220,power bi,False,True,0,14
+SK0221,power distribution networks,False,True,0,4
+SK0222,power generation systems,False,True,0,4
+SK0223,power_bi,True,False,3,0
+SK0224,power_systems,True,False,1,0
+SK0225,presentation skills,False,True,0,19
+SK0226,presentation_skills,True,False,8,0
+SK0227,probability theory,False,True,0,14
+SK0228,probability_theory,True,False,1,0
+SK0229,problem solving,False,True,0,52
+SK0230,problem_solving,True,False,24,0
+SK0231,process modeling,False,True,0,8
+SK0232,process optimization,False,True,0,5
+SK0233,process_design,True,False,1,0
+SK0234,process_mapping,True,False,1,0
+SK0235,process_safety,True,False,1,0
+SK0236,production planning,False,True,0,5
+SK0237,project management,False,True,0,20
+SK0238,project_management,True,False,8,0
+SK0239,protection systems,False,True,0,4
+SK0240,public finance,False,True,0,3
+SK0241,public health engineering,False,True,0,3
+SK0242,python,True,True,8,23
+SK0243,python_advanced,True,False,2,0
+SK0244,pytorch,True,True,1,14
+SK0245,quality control,False,True,0,7
+SK0246,quality control systems,False,True,0,5
+SK0247,quality_control,True,False,8,0
+SK0248,quantitative methods,False,True,0,3
+SK0249,r_programming,True,False,2,0
+SK0250,react,True,True,1,7
+SK0251,reaction_kinetics,True,False,1,0
+SK0252,real_time_os,True,False,1,0
+SK0253,recruitment strategies,False,True,0,3
+SK0254,regulatory compliance,False,True,0,4
+SK0255,regulatory_compliance,True,False,8,0
+SK0256,renewable energy integration,False,True,0,4
+SK0257,renewable energy systems,False,True,0,3
+SK0258,report writing,False,True,0,3
+SK0259,report_writing,True,False,8,0
+SK0260,reporting,True,True,9,17
+SK0261,requirements gathering,False,True,0,8
+SK0262,requirements_gathering,True,False,1,0
+SK0263,research methods,False,True,0,3
+SK0264,research skills,False,True,0,14
+SK0265,research_methodology,True,False,1,0
+SK0266,resource management,False,True,0,3
+SK0267,responsive design,False,True,0,7
+SK0268,rest apis,False,True,0,7
+SK0269,restful_apis,True,False,1,0
+SK0270,risk analysis,False,True,0,19
+SK0271,risk assessment,False,True,0,15
+SK0272,risk_assessment,True,False,1,0
+SK0273,risk_modeling,True,False,1,0
+SK0274,safety standards,False,True,0,9
+SK0275,safety_standards,True,False,8,0
+SK0276,sampling techniques,False,True,0,3
+SK0277,scikit-learn,False,True,0,5
+SK0278,scripting,False,True,0,10
+SK0279,security auditing,False,True,0,11
+SK0280,security best practices,False,True,0,7
+SK0281,security policies,False,True,0,7
+SK0282,security practices,False,True,0,7
+SK0283,shell_scripting,True,False,1,0
+SK0284,siem tools,False,True,0,7
+SK0285,simulation_arena,True,False,1,0
+SK0286,simulation_software,True,False,8,0
+SK0287,six_sigma,True,False,1,0
+SK0288,smart contract testing,False,True,0,4
+SK0289,smart contracts,False,True,0,4
+SK0290,smart grid systems,False,True,0,4
+SK0291,smart_contracts,True,False,1,0
+SK0292,soil science,False,True,0,3
+SK0293,soil_analysis,True,False,1,0
+SK0294,solidity,True,True,1,4
+SK0295,solidworks,True,False,1,0
+SK0296,solvency_ii,True,False,1,0
+SK0297,sql,True,True,10,29
+SK0298,sql_advanced,True,False,1,0
+SK0299,staad_pro,True,False,1,0
+SK0300,stakeholder management,False,True,0,8
+SK0301,stakeholder_interviews,True,False,1,0
+SK0302,stakeholder_management,True,False,8,0
+SK0303,stata_r,True,False,1,0
+SK0304,statistical analysis,False,True,0,3
+SK0305,statistical process control,False,True,0,5
+SK0306,statistical software,False,True,0,3
+SK0307,statistical_analysis,True,False,8,0
+SK0308,statistics,True,True,8,19
+SK0309,strategic planning,False,True,0,14
+SK0310,strategic thinking,False,True,0,13
+SK0311,structural_analysis,True,False,1,0
+SK0312,supply chain management,False,True,0,5
+SK0313,supply_chain,True,False,1,0
+SK0314,surveying,True,False,1,0
+SK0315,sustainability engineering,False,True,0,3
+SK0316,systems_thinking,True,False,8,0
+SK0317,tableau,True,True,1,14
+SK0318,talent acquisition,False,True,0,3
+SK0319,tax_compliance,True,False,1,0
+SK0320,technical documentation,False,True,0,5
+SK0321,technical reporting,False,True,0,7
+SK0322,technical_drawing,True,False,8,0
+SK0323,tensorflow,True,True,1,14
+SK0324,terraform,True,False,1,0
+SK0325,testing,False,True,0,12
+SK0326,thermodynamics,True,False,2,0
+SK0327,threat modeling,False,True,0,7
+SK0328,time management,False,True,0,13
+SK0329,time series analysis,False,True,0,3
+SK0330,tissue_engineering,True,False,1,0
+SK0331,token standards,False,True,0,4
+SK0332,tokenomics,False,True,0,4
+SK0333,training and development,False,True,0,3
+SK0334,troubleshooting,False,True,0,7
+SK0335,ui design principles,False,True,0,7
+SK0336,use_case_writing,True,False,1,0
+SK0337,valuation,True,False,2,0
+SK0338,valuation techniques,False,True,0,11
+SK0339,var_analysis,True,False,1,0
+SK0340,version control,False,True,0,16
+SK0341,version_control_git,True,False,8,0
+SK0342,vhdl_verilog,True,False,1,0
+SK0343,vulnerability assessment,False,True,0,7
+SK0344,waste management,False,True,0,3
+SK0345,waste_management,True,False,1,0
+SK0346,water treatment systems,False,True,0,3
+SK0347,water_treatment,True,False,1,0
+SK0348,web3,True,False,1,0
+SK0349,web3.js,False,True,0,4
+SK0350,workforce planning,False,True,0,3

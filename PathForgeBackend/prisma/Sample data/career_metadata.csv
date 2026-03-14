@@ -1,0 +1,25 @@
+career_name,career_id,career_sector
+Data Analyst,C001,IT
+Data Scientist,C002,IT
+Full Stack Developer,C003,IT
+Cybersecurity Engineer,C004,IT
+Blockchain Developer,C005,IT
+DevOps Engineer,C006,IT
+AI Engineer,C007,IT
+Machine Learning Engineer,C008,IT
+Financial Analyst,C009,Business & Finance
+Investment Banker,C010,Business & Finance
+Accountant,C011,Business & Finance
+Auditor,C012,Business & Finance
+Business Analyst,C013,Business & Finance
+Risk Analyst,C014,Business & Finance
+Actuary,C015,Business & Finance
+Economist,C016,Business & Finance
+Civil Engineering,C017,Engineering
+Mechanical Engineering,C018,Engineering
+Electrical Engineering,C019,Engineering
+Computer Engineering,C020,Engineering
+Chemical Engineering,C021,Engineering
+Industrial Engineering,C022,Engineering
+Environmental Engineering,C023,Engineering
+Biomedical Engineering,C024,Engineering
