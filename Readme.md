@@ -1,407 +1,71 @@
-# PathForge — Career Intelligence Platform
+# PathForge – Career Intelligence for East Africa
 
-PathForge helps East African students forge their ideal career path with AI-powered skill gap analysis, university matching, and personalised learning roadmaps.
+## 🌍 Description
 
-The platform covers **26 careers** across IT, Business & Finance, and Engineering, matched against **55 programs** at **22 universities** in Kenya, Uganda, Tanzania, and Rwanda — all scored by a pre-trained ML model (v1.0.0).
+**PathForge** is an AI-powered career intelligence platform designed to bridge the gap between university education and labor market demand in East Africa.
 
----
+The system enables:
 
-## Table of Contents
+- 🎯 Career roadmap generation  
+- 📊 Skill gap analysis  
+- 🏫 University program alignment comparison  
+- 🧪 Interactive project simulations  
+- 📈 Career readiness scoring  
+- 🧠 Growth mindset reinforcement  
 
-1. [Demo Video & Deployed Link](#demo-video--deployed-link)
-2. [Architecture Overview](#architecture-overview)
-3. [Tech Stack](#tech-stack)
-4. [ML Pipeline & Methodology](#ml-pipeline--methodology)
-5. [Project Structure](#project-structure)
-6. [Installation & Setup (Step by Step)](#installation--setup-step-by-step)
-7. [Seed Data & Test Accounts](#seed-data--test-accounts)
-8. [Core Functionalities](#core-functionalities)
-9. [API Reference](#api-reference)
-10. [Testing Results](#testing-results)
-11. [Analysis](#analysis)
-12. [Discussion](#discussion)
-13. [Recommendations & Future Work](#recommendations--future-work)
+PathForge integrates structured career skill data, university curriculum coverage data, and a weighted alignment engine to provide data-driven academic and career guidance.
 
----
+### Supported Sectors
+- Information Technology
+- Business & Finance
+- Engineering
 
-## Demo Video & Deployed Link
-
-| Resource | Link |
-|----------|------|
-| Demo Video (5 min) | _[https://drive.google.com/file/d/1LKkgQKoc7gQ-FjkMHV-EwTztVPS1tKao/view?usp=sharing]_ |
-| Deployed App | _[https://pathforge.live/]_ |
-| Repository | _[https://github.com/angelo54425/PathForge_Career_Intelligence_System]_ |
+### Geographic Focus
+- Rwanda
+- Kenya
+- Uganda
+- Tanzania
 
 ---
 
-## Architecture Overview
+## 🔗 GitHub Repository
 
-```
-┌─────────────────────┐      ┌─────────────────────┐      ┌─────────────────────┐
-│   Next.js Frontend  │─────▶│   Express Backend   │─────▶│     PostgreSQL      │
-│   (port 3000)       │      │   (port 5000)       │      │     Database        │
-│                     │      │                     │      │                     │
-│  NextAuth.js v5     │      │  Prisma ORM         │      │  26 careers         │
-│  TailwindCSS v4     │      │  JWT + bcrypt        │      │  22 universities    │
-│  React 19           │      │  Express 5           │      │  55 programs        │
-└─────────────────────┘      └─────────────────────┘      │  1,430 alignments   │
-          │                                                │  5 test users       │
-          ▼                                                └─────────────────────┘
-┌─────────────────────┐      ┌─────────────────────┐
-│   Flask ML API      │◀────│   Model Artifacts    │
-│   (port 5001)       │      │   (CSV + pickle)     │
-│                     │      │                     │
-│  Gap analysis       │      │  career_vectors      │
-│  Readiness scores   │      │  alignment_matrix    │
-│  Roadmap generation │      │  similarity_matrix   │
-│  Market intelligence│      │  350 skills          │
-└─────────────────────┘      └─────────────────────┘
-```
-
-**Data flow**: User takes assessment → skills saved → dashboard fetches gap analysis, university matches, similar careers, market intel → all powered by ML model scores.
+https://github.com/angelo54425/PathForge_Career_Intelligence_System
 
 ---
 
-## Tech Stack
+# 🚀 Deployment Plan
 
-| Layer | Technology | Version |
-|-------|-----------|---------|
-| Frontend | Next.js (App Router) | latest (14.x) |
-| Frontend | React | latest (19.x) |
-| Frontend | TypeScript | 5.9.3 |
-| Frontend | TailwindCSS | 4.2.1 |
-| Frontend | NextAuth.js | 5.0.0-beta.30 |
-| Backend | Express.js | 5.2.1 |
-| Backend | Prisma ORM | 6.19.2 |
-| Backend | bcryptjs | 3.0.3 |
-| Backend | jsonwebtoken (JWT) | 9.0.3 |
-| ML API | Flask | 3.0.0 |
-| ML API | pandas | 2.1.0 |
-| ML API | numpy | 1.26.0 |
-| Database | PostgreSQL | 12+ |
+**Estimated Deployment Time:** 14 Days  
+**Preconditions:**
+- Figma mockups completed  
+- Python analytical notebook finalized  
+- career_skills.csv and program_skill_coverage.csv prepared  
 
 ---
 
-## ML Pipeline & Methodology
+# 📅 Week 1 – Backend & Data Infrastructure
 
-> Full implementation: [`PathForge_Career_Intelligence_System_COMPLETE.ipynb`](PathForge_Career_Intelligence_System_COMPLETE.ipynb)
+## 🟢 Day 1–2: Backend Refactoring
 
-### Notebook Overview
+- Convert Jupyter notebook logic into modular Python services:
+  - `alignment_engine.py`
+  - `gap_engine.py`
+  - `similarity_engine.py`
+  - `project_simulator.py`
+- Structure project into:
+## 📂 Project Structure
 
-The Jupyter notebook is the **research-grade analytical engine** that powers every recommendation in PathForge. It processes raw career and university data through a 16-stage pipeline and exports all model artifacts used by the backend APIs.
+```text
+app/
+├── main.py
+├── routers/
+├── services/
+├── models/
+├── schemas/
+└── database.py
 
-| Section | Notebook Stage | Purpose |
-|---------|---------------|---------|
-| 1 | System Initialization | Import dependencies, configure environment, set random seed (42) |
-| 2 | Data Loading & Validation | Load CSVs, validate schema, check data quality |
-| 3 | Data Cleaning & Skill Normalization | Normalize text, harmonize skill names, build master skill dictionary |
-| 4 | Exploratory Data Analysis (EDA) | Skill weight distributions, skills-per-career analysis, program coverage |
-| 5 | Career Vectorization | Transform careers into 156-dimensional skill vectors |
-| 6 | Program Vectorization | Transform programs into aligned skill vectors |
-| 7 | Alignment Scoring Engine | Compute weighted alignment for all 1,430 career-program pairs |
-| 8 | Student Profile & Gap Analysis | Skill gap computation, severity classification, readiness scoring |
-| 9 | Career Similarity & Transferability | Cosine similarity matrix (24x24), career clustering |
-| 10 | Project Simulator Scoring | 5-section project scoring, readiness level classification |
-| 11 | Evaluation & Validation | Alignment distribution, correlation analysis |
-| 12 | Sensitivity Analysis | Weight variance impact testing |
-| 13 | Backend API Simulation | API endpoint prototypes with JSON responses |
-| 14 | Demonstrations & Analysis | Cross-sector examples, complete career analyses |
-| 15 | System Summary | Recommendations, key findings |
-| 16 | Advanced Features | Roadmap generation, progress tracking, market intelligence, model export |
-
-### Data Sources
-
-```
-Input Datasets:
-├── career_skills.csv (488 rows)
-│   ├── career_id, career_sector, career_name
-│   ├── skill_name, skill_weight (range: 0.50 – 0.95)
-│   └── Multiple skills per career (~15–20 per career)
-│
-└── university_programs_skills.csv (1,822 rows)
-    ├── program_id, program_name, university
-    ├── region (Kenya | Uganda | Tanzania | Rwanda)
-    ├── skill_name, coverage_score (range: 0.0 – 1.0)
-    └── Multiple skills per program (~30–40 per program)
-```
-
-### Data Processing Pipeline
-
-```
-Raw CSVs
-    │
-    ▼
-[1] Text Normalization
-    │   normalize_text() → lowercase, strip whitespace, handle NaN
-    │
-    ▼
-[2] Schema & Quality Validation
-    │   Verify columns, data types, ranges (0.5–0.95 for weights, 0–1 for coverage)
-    │   Check for missing values (0 found), duplicates
-    │
-    ▼
-[3] Skill Harmonization
-    │   Build master skill dictionary (350 skills)
-    │   Assign IDs (SK0001, SK0002, …)
-    │   Map raw names → normalized names (e.g., machine_learning → Machine Learning)
-    │
-    ▼
-[4] Career Vectorization
-    │   Pivot table: careers × skills → weight matrix (24 × 156)
-    │   Each career = 156-dimensional vector of skill importance weights
-    │   Sparsity: ~70% (most careers require only 15–20 of 156 skills)
-    │
-    ▼
-[5] Program Vectorization
-    │   Pivot table: programs × skills → coverage matrix (55 × 156)
-    │   Aligned to same skill columns as career vectors
-    │   Each program = 156-dimensional vector of skill coverage scores
-    │
-    ▼
-[6] Alignment Matrix Computation
-    │   For each (career, program) pair:
-    │     score = Σ(career_weight × program_coverage) / Σ(career_weight)
-    │   Result: 24 × 55 = 1,320 alignment scores (+ 2 proxy careers = 1,430)
-    │
-    ▼
-[7] Similarity Matrix Computation
-    │   For each (career_A, career_B) pair:
-    │     Union-based cosine similarity on non-zero skill elements
-    │   Result: 24 × 24 symmetric similarity matrix
-    │
-    ▼
-[8] Model Export
-    ├── pathforge_model_v1.pkl (pickle archive)
-    ├── career_vectors.csv, program_vectors.csv
-    ├── alignment_matrix.csv, career_similarity.csv
-    ├── career_metadata.csv, program_metadata.csv
-    ├── master_skills.csv
-    └── model_metadata.json (version, statistics)
-```
-
-### Core Algorithms
-
-#### 1. Weighted Alignment Score
-
-Computes how well a university program prepares students for a specific career:
-
-```
-                    Σ (career_skill_weight × program_coverage_score)
-Alignment Score = ──────────────────────────────────────────────────
-                              Σ (career_skill_weight)
-
-Range: [0, 1]   |   1.0 = perfect alignment   |   0.0 = no coverage
-```
-
-**Example**: Data Analyst vs. BSc Computer Science @ Kyambogo University
-```
-Skills:     Python (0.78)   SQL (0.66)   Data Analysis (0.71)   Total Weight: 2.15
-Coverage:   Python (0.85)   SQL (0.78)   Data Analysis (0.65)
-Score:      (0.78×0.85 + 0.66×0.78 + 0.71×0.65) / 2.15 = 0.763 (76.3%)
-```
-
-#### 2. Union-Based Cosine Similarity
-
-Measures how similar two careers are based on their shared skill requirements:
-
-```
-1. Extract non-zero skill positions for Career A and Career B
-2. Create union mask: positions where either career requires a skill
-3. Filter both vectors to union positions
-4. similarity = dot(a, b) / (‖a‖ × ‖b‖)
-
-Range: [0, 1]   |   1.0 = identical requirements   |   0.0 = no overlap
-```
-
-**Why union-based?** Standard cosine similarity would include hundreds of zero-zero pairs. By filtering to the union of non-zero elements, we measure similarity only where skills actually matter.
-
-#### 3. Skill Gap Analysis
-
-Computes per-skill deficits and overall readiness for a student:
-
-```
-For each required skill:
-  gap = required_weight − student_proficiency
-
-  Severity:
-    gap ≤ 0    → "strong"        (student exceeds requirement)
-    gap < 0.3  → "moderate_gap"  (minor deficiency)
-    gap ≥ 0.3  → "critical_gap"  (major deficiency)
-
-Overall Readiness = Σ(required_weight × student_proficiency) / Σ(required_weight)
-```
-
-#### 4. Learning Roadmap Generation
-
-Creates a phased learning plan using topological sorting:
-
-```
-1. Compute skill gaps for student + target career
-2. Build dependency graph (e.g., Machine Learning depends on Python, Statistics)
-3. Topological sort: order skills by prerequisites
-4. Classify into phases:
-   - Foundation: prerequisite skills (Python, Statistics, SQL)
-   - Specialization: career-specific skills (Machine Learning, Deep Learning)
-   - Proficiency: mastery-level skills (Model Optimization, Cloud Deployment)
-5. Estimate learning time per skill:
-   - gap ≤ 0.2 → 1–2 months
-   - gap ≤ 0.5 → 2–4 months
-   - gap > 0.5 → 4–6 months
-6. Identify critical path (longest dependency chain)
-```
-
-#### 5. Score Normalization (Sigmoid)
-
-Raw alignment scores from the ML model cluster in the 0–0.25 range. The seed pipeline applies sigmoid normalization to spread them into a user-friendly 0–1 range:
-
-```
-normalized = 1 / (1 + exp(−20 × (raw − 0.05)))
-
-Effect: raw 0.05 → ~0.50 | raw 0.15 → ~0.88 | raw 0.25 → ~0.98
-```
-
-#### 6. Project Simulator
-
-Assesses student readiness through simulated career projects:
-
-```
-5 sections per career project → each covers 3–5 skills → MCQ-based scoring
-
-Readiness Classification:
-  Advanced:     score ≥ 0.80 AND skill gap ≤ 20%
-  Intermediate: score ≥ 0.60 OR  skill gap ≤ 40%
-  Beginner:     otherwise
-```
-
-### Evaluation & Validation
-
-| Metric | Method | Result |
-|--------|--------|--------|
-| Alignment Score Distribution | Histogram + statistics | Mean: 0.65–0.75, Std: 0.10–0.15, Range: 0.10–0.98 |
-| Alignment-Overlap Correlation | Pearson/Spearman | High alignment correlates with high skill overlap (validated) |
-| Sensitivity to Weight Variance | Uniform vs. compressed vs. amplified weights | Weighted version produces more differentiation than uniform — weights are meaningful |
-| Career Similarity Clustering | Heatmap visual inspection | Same-sector careers cluster together (IT group, Engineering group, Finance group) |
-| Reproducibility | Fixed seed (42), deterministic algorithms | 100% reproducible across runs |
-
-### Sensitivity Analysis
-
-Three weight schemes were tested to validate that the chosen weighting meaningfully affects recommendations:
-
-| Test | Weight Range | Finding |
-|------|-------------|---------|
-| Baseline (actual) | 0.50 – 0.95 | Produces clear differentiation between programs |
-| Uniform (all = 1.0) | 1.0 | Loses nuance — all skills treated equally, less useful |
-| Compressed (reduced variance) | Narrower | Moderate differentiation — less useful than baseline |
-| Amplified (increased variance) | Wider | Over-differentiates — may be too extreme |
-
-**Conclusion**: The actual weight range (0.50–0.95) provides the best balance of differentiation and stability.
-
-### Visualizations Generated in Notebook
-
-| Chart | Type | Purpose |
-|-------|------|---------|
-| Skill Weight Distribution | Histogram + box plot (by sector) | Validate weight ranges and sector differences |
-| Skills per Career | Horizontal bar chart | Identify careers with most/fewest skill requirements |
-| Program Coverage Distribution | Histogram + box plot (by region) | Compare coverage quality across East African regions |
-| Alignment Score Example | Horizontal bar chart | Show top 10 programs for a career |
-| Career Similarity | Horizontal bar chart | Show top 15 similar careers with overlap ratios |
-| Career Similarity Heatmap | Heatmap (RdYlGn colormap) | Visualize cluster structure across sectors |
-| Program Comparison | Multi-bar + radar chart | Multi-dimensional program comparison |
-| Progress Over Time | Line chart | Readiness trajectory tracking |
-
-### Model Artifacts Exported
-
-| File | Dimensions | Description |
-|------|-----------|-------------|
-| `pathforge_model_v1.pkl` | — | Pickle archive with all matrices, metadata, version info |
-| `career_vectors.csv` | 24 × 156 | Career skill importance vectors |
-| `program_vectors.csv` | 55 × 156 | Program skill coverage vectors |
-| `alignment_matrix.csv` | 24 × 55 | Pre-computed career-program alignment scores |
-| `career_similarity.csv` | 24 × 24 | Cosine similarity between all career pairs |
-| `master_skills.csv` | 350 rows | Normalized skill names with frequency counts |
-| `career_metadata.csv` | 24 rows | Career IDs, names, sectors |
-| `program_metadata.csv` | 55 rows | Program names, universities, regions |
-| `model_metadata.json` | — | Version (1.0.0), creation date, coverage statistics |
-
----
-
-## Project Structure
-
-```
-Pathforge/
-├── Pathforge-Frontend/           # Next.js frontend
-│   ├── app/                      # App Router pages (13 routes)
-│   │   ├── page.tsx              # Landing / login
-│   │   ├── dashboard/page.tsx    # Main dashboard
-│   │   ├── assessment/page.tsx   # Skills assessment
-│   │   ├── skill-gap/page.tsx    # Gap analysis
-│   │   ├── market-intel/page.tsx # Market intelligence
-│   │   ├── roadmap/page.tsx      # Learning roadmap
-│   │   ├── progress/page.tsx     # Progress journey
-│   │   ├── universities/page.tsx # University comparison
-│   │   ├── profile/page.tsx      # User profile + settings
-│   │   ├── resources/page.tsx    # Learning resources
-│   │   ├── layout.tsx            # Root layout (ThemeProvider, AuthProvider)
-│   │   ├── globals.css           # TailwindCSS v4 config + custom utilities
-│   │   └── api/auth/             # NextAuth API routes
-│   ├── components/               # Reusable UI components
-│   │   ├── layout/Navbar.tsx     # Navigation header
-│   │   ├── charts/               # DonutChart, RadarChart (SVG)
-│   │   ├── providers/            # ThemeProvider, AuthProvider
-│   │   └── ui/                   # ProgressBar, StatCard
-│   ├── lib/                      # Shared utilities
-│   │   ├── auth.ts               # NextAuth configuration (Google + Credentials)
-│   │   ├── api.ts                # API service layer (10+ endpoints + mock fallbacks)
-│   │   ├── types.ts              # 16 TypeScript interfaces
-│   │   ├── careerStore.ts        # localStorage persistence
-│   │   ├── marketData.ts         # Market intelligence for 26 careers
-│   │   ├── universities.ts       # University data + metrics
-│   │   ├── resources.ts          # 47 skills x 3-5 courses each
-│   │   └── deviceId.ts           # Anonymous device tracking
-│   ├── prisma/schema.prisma      # Auth + domain models
-│   ├── tailwind.config.ts        # Dark mode (class strategy) + custom colours
-│   └── package.json
-│
-├── PathForgeBackend/             # Express.js API server
-│   ├── src/
-│   │   ├── index.ts              # Server entry (6 route groups)
-│   │   ├── routes/               # auth, careers, alignment, gap, similarity, assessment
-│   │   ├── controllers/          # Business logic for each route
-│   │   ├── middleware/auth.ts    # JWT verification middleware
-│   │   ├── utils/                # readiness.ts, similarity.ts
-│   │   └── types.ts              # Backend TypeScript interfaces
-│   ├── prisma/
-│   │   ├── schema.prisma         # Database schema
-│   │   ├── seed.js               # Seeds careers, universities, programs, alignments, test users
-│   │   └── Sample data/          # ML-generated CSVs (program_metadata, alignment_matrix, etc.)
-│   └── package.json
-│
-├── Path-Forge API/               # Flask ML API
-│   ├── app.py                    # All ML endpoints (gap, readiness, roadmap, market intel)
-│   ├── requirements.txt          # flask, pandas, numpy
-│   ├── test_api.py               # API test suite
-│   └── students_db.json          # JSON persistence for student profiles
-│
-├── model_artifacts/              # Pre-computed ML data
-│   ├── pathforge_model_v1.pkl    # Trained model (pickle)
-│   ├── model_metadata.json       # Version + statistics
-│   ├── career_vectors.csv        # 24 careers x 156 skill embeddings
-│   ├── program_vectors.csv       # 55 programs x 156 skill embeddings
-│   ├── alignment_matrix.csv      # 24 x 55 pre-computed alignment scores
-│   ├── career_similarity.csv     # 24 x 24 cosine similarity matrix
-│   ├── career_metadata.csv       # Career IDs, names, sectors
-│   ├── program_metadata.csv      # Program names, universities, regions
-│   └── master_skills.csv         # 350 normalised skill names
-│
-├── PathForge_Career_Intelligence_System_COMPLETE.ipynb
-│                                 # ML capstone notebook (16 stages, 96 cells)
-│
-├── Documentation/                # Project summaries
-│   ├── summary.md
-│   └── summary.pdf
-│
-└── README.md                     # This file
-```
+- Validate reusable scoring functions
 
 ---
 
