@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── NextAuth.js models ─────────────────────────────────────────────────────
+
+model User {
+  id            String    @id @default(cuid())
+  name          String?
+  email         String    @unique
+  emailVerified DateTime?
+  image         String?
+  passwordHash  String?
+  targetCareer  String?
+  createdAt     DateTime  @default(now())
+  updatedAt     DateTime  @updatedAt
+  accounts      Account[]
+  sessions      Session[]
+  assessments   Assessment[]
+}
+
+model Account {
+  id                String  @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(cuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+// ─── PathForge domain models ────────────────────────────────────────────────
+
+model Career {
+  id             Int      @id @default(autoincrement())
+  name           String   @unique
+  sector         String
+  requiredSkills Json
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+  alignments     CareerProgramAlignment[]
+}
+
+model University {
+  id       Int       @id @default(autoincrement())
+  name     String
+  region   String?
+  programs Program[]
+}
+
+model Program {
+  id           Int        @id @default(autoincrement())
+  universityId Int
+  university   University @relation(fields: [universityId], references: [id])
+  name         String
+  curriculum   Json
+  alignments   CareerProgramAlignment[]
+}
+
+model CareerProgramAlignment {
+  id        Int   @id @default(autoincrement())
+  careerId  Int
+  programId Int
+  alignment Float
+
+  career  Career  @relation(fields: [careerId], references: [id])
+  program Program @relation(fields: [programId], references: [id])
+
+  @@unique([careerId, programId])
+}
+
+model Assessment {
+  id        Int      @id @default(autoincrement())
+  deviceId  String
+  userId    String?
+  user      User?    @relation(fields: [userId], references: [id])
+  career    String
+  profile   Json
+  createdAt DateTime @default(now())
+}
