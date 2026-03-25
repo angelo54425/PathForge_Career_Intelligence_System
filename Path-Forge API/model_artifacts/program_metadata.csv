@@ -1,0 +1,56 @@
+program_university,program_id,program_name,university,region
+BSc Computer Science @ Kyambogo University,P0001,BSc Computer Science,Kyambogo University,Uganda
+BSc Computer Science @ Muhimbili University of Health and Allied Sciences,P0002,BSc Computer Science,Muhimbili University of Health and Allied Sciences,Tanzania
+BSc Computer Science @ Carnegie Mellon University Rwanda,P0003,BSc Computer Science,Carnegie Mellon University Rwanda,Rwanda
+BSc Computer Science @ University of Kigali,P0004,BSc Computer Science,University of Kigali,Rwanda
+BSc Information Technology @ University of Kigali,P0005,BSc Information Technology,University of Kigali,Rwanda
+BSc Information Technology @ Ardhi University,P0006,BSc Information Technology,Ardhi University,Tanzania
+BSc Information Technology @ United States International University Africa,P0007,BSc Information Technology,United States International University Africa,Kenya
+BSc Information Technology @ University of Nairobi,P0008,BSc Information Technology,University of Nairobi,Kenya
+BSc Software Engineering @ Uganda Martyrs University,P0009,BSc Software Engineering,Uganda Martyrs University,Uganda
+BSc Software Engineering @ University of Kigali,P0010,BSc Software Engineering,University of Kigali,Rwanda
+BSc Software Engineering @ University of Nairobi,P0011,BSc Software Engineering,University of Nairobi,Kenya
+BSc Data Science @ Muhimbili University of Health and Allied Sciences,P0012,BSc Data Science,Muhimbili University of Health and Allied Sciences,Tanzania
+BSc Data Science @ AUCA (Adventist University of Central Africa),P0013,BSc Data Science,AUCA (Adventist University of Central Africa),Rwanda
+BSc Data Science @ Technical University of Kenya,P0014,BSc Data Science,Technical University of Kenya,Kenya
+BSc Data Science @ Ardhi University,P0015,BSc Data Science,Ardhi University,Tanzania
+BSc Data Science @ Carnegie Mellon University Rwanda,P0016,BSc Data Science,Carnegie Mellon University Rwanda,Rwanda
+BSc Cybersecurity @ Uganda Christian University,P0017,BSc Cybersecurity,Uganda Christian University,Uganda
+BSc Cybersecurity @ Nelson Mandela African Institution of Science and Technology,P0018,BSc Cybersecurity,Nelson Mandela African Institution of Science and Technology,Tanzania
+BSc Cybersecurity @ University of Kigali,P0019,BSc Cybersecurity,University of Kigali,Rwanda
+BSc Artificial Intelligence @ University of Dar es Salaam,P0020,BSc Artificial Intelligence,University of Dar es Salaam,Tanzania
+BSc Artificial Intelligence @ Kyambogo University,P0021,BSc Artificial Intelligence,Kyambogo University,Uganda
+BSc Artificial Intelligence @ Uganda Martyrs University,P0022,BSc Artificial Intelligence,Uganda Martyrs University,Uganda
+BSc Artificial Intelligence @ Carnegie Mellon University Rwanda,P0023,BSc Artificial Intelligence,Carnegie Mellon University Rwanda,Rwanda
+BSc Artificial Intelligence @ Nelson Mandela African Institution of Science and Technology,P0024,BSc Artificial Intelligence,Nelson Mandela African Institution of Science and Technology,Tanzania
+BBA Business Administration @ University of Kigali,P0025,BBA Business Administration,University of Kigali,Rwanda
+BBA Business Administration @ Moi University,P0026,BBA Business Administration,Moi University,Kenya
+BBA Business Administration @ Technical University of Kenya,P0027,BBA Business Administration,Technical University of Kenya,Kenya
+BCom Accounting @ United States International University Africa,P0028,BCom Accounting,United States International University Africa,Kenya
+BCom Accounting @ Kenyatta University,P0029,BCom Accounting,Kenyatta University,Kenya
+BCom Accounting @ Moi University,P0030,BCom Accounting,Moi University,Kenya
+BCom Finance @ Makerere University,P0031,BCom Finance,Makerere University,Uganda
+BCom Finance @ AUCA (Adventist University of Central Africa),P0032,BCom Finance,AUCA (Adventist University of Central Africa),Rwanda
+BCom Finance @ Mzumbe University,P0033,BCom Finance,Mzumbe University,Tanzania
+BCom Finance @ Kyambogo University,P0034,BCom Finance,Kyambogo University,Uganda
+BCom Finance @ Jomo Kenyatta University of Agriculture and Technology,P0035,BCom Finance,Jomo Kenyatta University of Agriculture and Technology,Kenya
+BSc Economics @ University of Rwanda,P0036,BSc Economics,University of Rwanda,Rwanda
+BSc Economics @ Makerere University,P0037,BSc Economics,Makerere University,Uganda
+BSc Economics @ University of Dar es Salaam,P0038,BSc Economics,University of Dar es Salaam,Tanzania
+BSc Business Analytics @ Makerere University,P0043,BSc Business Analytics,Makerere University,Uganda
+BSc Business Analytics @ African Leadership University,P0044,BSc Business Analytics,African Leadership University,Rwanda
+BSc Business Analytics @ University of Dodoma,P0045,BSc Business Analytics,University of Dodoma,Tanzania
+BSc Business Analytics @ Moi University,P0046,BSc Business Analytics,Moi University,Kenya
+BSc Business Analytics @ Uganda Christian University,P0047,BSc Business Analytics,Uganda Christian University,Uganda
+BEng Electrical Engineering @ Makerere University,P0056,BEng Electrical Engineering,Makerere University,Uganda
+BEng Electrical Engineering @ Uganda Christian University,P0057,BEng Electrical Engineering,Uganda Christian University,Uganda
+BEng Electrical Engineering @ United States International University Africa,P0058,BEng Electrical Engineering,United States International University Africa,Kenya
+BEng Electrical Engineering @ Carnegie Mellon University Rwanda,P0059,BEng Electrical Engineering,Carnegie Mellon University Rwanda,Rwanda
+BEng Environmental Engineering @ Mbarara University of Science and Technology,P0065,BEng Environmental Engineering,Mbarara University of Science and Technology,Uganda
+BEng Environmental Engineering @ Uganda Christian University,P0066,BEng Environmental Engineering,Uganda Christian University,Uganda
+BEng Environmental Engineering @ University of Kigali,P0067,BEng Environmental Engineering,University of Kigali,Rwanda
+BEng Industrial Engineering @ Kenyatta University,P0068,BEng Industrial Engineering,Kenyatta University,Kenya
+BEng Industrial Engineering @ Mzumbe University,P0069,BEng Industrial Engineering,Mzumbe University,Tanzania
+BEng Industrial Engineering @ AUCA (Adventist University of Central Africa),P0070,BEng Industrial Engineering,AUCA (Adventist University of Central Africa),Rwanda
+BEng Industrial Engineering @ Moi University,P0071,BEng Industrial Engineering,Moi University,Kenya
+BEng Industrial Engineering @ University of Nairobi,P0072,BEng Industrial Engineering,University of Nairobi,Kenya

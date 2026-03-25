@@ -1,0 +1,31 @@
+{
+  "model_version": "1.0.0",
+  "created_at": "2026-03-02T17:56:17.476559",
+  "statistics": {
+    "total_careers": 24,
+    "total_programs": 55,
+    "total_skills": 350,
+    "total_universities": 22,
+    "regions_covered": [
+      "Uganda",
+      "Tanzania",
+      "Rwanda",
+      "Kenya"
+    ],
+    "sectors_covered": [
+      "IT",
+      "Business & Finance",
+      "Engineering"
+    ]
+  },
+  "files": {
+    "pickle": "./model_artifacts/pathforge_model_v1.pkl",
+    "career_vectors": "./model_artifacts/career_vectors.csv",
+    "program_vectors": "./model_artifacts/program_vectors.csv",
+    "alignment_matrix": "./model_artifacts/alignment_matrix.csv",
+    "career_similarity": "./model_artifacts/career_similarity.csv",
+    "master_skills": "./model_artifacts/master_skills.csv",
+    "career_metadata": "./model_artifacts/career_metadata.csv",
+    "program_metadata": "./model_artifacts/program_metadata.csv"
+  }
+}

@@ -48,7 +48,9 @@ app = Flask(__name__)
 # ── PATHS ─────────────────────────────────────────────────────────────────────
 
 BASE_DIR      = os.path.dirname(os.path.abspath(__file__))
-ARTIFACTS_DIR = os.path.normpath(os.path.join(BASE_DIR, "..", "model_artifacts"))
+_local_artifacts = os.path.join(BASE_DIR, "model_artifacts")
+_parent_artifacts = os.path.normpath(os.path.join(BASE_DIR, "..", "model_artifacts"))
+ARTIFACTS_DIR = _local_artifacts if os.path.isdir(_local_artifacts) else _parent_artifacts
 STUDENTS_DB_PATH = os.path.join(BASE_DIR, "students_db.json")
 
 
