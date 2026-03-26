@@ -54,7 +54,7 @@ export default function LandingPage() {
 
     try {
       if (tab === "signup") {
-        const res = await fetch(`${BASE}/api/auth/register`, {
+        const res = await fetch(`/api/register`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -78,7 +78,7 @@ export default function LandingPage() {
       if (result?.error) {
         setError("Invalid email or password");
       } else {
-        router.push("/dashboard");
+        router.push(tab === "signup" ? "/assessment" : "/dashboard");
       }
     } catch (err: unknown) {
       setError(err instanceof Error ? err.message : "Something went wrong");
