@@ -639,8 +639,9 @@ function CompareView({
 // ── Main Page ─────────────────────────────────────────────────────────────────
 
 export default function SkillGapPage() {
+  // Use a stable SSR-safe default (no localStorage on server) to avoid hydration mismatch.
   const [data, setData] = useState<GapAnalysisResult>(() =>
-    getMockGapResult(getTargetCareer() ?? "Data Scientist")
+    getMockGapResult("Data Scientist")
   );
   const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All Skills");
   const [mode, setMode] = useState<"analysis" | "compare">("analysis");
@@ -654,7 +655,14 @@ export default function SkillGapPage() {
 
       if (prof && career) {
         getSkillGap(career, prof)
-          .then(setData)
+          .then((result) => {
+            // Flask API returns top_gaps/top_strengths, not skill_gaps — fall back to mock if schema mismatches
+            if (result?.skill_gaps?.length) {
+              setData(result);
+            } else {
+              setData(getMockGapResult(career));
+            }
+          })
           .catch(() => setData(getMockGapResult(career)));
       } else if (career) {
         setData(getMockGapResult(career));
@@ -674,13 +682,15 @@ export default function SkillGapPage() {
     return idx === -1 ? null : idx + 1;
   }, [allReadiness, data.career]);
 
+  const skillGaps = data.skill_gaps ?? [];
+
   const filtered: SkillGap[] =
     filter === "All Skills"
-      ? data.skill_gaps
-      : data.skill_gaps.filter((s) => s.severity === filter.toLowerCase());
+      ? skillGaps
+      : skillGaps.filter((s) => s.severity === filter.toLowerCase());
 
-  const critical = data.skill_gaps.filter((s) => s.severity === "critical").length;
-  const moderate = data.skill_gaps.filter((s) => s.severity === "moderate").length;
+  const critical = skillGaps.filter((s) => s.severity === "critical").length;
+  const moderate = skillGaps.filter((s) => s.severity === "moderate").length;
 
   return (
     <div className="flex flex-col min-h-screen">
