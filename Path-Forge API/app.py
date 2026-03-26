@@ -35,6 +35,7 @@ Endpoints:
 """
 
 from flask import Flask, request, jsonify, render_template_string
+from flask_cors import CORS
 import pandas as pd
 import numpy as np
 import os
@@ -44,6 +45,11 @@ from datetime import datetime
 from collections import deque, defaultdict
 
 app = Flask(__name__)
+CORS(app, origins=[
+    "http://localhost:3000",
+    "https://pathforge.live",
+    "https://www.pathforge.live",
+])
 
 # ── PATHS ─────────────────────────────────────────────────────────────────────
 
