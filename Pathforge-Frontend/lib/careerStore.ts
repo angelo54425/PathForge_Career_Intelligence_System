@@ -25,25 +25,18 @@ export function setStudentProfile(profile: StudentProfile): void {
 }
 
 /**
- * Fetch the user's target career from the backend (/api/auth/me)
+ * Fetch the user's target career from /api/profile (Next.js route → Prisma)
  * and sync it to localStorage. Returns the career name or "".
  */
 export async function syncTargetCareerFromBackend(): Promise<string> {
   try {
-    const tokenRes = await fetch("/api/auth/token");
-    if (!tokenRes.ok) return getTargetCareer();
-    const { token } = await tokenRes.json();
-    if (!token) return getTargetCareer();
-
-    const base = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:5000";
-    const res = await fetch(`${base}/api/auth/me`, {
-      headers: { Authorization: `Bearer ${token}` },
-    });
+    const res = await fetch("/api/profile");
     if (!res.ok) return getTargetCareer();
-    const { user } = await res.json();
-    if (user?.targetCareer) {
-      setTargetCareer(user.targetCareer);
-      return user.targetCareer;
+    const data = await res.json();
+    const career = data?.user?.targetCareer;
+    if (career) {
+      setTargetCareer(career);
+      return career;
     }
     return getTargetCareer();
   } catch {
@@ -52,27 +45,17 @@ export async function syncTargetCareerFromBackend(): Promise<string> {
 }
 
 /**
- * Save the user's target career to the backend (PATCH /api/auth/preferences)
- * and update localStorage.
+ * Save the user's target career via /api/profile PATCH and update localStorage.
  */
 export async function saveTargetCareerToBackend(career: string): Promise<void> {
   setTargetCareer(career);
   try {
-    const tokenRes = await fetch("/api/auth/token");
-    if (!tokenRes.ok) return;
-    const { token } = await tokenRes.json();
-    if (!token) return;
-
-    const base = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:5000";
-    await fetch(`${base}/api/auth/preferences`, {
+    await fetch("/api/profile", {
       method: "PATCH",
-      headers: {
-        "Content-Type": "application/json",
-        Authorization: `Bearer ${token}`,
-      },
+      headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ targetCareer: career }),
     });
   } catch {
-    // localStorage is already updated as fallback
+    // localStorage already updated as fallback
   }
 }
