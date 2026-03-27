@@ -10,6 +10,7 @@ import StatCard from "@/components/ui/StatCard";
 import { MOCK, getCareerAlignment, getSimilarCareers, getSkillGap, getMockSimilarCareers, getMockGapResult, getMarketIntelligence, getStudentReadiness } from "@/lib/api";
 import type { UniversityMatch, SimilarCareer, GapAnalysisResult, MarketIntelResponse, ProgressPoint } from "@/lib/types";
 import { getTargetCareer, getStudentProfile, syncTargetCareerFromBackend } from "@/lib/careerStore";
+import { MARKET_DATA } from "@/lib/marketData";
 
 const QUICK_ACTIONS = [
   { icon: "assignment", label: "Take Assessment", href: "/assessment", color: "text-primary bg-primary/10" },
@@ -298,19 +299,15 @@ export default function DashboardPage() {
               </div>
             </div>
 
-            {/* Market snapshot — real data from ML API when available */}
+            {/* Market snapshot — entry salary from verified local market data */}
             <StatCard
               label="Avg. Entry Monthly Salary"
-              value={marketData
-                ? `KES ${Math.round(marketData.avg_salary_monthly / 1000)}k`
-                : "KES 240k"}
+              value={`KES ${MARKET_DATA[career]?.trajectory[0]?.salaryKES ?? "—"}k`}
               icon="payments"
               trend={marketData
                 ? { value: `${marketData.demand_score}% demand`, positive: marketData.demand_score >= 50 }
-                : { value: "+12% YoY", positive: true }}
-              sub={marketData
-                ? `${career} · ${marketData.region} · ${marketData.growth_trend}`
-                : `${career} · East Africa Region`}
+                : { value: `${MARKET_DATA[career]?.marketDemand ?? "—"}% demand`, positive: true }}
+              sub={`${career} · East Africa · ${MARKET_DATA[career]?.salaryTrend ?? "—"}% YoY growth`}
               highlight
             />
 
