@@ -52,7 +52,13 @@ export async function apiFetch<T>(path: string, options?: RequestInit): Promise<
 
 // ── GET /careers ──────────────────────────────────────────────────────────────
 export async function getCareers(): Promise<Career[]> {
-  return apiFetch<Career[]>("/careers");
+  const res = await apiFetch<{ careers?: Array<{ career_name: string; sector: string }> } | Career[]>("/careers");
+  // Flask wraps in { status, careers: [{ career_name, sector, ... }] } — unwrap + remap
+  if (Array.isArray(res)) return res;
+  return ((res as { careers?: Array<{ career_name: string; sector: string }> }).careers ?? []).map((c) => ({
+    career: c.career_name,
+    sector: c.sector,
+  }));
 }
 
 // ── GET /careers/sector/:sector ───────────────────────────────────────────────
