@@ -69,9 +69,12 @@ export async function getCareerAlignment(
   if (options?.region) params.set("region", options.region);
   if (options?.top_n) params.set("top_n", String(options.top_n));
   const qs = params.toString() ? `?${params}` : "";
-  return apiFetch<UniversityMatch[]>(
+  const res = await apiFetch<{ results?: UniversityMatch[] } | UniversityMatch[]>(
     `/api/alignment/${encodeURIComponent(career)}${qs}`
   );
+  // Flask wraps results in { status, results: [...] } — unwrap if needed
+  if (Array.isArray(res)) return res;
+  return (res as { results?: UniversityMatch[] }).results ?? [];
 }
 
 // ── POST /api/gap ─────────────────────────────────────────────────────────────
@@ -90,9 +93,18 @@ export async function getSimilarCareers(
   career: string,
   top_n = 5
 ): Promise<SimilarCareer[]> {
-  return apiFetch<SimilarCareer[]>(
-    `/api/similarity/${encodeURIComponent(career)}?top_n=${top_n}`
-  );
+  const res = await apiFetch<
+    | { similar_careers?: Array<{ similar_career: string; similarity_score: number; sector: string }> }
+    | SimilarCareer[]
+  >(`/api/similarity/${encodeURIComponent(career)}?top_n=${top_n}`);
+  // Flask wraps results in { status, similar_careers: [...] } with different field names — unwrap + remap
+  if (Array.isArray(res)) return res;
+  const items = (res as { similar_careers?: Array<{ similar_career: string; similarity_score: number; sector: string }> }).similar_careers ?? [];
+  return items.map((c) => ({
+    career: c.similar_career,
+    similarity: c.similarity_score,
+    sector: c.sector,
+  }));
 }
 
 // ── POST /api/recommend ───────────────────────────────────────────────────────
