@@ -76,14 +76,36 @@ export async function getCareerAlignment(
 }
 
 // ── POST /api/gap ─────────────────────────────────────────────────────────────
+// Flask returns { career, overall_readiness, top_gaps: [{skill, required_weight, student_proficiency, gap, status}], top_strengths: [...] }
 export async function getSkillGap(
   career: string,
   studentProfile: StudentProfile
 ): Promise<GapAnalysisResult> {
-  return apiFetch<GapAnalysisResult>("/api/gap", {
+  type FlaskGap = { skill: string; required_weight: number; student_proficiency: number; gap: number };
+  type FlaskRes = { career?: string; overall_readiness?: number; readiness_label?: string; top_gaps?: FlaskGap[]; top_strengths?: FlaskGap[] };
+  const res = await apiFetch<FlaskRes | GapAnalysisResult>("/api/gap", {
     method: "POST",
     body: JSON.stringify({ career, student_profile: studentProfile }),
   });
+  if ("skill_gaps" in res) return res as GapAnalysisResult;
+  const r = res as FlaskRes;
+  const allGaps: FlaskGap[] = [...(r.top_gaps ?? []), ...(r.top_strengths ?? [])];
+  const skill_gaps: SkillGap[] = allGaps.map((g) => ({
+    skill: g.skill,
+    required: g.required_weight,
+    current: g.student_proficiency,
+    gap: g.gap,
+    severity: g.gap > 0.4 ? "critical" : g.gap > 0.2 ? "moderate" : g.gap > 0.05 ? "minor" : "none",
+  }));
+  const readiness = r.overall_readiness ?? 0;
+  return {
+    career: r.career ?? career,
+    overall_readiness: readiness,
+    readiness_label: r.readiness_label,
+    time_to_ready_months: Math.max(3, Math.ceil((1 - readiness) * 18)),
+    skill_gaps,
+    top_skills_to_learn: (r.top_gaps ?? []).map((g) => g.skill),
+  };
 }
 
 // ── GET /api/similarity/:career ───────────────────────────────────────────────
@@ -106,11 +128,12 @@ export async function getSimilarCareers(
 }
 
 // ── POST /api/recommend ───────────────────────────────────────────────────────
+// Flask returns { status, top_careers: [...] }
 export async function getCareerRecommendations(
   studentProfile: StudentProfile,
   options?: { top_n?: number; region?: string }
 ): Promise<CareerRecommendation[]> {
-  return apiFetch<CareerRecommendation[]>("/api/recommend", {
+  const res = await apiFetch<{ top_careers?: CareerRecommendation[] } | CareerRecommendation[]>("/api/recommend", {
     method: "POST",
     body: JSON.stringify({
       student_profile: studentProfile,
@@ -118,6 +141,8 @@ export async function getCareerRecommendations(
       region: options?.region,
     }),
   });
+  if (Array.isArray(res)) return res;
+  return (res as { top_careers?: CareerRecommendation[] }).top_careers ?? [];
 }
 
 // ── Student Profile Management ────────────────────────────────────────────────
@@ -173,14 +198,38 @@ export async function getStudentProgress(
 }
 
 // ── POST /api/assessments/:id/submit ──────────────────────────────────────────
+// Flask returns { status, assessment_id, student_id, career, gap_analysis: { overall_readiness, top_gaps, ... }, snapshot_saved }
 export async function submitAssessment(
   assessmentId: string,
   data: { student_id: string; career: string; skill_scores: StudentProfile }
 ): Promise<AssessmentSubmitResponse> {
-  return apiFetch<AssessmentSubmitResponse>(
+  type FlaskGap = { skill: string; required_weight: number; student_proficiency: number; gap: number };
+  type FlaskRes = { student_id?: string; career?: string; snapshot_saved?: boolean; gap_analysis?: { overall_readiness?: number; readiness_label?: string; top_gaps?: FlaskGap[]; top_strengths?: FlaskGap[] } };
+  const res = await apiFetch<FlaskRes>(
     `/api/assessments/${encodeURIComponent(assessmentId)}/submit`,
     { method: "POST", body: JSON.stringify(data) }
   );
+  const ga = res.gap_analysis ?? {};
+  const allGaps: FlaskGap[] = [...(ga.top_gaps ?? []), ...(ga.top_strengths ?? [])];
+  const skill_gaps: SkillGap[] = allGaps.map((g) => ({
+    skill: g.skill, required: g.required_weight, current: g.student_proficiency, gap: g.gap,
+    severity: g.gap > 0.4 ? "critical" : g.gap > 0.2 ? "moderate" : g.gap > 0.05 ? "minor" : "none",
+  }));
+  const readiness = ga.overall_readiness ?? 0;
+  return {
+    student_id: res.student_id ?? data.student_id,
+    career: res.career ?? data.career,
+    updated_skills: data.skill_scores,
+    snapshot_saved: res.snapshot_saved ?? false,
+    gap_analysis: {
+      career: res.career ?? data.career,
+      overall_readiness: readiness,
+      readiness_label: ga.readiness_label,
+      time_to_ready_months: Math.max(3, Math.ceil((1 - readiness) * 18)),
+      skill_gaps,
+      top_skills_to_learn: (ga.top_gaps ?? []).map((g) => g.skill),
+    },
+  };
 }
 
 // ── GET /api/market-intelligence/:career ──────────────────────────────────────
@@ -195,6 +244,7 @@ export async function getMarketIntelligence(
 }
 
 // ── GET /api/programs/compare ─────────────────────────────────────────────────
+// Flask returns { status, career, dimensions, results: [...] } — TS expects { programs: [...] }
 export async function comparePrograms(
   programs: string[],
   career: string,
@@ -204,7 +254,11 @@ export async function comparePrograms(
   params.set("programs", programs.join(","));
   params.set("career", career);
   if (dimensions) params.set("dimensions", dimensions.join(","));
-  return apiFetch<ProgramCompareResponse>(`/api/programs/compare?${params}`);
+  const res = await apiFetch<{ results?: ProgramCompareResponse["programs"] } | ProgramCompareResponse>(
+    `/api/programs/compare?${params}`
+  );
+  if ("programs" in res) return res as ProgramCompareResponse;
+  return { programs: (res as { results?: ProgramCompareResponse["programs"] }).results ?? [] };
 }
 
 // ── Sectors ───────────────────────────────────────────────────────────────────
