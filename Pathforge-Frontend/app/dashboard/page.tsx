@@ -10,7 +10,8 @@ import StatCard from "@/components/ui/StatCard";
 import { MOCK, getCareerAlignment, getSimilarCareers, getSkillGap, getMockSimilarCareers, getMockGapResult, getMarketIntelligence, getStudentReadiness } from "@/lib/api";
 import type { UniversityMatch, SimilarCareer, GapAnalysisResult, MarketIntelResponse, ProgressPoint } from "@/lib/types";
 import { getTargetCareer, getStudentProfile, syncTargetCareerFromBackend } from "@/lib/careerStore";
-import { MARKET_DATA } from "@/lib/marketData";
+import { MARKET_DATA, CURRENCIES, convertSalary } from "@/lib/marketData";
+import type { Currency } from "@/lib/marketData";
 
 const QUICK_ACTIONS = [
   { icon: "assignment", label: "Take Assessment", href: "/assessment", color: "text-primary bg-primary/10" },
@@ -46,6 +47,7 @@ export default function DashboardPage() {
   const [gapData, setGapData] = useState<GapAnalysisResult | null>(null);
   const [marketData, setMarketData] = useState<MarketIntelResponse | null>(null);
   const [progressData, setProgressData] = useState<ProgressPoint[]>([]);
+  const [currency, setCurrency] = useState<Currency>(CURRENCIES[0]);
 
   useEffect(() => {
     // Sync career from backend first, fall back to localStorage
@@ -300,16 +302,29 @@ export default function DashboardPage() {
             </div>
 
             {/* Market snapshot — entry salary from verified local market data */}
-            <StatCard
-              label="Avg. Entry Monthly Salary"
-              value={`KES ${MARKET_DATA[career]?.trajectory[0]?.salaryKES ?? "—"}k`}
-              icon="payments"
-              trend={marketData
-                ? { value: `${marketData.demand_score}% demand`, positive: marketData.demand_score >= 50 }
-                : { value: `${MARKET_DATA[career]?.marketDemand ?? "—"}% demand`, positive: true }}
-              sub={`${career} · East Africa · ${MARKET_DATA[career]?.salaryTrend ?? "—"}% YoY growth`}
-              highlight
-            />
+            <div className="relative">
+              <StatCard
+                label="Avg. Entry Monthly Salary"
+                value={MARKET_DATA[career]?.trajectory[0]
+                  ? convertSalary(MARKET_DATA[career].trajectory[0].salaryKES, currency)
+                  : "—"}
+                icon="payments"
+                trend={marketData
+                  ? { value: `${marketData.demand_score}% demand`, positive: marketData.demand_score >= 50 }
+                  : { value: `${MARKET_DATA[career]?.marketDemand ?? "—"}% demand`, positive: true }}
+                sub={`${career} · East Africa · ${MARKET_DATA[career]?.salaryTrend ?? "—"}% YoY growth`}
+                highlight
+              />
+              <select
+                value={currency.code}
+                onChange={(e) => setCurrency(CURRENCIES.find((c) => c.code === e.target.value) ?? CURRENCIES[0])}
+                className="absolute top-3 right-3 text-xs bg-white/80 dark:bg-slate-700/80 border border-slate-200 dark:border-slate-600 rounded-lg px-2 py-1 text-slate-600 dark:text-slate-300 focus:outline-none cursor-pointer"
+              >
+                {CURRENCIES.map((c) => (
+                  <option key={c.code} value={c.code}>{c.code}</option>
+                ))}
+              </select>
+            </div>
 
             {/* Learning in progress */}
             <div className="card p-5">
