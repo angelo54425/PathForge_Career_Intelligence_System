@@ -22,30 +22,12 @@ import type {
 
 const BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:5000";
 
-async function getAuthToken(): Promise<string | null> {
-  try {
-    const res = await fetch("/api/auth/token");
-    if (!res.ok) return null;
-    const data = await res.json();
-    return data.token ?? null;
-  } catch {
-    return null;
-  }
-}
-
 export async function apiFetch<T>(path: string, options?: RequestInit): Promise<T> {
-  const token = await getAuthToken();
   const headers: Record<string, string> = {
     "Content-Type": "application/json",
     ...((options?.headers as Record<string, string>) || {}),
   };
-  if (token) {
-    headers["Authorization"] = `Bearer ${token}`;
-  }
-  const res = await fetch(`${BASE}${path}`, {
-    ...options,
-    headers,
-  });
+  const res = await fetch(`${BASE}${path}`, { ...options, headers });
   if (!res.ok) throw new Error(`API error ${res.status}: ${path}`);
   return res.json() as Promise<T>;
 }
@@ -63,7 +45,17 @@ export async function getCareers(): Promise<Career[]> {
 
 // ── GET /careers/sector/:sector ───────────────────────────────────────────────
 export async function getCareersBySector(sector: string): Promise<Career[]> {
-  return apiFetch<Career[]>(`/careers/sector/${encodeURIComponent(sector)}`);
+  const res = await apiFetch<{ sector?: string; careers?: Array<{ career_name: string }> } | Career[]>(
+    `/careers/sector/${encodeURIComponent(sector)}`
+  );
+  // Flask wraps in { sector, careers: [{ career_name }] } with no skills — unwrap + merge MOCK skills
+  if (Array.isArray(res)) return res;
+  const resolvedSector = (res as { sector?: string }).sector ?? sector;
+  return ((res as { careers?: Array<{ career_name: string }> }).careers ?? []).map((c) => ({
+    career: c.career_name,
+    sector: resolvedSector,
+    skills: MOCK.careers.find((m) => m.career === c.career_name)?.skills,
+  }));
 }
 
 // ── GET /api/alignment/:career ────────────────────────────────────────────────
