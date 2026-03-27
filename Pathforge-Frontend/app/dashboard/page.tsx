@@ -7,10 +7,9 @@ import DonutChart from "@/components/charts/DonutChart";
 import RadarChart from "@/components/charts/RadarChart";
 import ProgressBar from "@/components/ui/ProgressBar";
 import StatCard from "@/components/ui/StatCard";
-import { MOCK, getCareerAlignment, getSimilarCareers, getSkillGap, getMockSimilarCareers, getMockGapResult, getMarketIntelligence, getStudentProgress, getStudentReadiness } from "@/lib/api";
+import { MOCK, getCareerAlignment, getSimilarCareers, getSkillGap, getMockSimilarCareers, getMockGapResult, getMarketIntelligence, getStudentReadiness } from "@/lib/api";
 import type { UniversityMatch, SimilarCareer, GapAnalysisResult, MarketIntelResponse, ProgressPoint } from "@/lib/types";
 import { getTargetCareer, getStudentProfile, syncTargetCareerFromBackend } from "@/lib/careerStore";
-import { getDeviceId } from "@/lib/deviceId";
 
 const QUICK_ACTIONS = [
   { icon: "assignment", label: "Take Assessment", href: "/assessment", color: "text-primary bg-primary/10" },
@@ -21,27 +20,6 @@ const QUICK_ACTIONS = [
 
 const MONTH_NAMES = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
 
-/** Build progress history from real API snapshots */
-function snapshotsToProgressData(
-  snapshots: Array<{ timestamp: string; readiness_score: number }>
-): ProgressPoint[] {
-  // Group by month, keep latest snapshot per month
-  const byMonth = new Map<string, number>();
-  for (const s of snapshots) {
-    const d = new Date(s.timestamp);
-    const key = `${d.getFullYear()}-${d.getMonth()}`;
-    const label = MONTH_NAMES[d.getMonth()];
-    byMonth.set(key, Math.round(s.readiness_score * 100));
-  }
-  // Convert to array sorted chronologically, take last 6
-  return Array.from(byMonth.entries())
-    .sort(([a], [b]) => a.localeCompare(b))
-    .slice(-6)
-    .map(([key, readiness]) => ({
-      month: MONTH_NAMES[parseInt(key.split("-")[1])],
-      readiness,
-    }));
-}
 
 /** Derive synthetic progress history from current readiness when no API data */
 function deriveProgressFromReadiness(currentReadiness: number): ProgressPoint[] {
@@ -79,8 +57,6 @@ export default function DashboardPage() {
   }, []);
 
   function loadDashboardData(targetCareer: string) {
-    const studentId = session?.user?.id || getDeviceId();
-
     getCareerAlignment(targetCareer, { top_n: 3 })
       .then(setUniMatches)
       .catch(() => {});
@@ -91,16 +67,6 @@ export default function DashboardPage() {
     // Fetch market intelligence from ML API
     getMarketIntelligence(targetCareer)
       .then(setMarketData)
-      .catch(() => {});
-
-    // Fetch real progress snapshots from ML API
-    getStudentProgress(studentId, targetCareer)
-      .then((res) => {
-        if (res.snapshots.length >= 2) {
-          setProgressData(snapshotsToProgressData(res.snapshots));
-        }
-        // If insufficient snapshots, progressData stays empty — will be derived from gap data below
-      })
       .catch(() => {});
 
     // Fetch gap data for radar chart + gap cards
