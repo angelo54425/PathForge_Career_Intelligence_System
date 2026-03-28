@@ -324,8 +324,8 @@ export default function LandingPage() {
 
             <p className="text-center text-xs text-slate-400 mt-8">
               By continuing, you agree to PathForge&apos;s{" "}
-              <a href="#" className="underline">Terms</a> &amp;{" "}
-              <a href="#" className="underline">Privacy Policy</a>.
+              <a href="/terms" className="underline hover:text-primary">Terms</a> &amp;{" "}
+              <a href="/privacy" className="underline hover:text-primary">Privacy Policy</a>.
             </p>
           </div>
         </section>
