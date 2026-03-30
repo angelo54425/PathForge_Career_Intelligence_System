@@ -8,6 +8,7 @@ import alignmentRouter from './routes/alignment';
 import gapRouter from './routes/gap';
 import similarityRouter from './routes/similarity';
 import assessmentRouter from './routes/assessment';
+import skillsRouter from './routes/skills';
 
 dotenv.config();
 
@@ -39,6 +40,7 @@ app.use('/api/alignment', alignmentRouter);
 app.use('/api/gap', gapRouter);
 app.use('/api/similarity', similarityRouter);
 app.use('/api/assessment', assessmentRouter);
+app.use('/api', skillsRouter);
 
 // Health check
 app.get('/health', (req, res) => res.send('OK'));

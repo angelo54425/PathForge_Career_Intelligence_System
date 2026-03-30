@@ -18,6 +18,10 @@ import type {
   AssessmentSubmitResponse,
   MarketIntelResponse,
   ProgramCompareResponse,
+  WeightedSkill,
+  SkillEntry,
+  SkillAffinityDelta,
+  CareerCompatibility,
 } from "./types";
 
 const BASE = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:5000";
@@ -456,3 +460,78 @@ export const MOCK = {
     { career: "Blockchain Developer", similarity: 0.653, sector: "it" },
   ] as SimilarCareer[],
 };
+
+// ── Expanded Skills Assessment API ───────────────────────────────────────────
+
+/**
+ * Fetch ALL non-zero weighted skills for a career, ranked by weight descending.
+ * Every skill returned is mandatory — the user must rate all of them.
+ */
+export async function getCareerSkills(
+  career: string
+): Promise<{ career: string; mandatory_skills: WeightedSkill[] }> {
+  return apiFetch(`/api/careers/${encodeURIComponent(career)}/skills`);
+}
+
+/**
+ * Search the master skills list. Returns up to 20 matches.
+ */
+export async function searchSkills(query: string): Promise<SkillEntry[]> {
+  const params = query.trim() ? `?q=${encodeURIComponent(query.trim())}` : "";
+  const res = await apiFetch<{ skills: SkillEntry[] }>(`/api/skills${params}`);
+  return res.skills ?? [];
+}
+
+/**
+ * Return skills from the top 3 most similar careers that are NOT already
+ * in the selected career's weighted skill set.
+ */
+export async function getSimilarCareerSkills(
+  career: string
+): Promise<WeightedSkill[]> {
+  const res = await apiFetch<{ similar_skills: WeightedSkill[] }>(
+    `/api/careers/${encodeURIComponent(career)}/similar-skills`
+  );
+  return res.similar_skills ?? [];
+}
+
+/**
+ * Given a newly rated extra skill, return readiness delta per career.
+ * Used to show the inline ↑/↓ affinity chips on extra skill cards.
+ */
+export async function getSkillAffinityDelta(
+  skill: string,
+  rating: number,
+  currentProfile: StudentProfile
+): Promise<SkillAffinityDelta[]> {
+  const res = await apiFetch<{ deltas: SkillAffinityDelta[] }>(
+    "/api/skills/affinity-delta",
+    {
+      method: "POST",
+      body: JSON.stringify({
+        skill,
+        rating,
+        current_profile: currentProfile,
+      }),
+    }
+  );
+  return res.deltas ?? [];
+}
+
+/**
+ * Given a full student profile, return all careers with compatibility >= 30%,
+ * sorted by readiness score descending.
+ * Called post-submission to populate the alternative careers section.
+ */
+export async function getCareerCompatibility(
+  profile: StudentProfile
+): Promise<CareerCompatibility[]> {
+  const res = await apiFetch<{ compatible_careers: CareerCompatibility[] }>(
+    "/api/careers/compatibility",
+    {
+      method: "POST",
+      body: JSON.stringify({ student_profile: profile }),
+    }
+  );
+  return res.compatible_careers ?? [];
+}

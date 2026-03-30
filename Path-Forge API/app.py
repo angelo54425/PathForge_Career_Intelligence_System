@@ -102,12 +102,16 @@ def load_data():
         index_col="program_university"
     )
 
+    master_skills_path = os.path.join(ARTIFACTS_DIR, "master_skills.csv")
+    master_skills_df = pd.read_csv(master_skills_path) if os.path.isfile(master_skills_path) else pd.DataFrame()
+
     print(
         f"✓ Loaded {len(career_vector)} careers, "
         f"{len(program_vector)} programs, "
-        f"{career_vector.shape[1]} skills"
+        f"{career_vector.shape[1]} skills, "
+        f"{len(master_skills_df)} master skills"
     )
-    return career_vector, career_meta, program_vector, program_meta, career_sim, alignment_mat
+    return career_vector, career_meta, program_vector, program_meta, career_sim, alignment_mat, master_skills_df
 
 
 # Load once at startup
@@ -118,6 +122,7 @@ def load_data():
     program_metadata,
     career_sim_df,
     alignment_matrix,
+    master_skills_df,
 ) = load_data()
 
 
@@ -2101,43 +2106,165 @@ _SWAGGER_HTML = """<!DOCTYPE html>
 @app.route("/api/careers/<path:career_name>/skills", methods=["GET"])
 def career_skills(career_name: str):
     """
-    Return the skill profile for a career, split into mandatory (top N by weight)
-    and additional (remaining) skills.
-
-    Query params:
-      top_n (int, default 5, max 15) — number of mandatory skills to return
+    Return ALL non-zero weighted skills for a career, sorted by weight descending.
+    Every skill returned is mandatory — the user must rate them all.
     """
     canonical = career_name_map.get(career_name.lower())
     if not canonical:
         return jsonify({"status": "error", "message": f"Career '{career_name}' not found"}), 404
 
-    top_n = min(int(request.args.get("top_n", 5)), 15)
-
     row = career_vector_matrix.loc[canonical]
-    # Keep only skills with non-zero weight, sort by weight descending
-    skills_sorted = (
-        row[row > 0]
-        .sort_values(ascending=False)
-        .items()
-    )
+    # All skills with non-zero weight, sorted by weight descending
+    weighted = row[row > 0].sort_values(ascending=False)
 
-    mandatory, additional = [], []
-    for i, (skill, weight) in enumerate(skills_sorted):
-        entry = {
+    mandatory_skills = [
+        {
             "skill":  skill,
             "label":  skill.replace("_", " ").title(),
             "weight": round(float(weight), 4),
         }
-        if i < top_n:
-            mandatory.append(entry)
-        else:
-            additional.append(entry)
+        for skill, weight in weighted.items()
+    ]
 
     return jsonify({
-        "career":           canonical,
-        "mandatory_skills": mandatory,
-        "additional_skills": additional,
+        "career":            canonical,
+        "mandatory_skills":  mandatory_skills,
+        "additional_skills": [],  # kept for backwards compatibility
     })
+
+
+@app.route("/api/skills", methods=["GET"])
+def search_skills():
+    """
+    Search the master skills list.
+    Query params:
+      q (str, optional) — substring filter on skill_name_normalized
+    Returns up to 20 results.
+    """
+    if master_skills_df.empty:
+        return jsonify({"skills": []})
+
+    q = request.args.get("q", "").lower().strip()
+    df = master_skills_df.copy()
+    if q:
+        df = df[df["skill_name_normalized"].str.lower().str.contains(q, na=False)]
+
+    results = (
+        df[["skill_id", "skill_name_normalized", "career_frequency", "program_frequency"]]
+        .head(20)
+        .to_dict(orient="records")
+    )
+    return jsonify({"skills": results})
+
+
+@app.route("/api/careers/<path:career_name>/similar-skills", methods=["GET"])
+def similar_career_skills(career_name: str):
+    """
+    Return skills from the top 3 most similar careers that are NOT already
+    in the selected career's weighted skill set.
+    """
+    canonical = career_name_map.get(career_name.lower())
+    if not canonical:
+        return jsonify({"status": "error", "message": f"Career '{career_name}' not found"}), 404
+
+    # Skills already in the selected career
+    own_skills = set(career_vector_matrix.loc[canonical][career_vector_matrix.loc[canonical] > 0].index)
+
+    # Top 3 most similar careers (excluding itself)
+    sim_row = career_sim_df.loc[canonical].drop(labels=[canonical], errors="ignore")
+    top_similar = sim_row.sort_values(ascending=False).head(3).index.tolist()
+
+    seen = set()
+    results = []
+    for similar_career in top_similar:
+        row = career_vector_matrix.loc[similar_career]
+        for skill, weight in row[row > 0].sort_values(ascending=False).items():
+            if skill not in own_skills and skill not in seen:
+                seen.add(skill)
+                results.append({
+                    "skill":         skill,
+                    "label":         skill.replace("_", " ").title(),
+                    "weight":        round(float(weight), 4),
+                    "source_career": similar_career,
+                })
+
+    return jsonify({"career": canonical, "similar_skills": results})
+
+
+@app.route("/api/skills/affinity-delta", methods=["POST"])
+def skill_affinity_delta():
+    """
+    Given a newly rated skill, return the readiness delta for every career.
+    Input: { skill, rating (0.0-1.0), current_profile: {skill: score} }
+    Returns careers where delta != 0, sorted by delta desc.
+    """
+    data = request.get_json(force=True) or {}
+    skill   = data.get("skill", "").strip()
+    rating  = float(data.get("rating", 0.0))
+    profile = data.get("current_profile", {})
+
+    if not skill:
+        return jsonify({"status": "error", "message": "skill is required"}), 400
+
+    # Profile without the new skill (old state)
+    old_profile = {k: v for k, v in profile.items() if k != skill}
+    # Profile with the new skill (new state)
+    new_profile = {**old_profile, skill: rating}
+
+    deltas = []
+    for career in career_vector_matrix.index:
+        old_gap = compute_skill_gaps(old_profile, career)
+        new_gap = compute_skill_gaps(new_profile, career)
+        old_score = old_gap.get("overall_readiness", 0.0)
+        new_score = new_gap.get("overall_readiness", 0.0)
+        delta = round(new_score - old_score, 4)
+        if delta != 0:
+            deltas.append({
+                "career":    career,
+                "delta":     delta,
+                "new_score": round(new_score, 4),
+            })
+
+    deltas.sort(key=lambda x: x["delta"], reverse=True)
+    return jsonify({"skill": skill, "deltas": deltas})
+
+
+@app.route("/api/careers/compatibility", methods=["POST"])
+def career_compatibility():
+    """
+    Given a full student profile, return all careers with readiness >= 30%,
+    sorted by readiness score descending.
+    Input: { student_profile: {skill: score} }
+    """
+    data = request.get_json(force=True) or {}
+    profile = data.get("student_profile", {})
+
+    if not profile:
+        return jsonify({"status": "error", "message": "student_profile is required"}), 400
+
+    results = []
+    for career in career_vector_matrix.index:
+        meta = career_metadata.loc[career]
+        gap_data = compute_skill_gaps(profile, career)
+        score = gap_data.get("overall_readiness", 0.0)
+        if score >= 0.30:
+            top_gaps = gap_data.get("top_gaps", [])[:3]
+            readiness_pct = round(score * 100, 1)
+            label = (
+                "Advanced" if readiness_pct >= 80
+                else "Intermediate" if readiness_pct >= 55
+                else "Beginner"
+            )
+            results.append({
+                "career":          career,
+                "sector":          meta.get("career_sector", ""),
+                "readiness_score": round(score, 4),
+                "readiness_label": label,
+                "top_gaps":        [{"skill": g["skill"], "gap": round(g["gap"], 3)} for g in top_gaps],
+            })
+
+    results.sort(key=lambda x: x["readiness_score"], reverse=True)
+    return jsonify({"compatible_careers": results, "count": len(results)})
 
 
 _ONBOARD_HTML = """<!DOCTYPE html>
