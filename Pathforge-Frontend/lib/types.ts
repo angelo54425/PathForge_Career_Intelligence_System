@@ -159,3 +159,33 @@ export interface ProgramCompareResponse {
     overall_score: number;
   }>;
 }
+
+// ── Expanded Skills Assessment ────────────────────────────────────────────────
+
+export interface WeightedSkill {
+  skill: string;
+  label: string;
+  weight: number;
+  source_career?: string; // set when coming from similar-career suggestions
+}
+
+export interface SkillEntry {
+  skill_id: string;
+  skill_name_normalized: string;
+  career_frequency: number;
+  program_frequency: number;
+}
+
+export interface SkillAffinityDelta {
+  career: string;
+  delta: number;     // positive = boosts compatibility, negative = drags
+  new_score: number;
+}
+
+export interface CareerCompatibility {
+  career: string;
+  sector: string;
+  readiness_score: number;
+  readiness_label: "Advanced" | "Intermediate" | "Beginner";
+  top_gaps: Array<{ skill: string; gap: number }>;
+}

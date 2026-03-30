@@ -4,8 +4,8 @@ import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
 import DonutChart from "@/components/charts/DonutChart";
 import ProgressBar from "@/components/ui/ProgressBar";
-import { MOCK, getSkillGap, getMockGapResult } from "@/lib/api";
-import type { GapAnalysisResult, SkillGap, StudentProfile } from "@/lib/types";
+import { MOCK, getSkillGap, getMockGapResult, getCareerCompatibility } from "@/lib/api";
+import type { GapAnalysisResult, SkillGap, StudentProfile, CareerCompatibility } from "@/lib/types";
 import { getTargetCareer, getStudentProfile, syncTargetCareerFromBackend } from "@/lib/careerStore";
 
 // ── Types ─────────────────────────────────────────────────────────────────────
@@ -646,6 +646,8 @@ export default function SkillGapPage() {
   const [filter, setFilter] = useState<(typeof FILTERS)[number]>("All Skills");
   const [mode, setMode] = useState<"analysis" | "compare">("analysis");
   const [profile, setProfile] = useState<StudentProfile | null>(null);
+  const [altCareers, setAltCareers] = useState<CareerCompatibility[]>([]);
+  const [loadingAlt, setLoadingAlt] = useState(false);
 
   useEffect(() => {
     syncTargetCareerFromBackend().then((backendCareer) => {
@@ -664,6 +666,16 @@ export default function SkillGapPage() {
             }
           })
           .catch(() => setData(getMockGapResult(career)));
+
+        // Fetch alternative career compatibility
+        setLoadingAlt(true);
+        getCareerCompatibility(prof)
+          .then((results) =>
+            // Exclude the user's selected career from alternatives
+            setAltCareers(results.filter((c) => c.career !== career))
+          )
+          .catch(() => {})
+          .finally(() => setLoadingAlt(false));
       } else if (career) {
         setData(getMockGapResult(career));
       }
@@ -1001,6 +1013,90 @@ export default function SkillGapPage() {
 
         {/* ── Compare mode ── */}
         {mode === "compare" && <CompareView allReadiness={allReadiness} profile={profile} />}
+
+        {/* ── Alternative Career Paths ── */}
+        {mode === "analysis" && (
+          <div className="mt-8">
+            <div className="flex items-center gap-3 mb-4">
+              <div className="bg-primary/10 p-2 rounded-lg">
+                <span className="material-symbols-outlined text-primary text-[22px]">
+                  explore
+                </span>
+              </div>
+              <div>
+                <h2 className="text-xl font-bold text-slate-900 dark:text-white">
+                  Other careers that match your profile
+                </h2>
+                <p className="text-sm text-slate-500 dark:text-slate-400">
+                  Based on all skills you rated — careers where your compatibility is above 30%.
+                </p>
+              </div>
+            </div>
+
+            {loadingAlt ? (
+              <div className="card p-8 flex items-center justify-center gap-2 text-slate-500">
+                <span className="material-symbols-outlined text-xl animate-spin">autorenew</span>
+                Calculating compatibility…
+              </div>
+            ) : altCareers.length === 0 ? (
+              <div className="card p-8 text-center text-slate-500 dark:text-slate-400">
+                <span className="material-symbols-outlined text-4xl mb-2 block text-slate-300">work_off</span>
+                No strong alternative matches found — add more skills to your assessment to explore broader options.
+              </div>
+            ) : (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {altCareers.map((c) => {
+                  const pctScore = Math.round(c.readiness_score * 100);
+                  const labelColor =
+                    c.readiness_label === "Advanced"
+                      ? "bg-green-100 text-green-700 border-green-200 dark:bg-green-900/30 dark:text-green-400"
+                      : c.readiness_label === "Intermediate"
+                      ? "bg-amber-100 text-amber-700 border-amber-200 dark:bg-amber-900/30 dark:text-amber-400"
+                      : "bg-red-100 text-red-700 border-red-200 dark:bg-red-900/30 dark:text-red-400";
+                  return (
+                    <div key={c.career} className="card p-5 flex flex-col gap-3">
+                      <div className="flex items-start justify-between gap-2">
+                        <div>
+                          <p className="font-bold text-sm text-slate-900 dark:text-white">{c.career}</p>
+                          <span className="text-[10px] text-slate-400 bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-full mt-1 inline-block">
+                            {c.sector}
+                          </span>
+                        </div>
+                        <span className={`text-xs font-bold px-2 py-0.5 rounded-full border shrink-0 ${labelColor}`}>
+                          {c.readiness_label}
+                        </span>
+                      </div>
+                      <div>
+                        <div className="flex justify-between text-xs text-slate-500 mb-1">
+                          <span>Compatibility</span>
+                          <span className="font-semibold text-slate-700 dark:text-slate-300">{pctScore}%</span>
+                        </div>
+                        <ProgressBar value={pctScore} showLabel={false} />
+                      </div>
+                      {c.top_gaps.length > 0 && (
+                        <div>
+                          <p className="text-[10px] font-semibold text-slate-500 uppercase tracking-wide mb-1.5">
+                            Top gaps
+                          </p>
+                          <div className="flex flex-wrap gap-1">
+                            {c.top_gaps.map((g) => (
+                              <span
+                                key={g.skill}
+                                className="text-[10px] px-2 py-0.5 rounded-full bg-red-50 text-red-600 dark:bg-red-900/20 dark:text-red-400"
+                              >
+                                {g.skill.replace(/_/g, " ")} ({Math.round(g.gap * 100)}%)
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
+        )}
       </main>
 
       {/* Fixed bottom bar */}
