@@ -6,17 +6,21 @@ const router = Router();
 const prisma = new PrismaClient();
 
 router.post('/', optionalAuth, async (req, res) => {
-  const { deviceId, career, profile } = req.body;
+  const { deviceId, career, profile, customSkills } = req.body;
   if (!deviceId || !career || !profile) {
     return res.status(400).json({ error: 'Missing fields' });
   }
+  // Merge customSkills into the JSON profile under a reserved key so no schema change is needed
+  const storedProfile = Array.isArray(customSkills) && customSkills.length > 0
+    ? { ...profile, _customSkills: customSkills }
+    : profile;
   try {
     const assessment = await prisma.assessment.create({
       data: {
         deviceId,
         userId: req.user?.userId || null,
         career,
-        profile,
+        profile: storedProfile,
       },
     });
     res.json(assessment);
