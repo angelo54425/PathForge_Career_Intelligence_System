@@ -642,6 +642,7 @@ export default function MarketIntelPage() {
   const [mode, setMode] = useState<"overview" | "compare">("overview");
   const [compareList, setCompareList] = useState<string[]>([]);
   const [mlMarketData, setMlMarketData] = useState<MarketIntelResponse | null>(null);
+  const [userReadiness, setUserReadiness] = useState<number | null>(null);
 
   useEffect(() => {
     syncTargetCareerFromBackend().then((backendCareer) => {
@@ -651,6 +652,19 @@ export default function MarketIntelPage() {
     });
     getCareers().then(setCareers).catch(() => {});
   }, []);
+
+  // Re-fetch readiness from Flask whenever the selected career changes
+  useEffect(() => {
+    if (!selectedCareer) return;
+    const profile = getStudentProfile();
+    if (!profile || Object.keys(profile).length === 0) {
+      setUserReadiness(null);
+      return;
+    }
+    getSkillGap(selectedCareer, profile)
+      .then((gap) => setUserReadiness(gap.overall_readiness))
+      .catch(() => setUserReadiness(null));
+  }, [selectedCareer]);
 
   function fetchMarketIntel(career: string) {
     getMarketIntelligence(career)
@@ -664,18 +678,6 @@ export default function MarketIntelPage() {
   }
 
   const data = MARKET_DATA[selectedCareer] ?? MARKET_DATA["Data Scientist"];
-
-  const userReadiness = useMemo(() => {
-    const profile = getStudentProfile();
-    if (!profile) return null;
-    const careerData = MOCK.careers.find((c) => c.career === selectedCareer);
-    if (!careerData?.skills?.length) return null;
-    const scores = careerData.skills.map((s) => {
-      const key = s.skill.toLowerCase().replace(/[^a-z0-9]+/g, "_");
-      return Math.min((profile[key] ?? 0) / s.requiredLevel, 1.0);
-    });
-    return scores.reduce((a, b) => a + b, 0) / scores.length;
-  }, [selectedCareer]);
 
   const adjustedTrajectory = useMemo<TrajectoryPoint[] | null>(() => {
     if (userReadiness === null) return null;
