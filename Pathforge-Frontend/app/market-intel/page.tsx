@@ -3,7 +3,7 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import Navbar from "@/components/layout/Navbar";
 import ProgressBar from "@/components/ui/ProgressBar";
-import { MOCK, getCareers, getMarketIntelligence } from "@/lib/api";
+import { MOCK, getCareers, getMarketIntelligence, getSkillGap } from "@/lib/api";
 import type { Career, MarketIntelResponse } from "@/lib/types";
 import { getTargetCareer, getStudentProfile, syncTargetCareerFromBackend } from "@/lib/careerStore";
 import {
