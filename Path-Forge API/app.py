@@ -41,7 +41,7 @@ import numpy as np
 import os
 import json
 import math
-from datetime import datetime
+from datetime import datetime, timezone
 from collections import deque, defaultdict
 
 app = Flask(__name__)
@@ -1169,7 +1169,7 @@ def upsert_student_profile(student_id: str):
     if not body:
         return jsonify({"status": "error", "message": "Request body must be JSON"}), 400
 
-    now = datetime.utcnow().isoformat()
+    now = datetime.now(timezone.utc).isoformat()
     db  = load_students()
 
     if student_id in db:
@@ -1267,7 +1267,7 @@ def update_student_skill(student_id: str):
     student          = db[student_id]
     old_proficiency  = student["skills"].get(skill)
     student["skills"][skill] = proficiency
-    now              = datetime.utcnow().isoformat()
+    now              = datetime.now(timezone.utc).isoformat()
     student["updated_at"] = now
 
     snapshot_saved   = False
@@ -1558,6 +1558,64 @@ def market_intelligence(career: str):
     return jsonify({"status": "ok", **data})
 
 
+@app.route("/api/assessment", methods=["POST"])
+def save_assessment():
+    """
+    Express-compatible assessment save endpoint.
+    In production, /api/assessment traffic routes to Flask instead of Express.
+    Persists the assessment into the Flask student store and returns an
+    Express-compatible response so the frontend continues normally.
+    """
+    body = request.get_json(silent=True)
+    if not body:
+        return jsonify({"error": "Request body must be JSON"}), 400
+
+    device_id     = body.get("deviceId")
+    career        = body.get("career")
+    profile       = body.get("profile", {})
+    custom_skills = body.get("customSkills", [])
+
+    if not device_id or not career:
+        return jsonify({"error": "Missing fields"}), 400
+
+    db         = load_students()
+    student_id = device_id
+    now        = datetime.now(timezone.utc).isoformat()
+
+    if student_id not in db:
+        db[student_id] = {
+            "student_id": student_id,
+            "name":       "Anonymous",
+            "email":      None,
+            "skills":     {},
+            "created_at": now,
+            "updated_at": now,
+        }
+
+    student = db[student_id]
+    scored  = {k: v for k, v in profile.items() if k != "_customSkills"}
+    student["skills"].update(scored)
+    if custom_skills:
+        student.setdefault("custom_skills", [])
+        for s in custom_skills:
+            if s not in student["custom_skills"]:
+                student["custom_skills"].append(s)
+
+    student["target_career"] = career
+    student["updated_at"]    = now
+    db[student_id]           = student
+    save_students(db)
+
+    return jsonify({
+        "id":        f"{device_id}-{career}",
+        "deviceId":  device_id,
+        "userId":    None,
+        "career":    career,
+        "profile":   profile,
+        "createdAt": now,
+    }), 200
+
+
 @app.route("/api/assessments/<assessment_id>/submit", methods=["POST"])
 def submit_assessment(assessment_id: str):
     """
@@ -1601,7 +1659,7 @@ def submit_assessment(assessment_id: str):
     }
     student["skills"].update(normalized)
 
-    now               = datetime.utcnow().isoformat()
+    now               = datetime.now(timezone.utc).isoformat()
     student["updated_at"] = now
 
     gap_result = compute_skill_gaps(student["skills"], resolved)
